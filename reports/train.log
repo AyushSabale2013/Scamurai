@@ -1,0 +1,38 @@
+[11:17:53] Loading ../data/raw/PhiUSIIL_Phishing_URL_Dataset.csv
+[11:18:01] Audit: 235,795 rows, 425 duplicate URL rows, 0 conflicting duplicates
+[11:18:01] Extracting features with the shared extractor
+[11:18:28] Cleaned frame: 234,198 rows; extractor dropped 8
+[11:20:36] [stratified] tuning Logistic Regression over 4 setting(s)
+[11:20:37]     {'C': 0.01} val PR-AUC=0.99838 fit=0.5s
+[11:20:38]     {'C': 0.1} val PR-AUC=0.99855 fit=0.7s
+[11:20:38]     {'C': 1.0} val PR-AUC=0.99854 fit=0.8s
+[11:20:39]     {'C': 10.0} val PR-AUC=0.99854 fit=0.9s
+[11:20:40]     -> test acc=0.9926 phish recall=0.9930 precision=0.9896 pr_auc=0.99867
+[11:20:40] [stratified] tuning Random Forest over 2 setting(s)
+[11:21:02]     {'min_samples_leaf': 1} val PR-AUC=0.99834 fit=21.9s
+[11:21:22]     {'min_samples_leaf': 5} val PR-AUC=0.99890 fit=19.4s
+[11:21:26]     -> test acc=0.9960 phish recall=0.9962 precision=0.9945 pr_auc=0.99905
+[11:21:26] [stratified] tuning XGBoost over 2 setting(s)
+[11:21:35]     {'max_depth': 4} val PR-AUC=0.99880 fit=8.7s
+[11:21:42]     {'max_depth': 6} val PR-AUC=0.99880 fit=7.1s
+[11:21:43]     -> test acc=0.9976 phish recall=0.9959 precision=0.9983 pr_auc=0.99900
+[11:21:43] [domain_grouped] tuning Logistic Regression over 4 setting(s)
+[11:21:44]     {'C': 0.01} val PR-AUC=0.99823 fit=0.5s
+[11:21:45]     {'C': 0.1} val PR-AUC=0.99844 fit=0.8s
+[11:21:45]     {'C': 1.0} val PR-AUC=0.99834 fit=0.7s
+[11:21:46]     {'C': 10.0} val PR-AUC=0.99828 fit=0.7s
+[11:21:47]     -> test acc=0.9926 phish recall=0.9927 precision=0.9897 pr_auc=0.99849
+[11:21:47] [domain_grouped] tuning Random Forest over 2 setting(s)
+[11:22:09]     {'min_samples_leaf': 1} val PR-AUC=0.99808 fit=21.9s
+[11:22:30]     {'min_samples_leaf': 5} val PR-AUC=0.99884 fit=20.2s
+[11:22:34]     -> test acc=0.9962 phish recall=0.9954 precision=0.9956 pr_auc=0.99886
+[11:22:34] [domain_grouped] tuning XGBoost over 2 setting(s)
+[11:22:42]     {'max_depth': 4} val PR-AUC=0.99872 fit=7.2s
+[11:22:47]     {'max_depth': 6} val PR-AUC=0.99868 fit=5.3s
+[11:22:48]     -> test acc=0.9972 phish recall=0.9951 precision=0.9982 pr_auc=0.99884
+[11:22:48] Selected: XGBoost
+[11:22:48] Computing explanation summary
+[11:22:58] Shortcut diagnostics
+[11:23:01] Saving artifacts
+[11:23:01] Rendering figures
+[11:23:02] Done in 309s. Figures: ['confusion_stratified.png', 'roc_pr_stratified.png', 'confusion_domain_grouped.png', 'roc_pr_domain_grouped.png', 'model_comparison.png', 'feature_importance.png', 'error_analysis.png']
