@@ -1,6 +1,6 @@
 # PhishGuard AI: evaluation summary
 
-Generated: 2026-10-29T11:23:01+00:00
+Generated: 2026-10-30T06:49:13+00:00
 
 Selected model: **XGBoost**. XGBoost reached validation phishing F1 0.9969 (recall 0.9951, precision 0.9988); it is within 0.001 F1 of the best model and has the lowest latency among those.
 

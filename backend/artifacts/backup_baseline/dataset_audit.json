@@ -1,0 +1,138 @@
+{
+  "file": "PhiUSIIL_Phishing_URL_Dataset.csv",
+  "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+  "size_bytes": 56854345,
+  "encoding": "utf-8 with BOM (read with utf-8-sig)",
+  "rows": 235795,
+  "columns": 56,
+  "column_names": [
+    "FILENAME",
+    "URL",
+    "URLLength",
+    "Domain",
+    "DomainLength",
+    "IsDomainIP",
+    "TLD",
+    "URLSimilarityIndex",
+    "CharContinuationRate",
+    "TLDLegitimateProb",
+    "URLCharProb",
+    "TLDLength",
+    "NoOfSubDomain",
+    "HasObfuscation",
+    "NoOfObfuscatedChar",
+    "ObfuscationRatio",
+    "NoOfLettersInURL",
+    "LetterRatioInURL",
+    "NoOfDegitsInURL",
+    "DegitRatioInURL",
+    "NoOfEqualsInURL",
+    "NoOfQMarkInURL",
+    "NoOfAmpersandInURL",
+    "NoOfOtherSpecialCharsInURL",
+    "SpacialCharRatioInURL",
+    "IsHTTPS",
+    "LineOfCode",
+    "LargestLineLength",
+    "HasTitle",
+    "Title",
+    "DomainTitleMatchScore",
+    "URLTitleMatchScore",
+    "HasFavicon",
+    "Robots",
+    "IsResponsive",
+    "NoOfURLRedirect",
+    "NoOfSelfRedirect",
+    "HasDescription",
+    "NoOfPopup",
+    "NoOfiFrame",
+    "HasExternalFormSubmit",
+    "HasSocialNet",
+    "HasSubmitButton",
+    "HasHiddenFields",
+    "HasPasswordField",
+    "Bank",
+    "Pay",
+    "Crypto",
+    "HasCopyrightInfo",
+    "NoOfImage",
+    "NoOfCSS",
+    "NoOfJS",
+    "NoOfSelfRef",
+    "NoOfEmptyRef",
+    "NoOfExternalRef",
+    "label"
+  ],
+  "missing_values_total": 0,
+  "exact_duplicate_rows": 0,
+  "duplicate_url_rows": 425,
+  "label_counts": {
+    "0": 100945,
+    "1": 134850
+  },
+  "duplicate_url_groups": 425,
+  "duplicate_url_groups_with_conflicting_labels": 0,
+  "case_insensitive_duplicate_rows": 425,
+  "near_duplicate_rows_lowercase_trailing_slash": 1590,
+  "label_mapping_evidence": {
+    "documented_mapping": {
+      "0": "phishing",
+      "1": "legitimate"
+    },
+    "documentation_source": "UCI ML Repository dataset 967: 'Label 1 corresponds to a legitimate URL, label 0 to a phishing URL'.",
+    "mean_of_webpage_columns_by_label": {
+      "0": {
+        "URLSimilarityIndex": 49.617,
+        "HasSocialNet": 0.0051,
+        "HasCopyrightInfo": 0.0573,
+        "HasDescription": 0.0442
+      },
+      "1": {
+        "URLSimilarityIndex": 100.0,
+        "HasSocialNet": 0.7946,
+        "HasCopyrightInfo": 0.8082,
+        "HasDescription": 0.7366
+      }
+    },
+    "interpretation": "Label 1 rows have a higher mean URLSimilarityIndex and more social/copyright markers, consistent with label 1 = legitimate."
+  },
+  "shortcut_analysis": {
+    "share_https_scheme": {
+      "phishing": 0.4874,
+      "legitimate": 1.0
+    },
+    "share_www_prefix": {
+      "phishing": 0.4136,
+      "legitimate": 1.0
+    },
+    "share_with_path_query_or_fragment": {
+      "phishing": 0.2842,
+      "legitimate": 0.0
+    },
+    "share_matching_template_https_www_no_path": {
+      "phishing": 0.0103,
+      "legitimate": 1.0
+    },
+    "finding": "Every legitimate URL in this file is an https://www.<host> address with no path, query or fragment, while phishing URLs vary. A URL-only model can therefore reach very high accuracy by learning this collection pattern, which may not hold for real legitimate URLs that contain paths."
+  },
+  "url_length_vs_URLLength_column_equal_share": 0.2063,
+  "url_length_distribution": {
+    "count": 235795.0,
+    "mean": 35.36695434593609,
+    "std": 41.21434633341828,
+    "min": 14.0,
+    "25%": 24.0,
+    "50%": 28.0,
+    "75%": 35.0,
+    "max": 6097.0
+  },
+  "excluded_columns_and_reason": {
+    "FILENAME": "identifier of the crawled page; may encode collection order",
+    "Title": "webpage text, not available from a URL string",
+    "Domain": "derived from URL; recomputed consistently by the shared extractor instead",
+    "TLD": "derived from URL; recomputed by the shared extractor using the Public Suffix List",
+    "precomputed URL features (URLLength, NoOfLettersInURL, ...)": "stored values did not reproduce from the URL (e.g. URLLength equals len(URL) for only the share above)",
+    "URLSimilarityIndex, TLDLegitimateProb, URLCharProb, CharContinuationRate, DomainTitleMatchScore, URLTitleMatchScore": "need webpage content or dataset-wide reference tables",
+    "all HTML/JS/page columns (LineOfCode, HasPasswordField, NoOfImage, NoOfJS, ...)": "require fetching the page, which this project never does"
+  }
+}

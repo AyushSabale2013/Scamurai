@@ -1,0 +1,40 @@
+{
+  "model_version": "1.0.0-xgboost-8cf1f9ca",
+  "decision_threshold": 0.22869873046875,
+  "samples_total": 450,
+  "legitimate_samples": 225,
+  "phishing_samples": 225,
+  "accuracy": 0.5,
+  "phishing_precision": 0.5,
+  "phishing_recall": 1.0,
+  "phishing_f1": 0.6666666666666666,
+  "legitimate_precision": 0.0,
+  "legitimate_recall": 0.0,
+  "legitimate_fpr": 1.0,
+  "phishing_fnr": 0.0,
+  "confusion_matrix": {
+    "TP_phish": 225,
+    "FN_phish": 0,
+    "FP_phish": 225,
+    "TN_phish": 0,
+    "matrix": [
+      [
+        225,
+        0
+      ],
+      [
+        225,
+        0
+      ]
+    ]
+  },
+  "brier_score": 0.4999983012676239,
+  "ece": 0.4999980926513672,
+  "chatgpt_test": {
+    "url": "https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5",
+    "score": 1.0,
+    "threshold": 0.22869873046875,
+    "verdict": "phishing",
+    "is_false_positive": true
+  }
+}

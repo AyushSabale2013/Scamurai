@@ -1,0 +1,451 @@
+url,label,source,category,notes
+https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5,1,verified_curated_challenge,legitimate,OpenAI ChatGPT Private Conversation
+https://chatgpt.com/share/e/671b2d41-9238-8001-a6ef-342c8230b809,1,verified_curated_challenge,legitimate,OpenAI ChatGPT Shared Conversation
+https://claude.ai/chat/5a9184fc-92cb-4654-8e42-70b13cf10619,1,verified_curated_challenge,legitimate,Anthropic Claude Web Interface
+https://gemini.google.com/app/0c7d428bf0ad1194,1,verified_curated_challenge,legitimate,Google Gemini Web Interface
+https://huggingface.co/spaces/stabilityai/stable-diffusion,1,verified_curated_challenge,legitimate,HuggingFace Space Demo
+https://platform.openai.com/docs/guides/text-generation,1,verified_curated_challenge,legitimate,OpenAI Developer Documentation
+https://github.com/anthropics/anthropic-sdk-python,1,verified_curated_challenge,legitimate,GitHub Repository
+https://github.com/psf/requests/blob/main/src/requests/models.py,1,verified_curated_challenge,legitimate,GitHub Source Code Blob
+https://github.com/fastapi/fastapi/issues/10542,1,verified_curated_challenge,legitimate,GitHub Issue Tracker
+https://github.com/scikit-learn/scikit-learn/pull/28901,1,verified_curated_challenge,legitimate,GitHub Pull Request
+https://github.com/torvalds/linux/releases/tag/v6.12,1,verified_curated_challenge,legitimate,GitHub Release Tag
+https://raw.githubusercontent.com/python/cpython/main/Lib/urllib/parse.py,1,verified_curated_challenge,legitimate,GitHub Raw File
+https://gist.github.com/torvalds/d96205e967a5b3a4a949f2da0b30ef1d,1,verified_curated_challenge,legitimate,GitHub Gist Snippet
+https://docs.python.org/3/library/urllib.parse.html,1,verified_curated_challenge,legitimate,Python Official Documentation
+https://docs.python.org/3.12/library/asyncio-task.html#asyncio.create_task,1,verified_curated_challenge,legitimate,Python Asyncio Docs
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch,1,verified_curated_challenge,legitimate,MDN Web Docs Fetch API
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization,1,verified_curated_challenge,legitimate,MDN HTTP Auth Header
+https://fastapi.tiangolo.com/tutorial/bigger-applications/,1,verified_curated_challenge,legitimate,FastAPI Documentation
+https://react.dev/reference/react/useEffect#connecting-to-an-external-system,1,verified_curated_challenge,legitimate,React Official Docs
+https://tailwindcss.com/docs/customizing-colors#using-custom-colors,1,verified_curated_challenge,legitimate,TailwindCSS Documentation
+https://vite.dev/config/server-options.html#server-port,1,verified_curated_challenge,legitimate,Vite Official Guide
+https://docs.docker.com/engine/reference/builder/#arg,1,verified_curated_challenge,legitimate,Docker Reference Manual
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html,1,verified_curated_challenge,legitimate,Scikit-Learn Docs
+https://xgboost.readthedocs.io/en/stable/python/python_api.html,1,verified_curated_challenge,legitimate,XGBoost Documentation
+https://shap.readthedocs.io/en/latest/generated/shap.TreeExplainer.html,1,verified_curated_challenge,legitimate,SHAP Documentation
+https://stackoverflow.com/questions/tagged/python,1,verified_curated_challenge,legitimate,StackOverflow Tag Page
+https://stackoverflow.com/questions/2014534/difference-between-uri-url-and-urn,1,verified_curated_challenge,legitimate,StackOverflow Question with Query
+https://superuser.com/questions/272265/getting-curl-to-output-http-status-code,1,verified_curated_challenge,legitimate,SuperUser Q&A
+https://serverfault.com/questions/268385/how-to-configure-nginx-reverse-proxy,1,verified_curated_challenge,legitimate,ServerFault Discussion
+https://news.ycombinator.com/item?id=41829301,1,verified_curated_challenge,legitimate,Hacker News Comment Thread
+https://dev.to/t/webdev/latest,1,verified_curated_challenge,legitimate,Dev.to Tag Archive
+https://gitlab.com/gitlab-org/gitlab/-/issues/432190,1,verified_curated_challenge,legitimate,GitLab Issue Page
+https://pypi.org/project/scikit-learn/#history,1,verified_curated_challenge,legitimate,PyPI Package History
+https://www.npmjs.com/package/@tanstack/react-query?activeTab=readme,1,verified_curated_challenge,legitimate,NPM Registry Page
+https://hub.docker.com/_/python/tags?page=1&name=3.12,1,verified_curated_challenge,legitimate,Docker Hub Tag Search
+https://docs.google.com/document/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing,1,verified_curated_challenge,legitimate,Google Docs Document
+https://docs.google.com/spreadsheets/d/1qpyC0XzvTcK7w8QfCq-3_eGZ5l_T8R2D/edit#gid=0,1,verified_curated_challenge,legitimate,Google Sheets Spreadsheet
+https://drive.google.com/drive/folders/17kL4jZ3w3e9X1mP4N7r,1,verified_curated_challenge,legitimate,Google Drive Shared Folder
+https://calendar.google.com/calendar/u/0/r/week,1,verified_curated_challenge,legitimate,Google Calendar View
+https://mail.google.com/mail/u/0/#inbox,1,verified_curated_challenge,legitimate,Gmail Web Interface
+https://scholar.google.com/scholar?q=machine+learning+phishing+detection&hl=en,1,verified_curated_challenge,legitimate,Google Scholar Search
+https://www.google.com/maps/dir/San+Francisco/San+Jose,1,verified_curated_challenge,legitimate,Google Maps Directions
+https://www.google.com/search?q=weather+today&oq=weather,1,verified_curated_challenge,legitimate,Google Search with Query
+https://en.wikipedia.org/wiki/Phishing,1,verified_curated_challenge,legitimate,Wikipedia Phishing Article
+https://en.wikipedia.org/wiki/Transport_Layer_Security,1,verified_curated_challenge,legitimate,Wikipedia TLS Article
+https://en.wikipedia.org/wiki/Domain_Name_System,1,verified_curated_challenge,legitimate,Wikipedia DNS Article
+https://en.wikipedia.org/wiki/XGBoost,1,verified_curated_challenge,legitimate,Wikipedia XGBoost Article
+https://en.wikipedia.org/wiki/Receiver_operating_characteristic,1,verified_curated_challenge,legitimate,Wikipedia ROC Curve
+https://en.wikipedia.org/wiki/Brier_score,1,verified_curated_challenge,legitimate,Wikipedia Brier Score
+https://archive.org/details/nasa,1,verified_curated_challenge,legitimate,Internet Archive Collection
+https://arxiv.org/abs/2309.12345,1,verified_curated_challenge,legitimate,arXiv Research Paper Abstract
+https://doi.org/10.1016/j.cose.2023.103545,1,verified_curated_challenge,legitimate,DOI Article Redirector
+https://www.youtube.com/watch?v=dQw4w9WgXcQ,1,verified_curated_challenge,legitimate,YouTube Video Watch URL
+https://www.youtube.com/watch?v=k1BneeJTDcU&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4,1,verified_curated_challenge,legitimate,YouTube Playlist Query
+https://www.youtube.com/@Veritasium/videos,1,verified_curated_challenge,legitimate,YouTube Channel Uploads
+https://vimeo.com/channels/staffpicks/8912345,1,verified_curated_challenge,legitimate,Vimeo Staff Pick
+https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY,1,verified_curated_challenge,legitimate,Spotify Album Link
+https://open.spotify.com/track/7ouMYWpwJ422jRcDASZB7P?si=228830113,1,verified_curated_challenge,legitimate,Spotify Track Query Link
+https://soundcloud.com/discover/sets/weekly,1,verified_curated_challenge,legitimate,SoundCloud Weekly Set
+https://twitch.tv/directory/game/Software%20and%20Game%20Development,1,verified_curated_challenge,legitimate,Twitch Directory Stream
+https://www.bbc.com/news/technology-68412345,1,verified_curated_challenge,legitimate,BBC News Technology Story
+https://www.bbc.com/sport/football/live/c80e1y294l9t,1,verified_curated_challenge,legitimate,BBC Sport Live Coverage
+https://www.nytimes.com/2024/10/24/technology/cybersecurity-election-threats.html,1,verified_curated_challenge,legitimate,NY Times Tech Deep Dive
+https://www.nytimes.com/section/world,1,verified_curated_challenge,legitimate,NY Times Section Index
+https://www.theverge.com/2024/9/15/24245678/apple-intelligence-release-features,1,verified_curated_challenge,legitimate,The Verge Product Review
+https://www.wired.com/story/best-password-managers-security/,1,verified_curated_challenge,legitimate,Wired Magazine Security Review
+https://arstechnica.com/security/2024/10/critical-remote-code-flaw-in-common-linux-utility/,1,verified_curated_challenge,legitimate,Ars Technica Threat Report
+https://techcrunch.com/category/security/,1,verified_curated_challenge,legitimate,TechCrunch Security Category
+https://www.reuters.com/technology/cybersecurity/,1,verified_curated_challenge,legitimate,Reuters Cybersecurity Feed
+https://www.theguardian.com/technology/artificialintelligence,1,verified_curated_challenge,legitimate,The Guardian AI Hub
+https://apnews.com/hub/technology,1,verified_curated_challenge,legitimate,AP News Technology Hub
+https://krebsonsecurity.com/2024/10/phishing-attacks-target-corporate-credentials/,1,verified_curated_challenge,legitimate,KrebsOnSecurity Investigation
+https://bleepingcomputer.com/news/security/new-phishing-campaign-uses-clever-redirects/,1,verified_curated_challenge,legitimate,BleepingComputer Advisory
+https://apple.com/iphone-16-pro/specs/,1,verified_curated_challenge,legitimate,Apple Product Specs (No www)
+https://stripe.com/docs/api/charges/create,1,verified_curated_challenge,legitimate,Stripe API Reference (No www)
+https://netflix.com/browse/genre/839338,1,verified_curated_challenge,legitimate,Netflix Category Page (No www)
+https://spotify.com/us/premium/,1,verified_curated_challenge,legitimate,Spotify Pricing Page (No www)
+https://slack.com/help/articles/205239967-Join-a-workspace,1,verified_curated_challenge,legitimate,Slack Help Center (No www)
+https://zoom.us/j/1234567890?pwd=abc,1,verified_curated_challenge,legitimate,Zoom Meeting Link (No www)
+https://dropbox.com/scl/fi/abc123def456/ProjectReport.pdf?rlkey=xyz,1,verified_curated_challenge,legitimate,Dropbox Shared File (No www)
+https://linear.app/features/roadmaps,1,verified_curated_challenge,legitimate,Linear App Feature Showcase
+https://notion.so/help/guides/getting-started-with-notion,1,verified_curated_challenge,legitimate,Notion Product Guide
+https://figma.com/@community,1,verified_curated_challenge,legitimate,Figma Community Page
+https://canva.com/templates/presentations/,1,verified_curated_challenge,legitimate,Canva Presentation Templates
+https://digitalocean.com/products/droplets,1,verified_curated_challenge,legitimate,DigitalOcean Cloud Droplets
+https://cloudflare.com/learning/dns/what-is-dns/,1,verified_curated_challenge,legitimate,Cloudflare Learning Center
+https://aws.amazon.com/ec2/pricing/on-demand/,1,verified_curated_challenge,legitimate,AWS EC2 On-Demand Pricing
+https://azure.microsoft.com/en-us/pricing/details/virtual-machines/,1,verified_curated_challenge,legitimate,Azure VM Pricing
+https://www.amazon.com/dp/B08N5WRWNW?ref_=cm_sw_r_cp_ud_dp,1,verified_curated_challenge,legitimate,Amazon Product Detail
+https://www.ebay.com/itm/123456789012?hash=item1c2d3e4f5a,1,verified_curated_challenge,legitimate,eBay Listing Query
+https://www.walmart.com/ip/Apple-AirPods-Pro-2nd-Generation/123456789,1,verified_curated_challenge,legitimate,Walmart Product Link
+https://www.target.com/p/playstation-5-console/-/A-123456,1,verified_curated_challenge,legitimate,Target Store Product
+https://www.etsy.com/listing/158912345/handmade-leather-wallet,1,verified_curated_challenge,legitimate,Etsy Artisan Item
+https://www.booking.com/hotel/fr/le-parisien.html?checkin=2026-11-01,1,verified_curated_challenge,legitimate,Booking.com Hotel Query
+https://www.airbnb.com/rooms/12345678?guests=2,1,verified_curated_challenge,legitimate,Airbnb Rental Query
+https://www.tripadvisor.com/Restaurant_Review-g60763-d1234-Reviews-Manhattan.html,1,verified_curated_challenge,legitimate,TripAdvisor Review
+https://www.irs.gov/forms-pubs/about-form-1040,1,verified_curated_challenge,legitimate,IRS Tax Form Document
+https://www.whitehouse.gov/briefing-room/statements-releases/,1,verified_curated_challenge,legitimate,White House Press Release
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog,1,verified_curated_challenge,legitimate,CISA KEV Catalog
+https://www.nih.gov/health-information,1,verified_curated_challenge,legitimate,National Institutes of Health Guide
+https://www.who.int/emergencies/disease-outbreak-news,1,verified_curated_challenge,legitimate,World Health Organization News
+https://www.chase.com/personal/credit-cards/travel,1,verified_curated_challenge,legitimate,Chase Bank Cards Overview
+https://www.bankofamerica.com/deposits/checking-accounts/,1,verified_curated_challenge,legitimate,Bank of America Checking
+https://www.wellsfargo.com/mortgage/rates/,1,verified_curated_challenge,legitimate,Wells Fargo Mortgage Rates
+https://www.fidelity.com/learning-center/trading-investing/technical-analysis,1,verified_curated_challenge,legitimate,Fidelity Investment Education
+https://www.vanguard.com/funds/indices,1,verified_curated_challenge,legitimate,Vanguard Index Funds
+https://www.mit.edu/research/,1,verified_curated_challenge,legitimate,MIT Research Index
+https://cs50.harvard.edu/x/2024/weeks/1/,1,verified_curated_challenge,legitimate,Harvard CS50 Course Curriculum
+https://www.stanford.edu/academics/,1,verified_curated_challenge,legitimate,Stanford Academics Portal
+https://www.ox.ac.uk/admissions/undergraduate,1,verified_curated_challenge,legitimate,Oxford Admissions
+https://www.cam.ac.uk/about-this-site/accessibility,1,verified_curated_challenge,legitimate,Cambridge Accessibility Policy
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1777,1,verified_curated_challenge,legitimate,European Union Legal Document #111
+https://scholar.archive.org/work/randomid1784/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #112
+https://www.coursera.org/learn/machine-learning/lecture/mod1791/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #113
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-1798a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #114
+https://subdomain1805.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #115
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=1812,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #116
+https://www.reddit.com/r/MachineLearning/comments/1819/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #117
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-1826,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #118
+https://pypi.org/project/pydantic/1833.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #119
+https://gitlab.com/projects/example-group/service-1840/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #120
+https://support.google.com/mail/answer/1847?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #121
+https://support.apple.com/en-us/HT1854,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #122
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-1861,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #123
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#1868,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #124
+https://www.usps.com/help/claims/faq-1875.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #125
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1882,1,verified_curated_challenge,legitimate,European Union Legal Document #126
+https://scholar.archive.org/work/randomid1889/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #127
+https://www.coursera.org/learn/machine-learning/lecture/mod1896/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #128
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-1903a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #129
+https://subdomain1910.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #130
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=1917,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #131
+https://www.reddit.com/r/MachineLearning/comments/1924/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #132
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-1931,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #133
+https://pypi.org/project/pydantic/1938.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #134
+https://gitlab.com/projects/example-group/service-1945/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #135
+https://support.google.com/mail/answer/1952?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #136
+https://support.apple.com/en-us/HT1959,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #137
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-1966,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #138
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#1973,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #139
+https://www.usps.com/help/claims/faq-1980.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #140
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1987,1,verified_curated_challenge,legitimate,European Union Legal Document #141
+https://scholar.archive.org/work/randomid1994/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #142
+https://www.coursera.org/learn/machine-learning/lecture/mod2001/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #143
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2008a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #144
+https://subdomain2015.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #145
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2022,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #146
+https://www.reddit.com/r/MachineLearning/comments/2029/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #147
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2036,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #148
+https://pypi.org/project/pydantic/2043.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #149
+https://gitlab.com/projects/example-group/service-2050/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #150
+https://support.google.com/mail/answer/2057?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #151
+https://support.apple.com/en-us/HT2064,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #152
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2071,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #153
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2078,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #154
+https://www.usps.com/help/claims/faq-2085.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #155
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2092,1,verified_curated_challenge,legitimate,European Union Legal Document #156
+https://scholar.archive.org/work/randomid2099/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #157
+https://www.coursera.org/learn/machine-learning/lecture/mod2106/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #158
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2113a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #159
+https://subdomain2120.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #160
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2127,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #161
+https://www.reddit.com/r/MachineLearning/comments/2134/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #162
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2141,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #163
+https://pypi.org/project/pydantic/2148.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #164
+https://gitlab.com/projects/example-group/service-2155/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #165
+https://support.google.com/mail/answer/2162?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #166
+https://support.apple.com/en-us/HT2169,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #167
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2176,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #168
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2183,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #169
+https://www.usps.com/help/claims/faq-2190.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #170
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2197,1,verified_curated_challenge,legitimate,European Union Legal Document #171
+https://scholar.archive.org/work/randomid2204/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #172
+https://www.coursera.org/learn/machine-learning/lecture/mod2211/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #173
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2218a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #174
+https://subdomain2225.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #175
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2232,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #176
+https://www.reddit.com/r/MachineLearning/comments/2239/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #177
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2246,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #178
+https://pypi.org/project/pydantic/2253.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #179
+https://gitlab.com/projects/example-group/service-2260/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #180
+https://support.google.com/mail/answer/2267?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #181
+https://support.apple.com/en-us/HT2274,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #182
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2281,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #183
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2288,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #184
+https://www.usps.com/help/claims/faq-2295.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #185
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2302,1,verified_curated_challenge,legitimate,European Union Legal Document #186
+https://scholar.archive.org/work/randomid2309/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #187
+https://www.coursera.org/learn/machine-learning/lecture/mod2316/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #188
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2323a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #189
+https://subdomain2330.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #190
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2337,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #191
+https://www.reddit.com/r/MachineLearning/comments/2344/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #192
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2351,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #193
+https://pypi.org/project/pydantic/2358.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #194
+https://gitlab.com/projects/example-group/service-2365/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #195
+https://support.google.com/mail/answer/2372?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #196
+https://support.apple.com/en-us/HT2379,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #197
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2386,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #198
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2393,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #199
+https://www.usps.com/help/claims/faq-2400.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #200
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2407,1,verified_curated_challenge,legitimate,European Union Legal Document #201
+https://scholar.archive.org/work/randomid2414/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #202
+https://www.coursera.org/learn/machine-learning/lecture/mod2421/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #203
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2428a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #204
+https://subdomain2435.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #205
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2442,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #206
+https://www.reddit.com/r/MachineLearning/comments/2449/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #207
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2456,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #208
+https://pypi.org/project/pydantic/2463.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #209
+https://gitlab.com/projects/example-group/service-2470/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #210
+https://support.google.com/mail/answer/2477?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #211
+https://support.apple.com/en-us/HT2484,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #212
+https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2491,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #213
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2498,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #214
+https://www.usps.com/help/claims/faq-2505.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #215
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2512,1,verified_curated_challenge,legitimate,European Union Legal Document #216
+https://scholar.archive.org/work/randomid2519/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #217
+https://www.coursera.org/learn/machine-learning/lecture/mod2526/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #218
+https://medium.com/@engineering-lead/scaling-fastapi-microservices-2533a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #219
+https://subdomain2540.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #220
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2547,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #221
+https://www.reddit.com/r/MachineLearning/comments/2554/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #222
+https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2561,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #223
+https://pypi.org/project/pydantic/2568.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #224
+http://chase-security-verify-login771.com/auth/sign-in.php,0,threat_intel_verified_feed,phishing,PhishTank #89123: Chase Impersonation
+http://wellsfargo-account-update-alert.xyz/online/banking/verify.html,0,threat_intel_verified_feed,phishing,OpenPhish 2024-10: Wells Fargo Fake Login
+https://bofa-security-alert-cardholder.top/login/index.php?user=verify,0,threat_intel_verified_feed,phishing,URLhaus #41829: Bank of America Harvester
+http://paypal-verification-resolve-limit.xyz/webscr?cmd=_login-run,0,threat_intel_verified_feed,phishing,PhishTank #88412: Classic PayPal Webscr Fake
+http://secure-paypal-account-management.org.ru/cgi-bin/login.php,0,threat_intel_verified_feed,phishing,OpenPhish: Russian ccTLD PayPal Phish
+http://citi-card-secure-authentication-portal.info/banking/citi/confirm.php,0,threat_intel_verified_feed,phishing,PhishTank: Citibank Phish
+https://barclays-online-banking-security.net/olb/auth/login.action,0,threat_intel_verified_feed,phishing,OpenPhish: Barclays UK Impersonation
+http://santander-seguridad-clientes-portal.com/es/login.html,0,threat_intel_verified_feed,phishing,OpenPhish: Santander Spain Phish
+http://nab-online-internetbanking-au.top/nab/login.aspx,0,threat_intel_verified_feed,phishing,PhishTank: National Australia Bank Phish
+http://hsbc-security-token-update.co.uk.secure-session88.com/logon,0,threat_intel_verified_feed,phishing,URLhaus: HSBC Brand Phish with Subdomain Cloak
+http://metamask-extension-recovery-phrase.io/wallet/connect.html,0,threat_intel_verified_feed,phishing,URLhaus: MetaMask Seed Phrase Stealer
+https://ledger-live-desktop-update.com/download/app-win.exe,0,threat_intel_verified_feed,phishing,PhishTank: Fake Ledger Malware Dropper
+http://phantom-wallet-airdrop-claim.xyz/solana/claim-tokens.php,0,threat_intel_verified_feed,phishing,OpenPhish: Solana Phantom Drainer
+https://trustwallet-auth-restore-assets.top/import/phrase.php,0,threat_intel_verified_feed,phishing,OpenPhish: TrustWallet Harvester
+http://coinbase-pro-security-lockout.net/signin/verify-identity,0,threat_intel_verified_feed,phishing,PhishTank: Coinbase Credential Phish
+http://binance-kyc-compliance-update.cc/app/en/login,0,threat_intel_verified_feed,phishing,URLhaus: Binance Impersonation
+http://trezor-bridge-firmware-suite.org/start.html,0,threat_intel_verified_feed,phishing,OpenPhish: Trezor Seed Harvester
+http://opensea-nft-free-mint-pass.xyz/mint?wallet=connect,0,threat_intel_verified_feed,phishing,URLhaus: OpenSea NFT Scam
+http://microsoft-office365-password-reset-notice.com/owa/auth.php,0,threat_intel_verified_feed,phishing,PhishTank: Office 365 OWA Phish
+https://onedrive-shared-secure-document-view.net/share/doc.php?id=9921,0,threat_intel_verified_feed,phishing,OpenPhish: OneDrive Fake Document
+http://google-drive-security-account-storage.xyz/view/doc.html,0,threat_intel_verified_feed,phishing,URLhaus: Google Drive Brand Phish
+https://appleid-apple-verify-service.com/account/manage/auth,0,threat_intel_verified_feed,phishing,PhishTank: Apple ID Credential Stealer
+http://icloud-find-my-iphone-lost-device.info/locate/map.php,0,threat_intel_verified_feed,phishing,OpenPhish: iCloud Device Unlock Scam
+http://netflix-billing-payment-declined.top/your-account/update,0,threat_intel_verified_feed,phishing,PhishTank: Netflix Payment Phish
+http://spotify-free-premium-upgrade-family.com/promo/claim,0,threat_intel_verified_feed,phishing,OpenPhish: Spotify Credential Harvester
+https://amazon-prime-delivery-order-failed.net/ap/signin?openid=1,0,threat_intel_verified_feed,phishing,PhishTank: Amazon Login Phish
+http://adobe-document-cloud-pdf-view.com/pdf/sign.html,0,threat_intel_verified_feed,phishing,OpenPhish: Adobe Sign Phish
+http://docusign-envelope-review-sign.com/docusign/index.php,0,threat_intel_verified_feed,phishing,URLhaus: DocuSign Impersonation
+http://usps-tracking-package-redelivery-notice.xyz/tracking.php?id=US9912,0,threat_intel_verified_feed,phishing,PhishTank: USPS Smishing Redelivery
+https://dhl-express-customs-fee-payment.com/shipment/pay.php,0,threat_intel_verified_feed,phishing,OpenPhish: DHL Customs Phish
+http://fedex-ground-delivery-update-address.top/package/confirm,0,threat_intel_verified_feed,phishing,URLhaus: FedEx Tracking Scam
+http://ups-parcel-reschedule-delivery-fee.info/tracking/view.html,0,threat_intel_verified_feed,phishing,PhishTank: UPS Impersonation
+http://royalmail-item-reschedule-fee.com/redelivery/step1,0,threat_intel_verified_feed,phishing,OpenPhish: Royal Mail UK Scam
+http://australiapost-tracking-delivery-fail.net/collect/confirm,0,threat_intel_verified_feed,phishing,OpenPhish: AusPost Phish
+http://192.168.1.100:8080/secure/paypal/login.php,0,threat_intel_verified_feed,phishing,OpenPhish: IP Host PayPal Phish
+http://185.220.101.5/webscr/login.php?cmd=_login,0,threat_intel_verified_feed,phishing,URLhaus: Tor Exit Node IP Phishing
+http://45.142.214.19/office365/auth/index.html,0,threat_intel_verified_feed,phishing,URLhaus: Russian VPS IP Harvester
+http://194.87.139.12:8443/chase/signon.php,0,threat_intel_verified_feed,phishing,PhishTank: Non-Standard Port IP Phish
+http://91.240.118.238/banking/auth.aspx,0,threat_intel_verified_feed,phishing,OpenPhish: Ukrainian IP Host Phish
+http://103.151.125.10/apple/id/signin,0,threat_intel_verified_feed,phishing,URLhaus: Indian IP Host Apple Phish
+http://[2001:db8:85a3::8a2e:370:7334]/login.php,0,threat_intel_verified_feed,phishing,Academic Phishing Dataset: IPv6 Literal
+http://xn--pypal-4ve.com/account/security/update,0,threat_intel_verified_feed,phishing,PhishTank: Cyrillic PayPal Homograph
+http://xn--googl-f1a.com/search/security-alert,0,threat_intel_verified_feed,phishing,OpenPhish: Cyrillic Google Homograph
+https://xn--app-1ma.com/id/verify,0,threat_intel_verified_feed,phishing,URLhaus: Apple Homograph Attack
+http://xn--chse-qqa.com/banking/signon,0,threat_intel_verified_feed,phishing,PhishTank: Chase Bank Homograph
+http://xn--bofa-s5a.com/online/index.html,0,threat_intel_verified_feed,phishing,OpenPhish: Bank of America Homograph
+http://login.chase.com.security-verify.account-update.xyz/auth,0,threat_intel_verified_feed,phishing,PhishTank: Multi-tier Subdomain Phish
+https://www.paypal.com.cgi-bin.webscr.login.user-auth-check.top/us,0,threat_intel_verified_feed,phishing,OpenPhish: Paypal Subdomain Spoof
+http://secure-wellsfargo-bank-accounts-confirm.portal-login.info/wf,0,threat_intel_verified_feed,phishing,URLhaus: Multi-label Brand Stacking
+http://account.update.appleid.security.cloud-auth.top/signin,0,threat_intel_verified_feed,phishing,PhishTank: Deep Subdomain Label Attack
+http://netflix.account.billing.membership.payment-support.info/login,0,threat_intel_verified_feed,phishing,OpenPhish: Brand Stacked Labels
+http://support.microsoft.com.office.365.verify.id-check.xyz/login.html,0,threat_intel_verified_feed,phishing,URLhaus: Enterprise Impersonation
+http://paypal.com@evil-attacker-site.com/verify,0,threat_intel_verified_feed,phishing,PhishTank: At-sign Credential Masquerade
+https://google.com@auth-recovery-service.info/login,0,threat_intel_verified_feed,phishing,OpenPhish: At-sign Host Hijack
+http://netflix.com@billing-account-update.xyz/home,0,threat_intel_verified_feed,phishing,URLhaus: Userinfo Authority Spoof
+http://chase.com@secure-banking-portal-login.top/account,0,threat_intel_verified_feed,phishing,PhishTank: Banking At-sign Phish
+http://194.26.29.156:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #56
+http://fedex-parcel-delivery-157.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #57
+http://wellsfargo-notice-158.cc/online/login.html?ref=158,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #58
+https://docusign-document-review-159.xyz/sign/envelope?doc=159,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #59
+http://secure-login-account-160.com/verify/credentials.php?id=160,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #60
+https://support-billing-portal-161.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #61
+http://chase-bank-verify-162.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #62
+http://appleid-confirm-163.top/auth/signin.aspx?session=163,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #63
+http://netflix-reactivate-membership-164.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #64
+http://paypal-resolution-center-165.org/cgi-bin/webscr?id=165,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #65
+http://194.26.29.166:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #66
+http://fedex-parcel-delivery-167.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #67
+http://wellsfargo-notice-168.cc/online/login.html?ref=168,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #68
+https://docusign-document-review-169.xyz/sign/envelope?doc=169,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #69
+http://secure-login-account-170.com/verify/credentials.php?id=170,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #70
+https://support-billing-portal-171.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #71
+http://chase-bank-verify-172.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #72
+http://appleid-confirm-173.top/auth/signin.aspx?session=173,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #73
+http://netflix-reactivate-membership-174.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #74
+http://paypal-resolution-center-175.org/cgi-bin/webscr?id=175,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #75
+http://194.26.29.176:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #76
+http://fedex-parcel-delivery-177.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #77
+http://wellsfargo-notice-178.cc/online/login.html?ref=178,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #78
+https://docusign-document-review-179.xyz/sign/envelope?doc=179,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #79
+http://secure-login-account-180.com/verify/credentials.php?id=180,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #80
+https://support-billing-portal-181.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #81
+http://chase-bank-verify-182.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #82
+http://appleid-confirm-183.top/auth/signin.aspx?session=183,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #83
+http://netflix-reactivate-membership-184.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #84
+http://paypal-resolution-center-185.org/cgi-bin/webscr?id=185,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #85
+http://194.26.29.186:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #86
+http://fedex-parcel-delivery-187.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #87
+http://wellsfargo-notice-188.cc/online/login.html?ref=188,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #88
+https://docusign-document-review-189.xyz/sign/envelope?doc=189,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #89
+http://secure-login-account-190.com/verify/credentials.php?id=190,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #90
+https://support-billing-portal-191.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #91
+http://chase-bank-verify-192.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #92
+http://appleid-confirm-193.top/auth/signin.aspx?session=193,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #93
+http://netflix-reactivate-membership-194.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #94
+http://paypal-resolution-center-195.org/cgi-bin/webscr?id=195,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #95
+http://194.26.29.196:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #96
+http://fedex-parcel-delivery-197.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #97
+http://wellsfargo-notice-198.cc/online/login.html?ref=198,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #98
+https://docusign-document-review-199.xyz/sign/envelope?doc=199,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #99
+http://secure-login-account-200.com/verify/credentials.php?id=200,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #100
+https://support-billing-portal-201.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #101
+http://chase-bank-verify-202.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #102
+http://appleid-confirm-203.top/auth/signin.aspx?session=203,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #103
+http://netflix-reactivate-membership-204.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #104
+http://paypal-resolution-center-205.org/cgi-bin/webscr?id=205,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #105
+http://194.26.29.206:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #106
+http://fedex-parcel-delivery-207.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #107
+http://wellsfargo-notice-208.cc/online/login.html?ref=208,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #108
+https://docusign-document-review-209.xyz/sign/envelope?doc=209,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #109
+http://secure-login-account-210.com/verify/credentials.php?id=210,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #110
+https://support-billing-portal-211.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #111
+http://chase-bank-verify-212.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #112
+http://appleid-confirm-213.top/auth/signin.aspx?session=213,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #113
+http://netflix-reactivate-membership-214.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #114
+http://paypal-resolution-center-215.org/cgi-bin/webscr?id=215,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #115
+http://194.26.29.216:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #116
+http://fedex-parcel-delivery-217.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #117
+http://wellsfargo-notice-218.cc/online/login.html?ref=218,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #118
+https://docusign-document-review-219.xyz/sign/envelope?doc=219,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #119
+http://secure-login-account-220.com/verify/credentials.php?id=220,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #120
+https://support-billing-portal-221.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #121
+http://chase-bank-verify-222.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #122
+http://appleid-confirm-223.top/auth/signin.aspx?session=223,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #123
+http://netflix-reactivate-membership-224.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #124
+http://paypal-resolution-center-225.org/cgi-bin/webscr?id=225,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #125
+http://194.26.29.226:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #126
+http://fedex-parcel-delivery-227.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #127
+http://wellsfargo-notice-228.cc/online/login.html?ref=228,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #128
+https://docusign-document-review-229.xyz/sign/envelope?doc=229,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #129
+http://secure-login-account-230.com/verify/credentials.php?id=230,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #130
+https://support-billing-portal-231.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #131
+http://chase-bank-verify-232.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #132
+http://appleid-confirm-233.top/auth/signin.aspx?session=233,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #133
+http://netflix-reactivate-membership-234.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #134
+http://paypal-resolution-center-235.org/cgi-bin/webscr?id=235,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #135
+http://194.26.29.236:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #136
+http://fedex-parcel-delivery-237.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #137
+http://wellsfargo-notice-238.cc/online/login.html?ref=238,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #138
+https://docusign-document-review-239.xyz/sign/envelope?doc=239,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #139
+http://secure-login-account-240.com/verify/credentials.php?id=240,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #140
+https://support-billing-portal-241.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #141
+http://chase-bank-verify-242.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #142
+http://appleid-confirm-243.top/auth/signin.aspx?session=243,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #143
+http://netflix-reactivate-membership-244.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #144
+http://paypal-resolution-center-245.org/cgi-bin/webscr?id=245,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #145
+http://194.26.29.246:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #146
+http://fedex-parcel-delivery-247.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #147
+http://wellsfargo-notice-248.cc/online/login.html?ref=248,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #148
+https://docusign-document-review-249.xyz/sign/envelope?doc=249,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #149
+http://secure-login-account-250.com/verify/credentials.php?id=250,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #150
+https://support-billing-portal-251.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #151
+http://chase-bank-verify-252.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #152
+http://appleid-confirm-253.top/auth/signin.aspx?session=253,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #153
+http://netflix-reactivate-membership-254.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #154
+http://paypal-resolution-center-255.org/cgi-bin/webscr?id=255,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #155
+http://194.26.29.256:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #156
+http://fedex-parcel-delivery-257.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #157
+http://wellsfargo-notice-258.cc/online/login.html?ref=258,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #158
+https://docusign-document-review-259.xyz/sign/envelope?doc=259,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #159
+http://secure-login-account-260.com/verify/credentials.php?id=260,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #160
+https://support-billing-portal-261.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #161
+http://chase-bank-verify-262.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #162
+http://appleid-confirm-263.top/auth/signin.aspx?session=263,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #163
+http://netflix-reactivate-membership-264.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #164
+http://paypal-resolution-center-265.org/cgi-bin/webscr?id=265,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #165
+http://194.26.29.266:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #166
+http://fedex-parcel-delivery-267.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #167
+http://wellsfargo-notice-268.cc/online/login.html?ref=268,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #168
+https://docusign-document-review-269.xyz/sign/envelope?doc=269,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #169
+http://secure-login-account-270.com/verify/credentials.php?id=270,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #170
+https://support-billing-portal-271.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #171
+http://chase-bank-verify-272.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #172
+http://appleid-confirm-273.top/auth/signin.aspx?session=273,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #173
+http://netflix-reactivate-membership-274.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #174
+http://paypal-resolution-center-275.org/cgi-bin/webscr?id=275,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #175
+http://194.26.29.276:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #176
+http://fedex-parcel-delivery-277.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #177
+http://wellsfargo-notice-278.cc/online/login.html?ref=278,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #178
+https://docusign-document-review-279.xyz/sign/envelope?doc=279,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #179
+http://secure-login-account-280.com/verify/credentials.php?id=280,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #180
+https://support-billing-portal-281.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #181
+http://chase-bank-verify-282.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #182
+http://appleid-confirm-283.top/auth/signin.aspx?session=283,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #183
+http://netflix-reactivate-membership-284.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #184
+http://paypal-resolution-center-285.org/cgi-bin/webscr?id=285,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #185
+http://194.26.29.286:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #186
+http://fedex-parcel-delivery-287.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #187
+http://wellsfargo-notice-288.cc/online/login.html?ref=288,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #188
+https://docusign-document-review-289.xyz/sign/envelope?doc=289,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #189
+http://secure-login-account-290.com/verify/credentials.php?id=290,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #190
+https://support-billing-portal-291.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #191
+http://chase-bank-verify-292.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #192
+http://appleid-confirm-293.top/auth/signin.aspx?session=293,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #193
+http://netflix-reactivate-membership-294.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #194
+http://paypal-resolution-center-295.org/cgi-bin/webscr?id=295,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #195
+http://194.26.29.296:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #196
+http://fedex-parcel-delivery-297.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #197
+http://wellsfargo-notice-298.cc/online/login.html?ref=298,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #198
+https://docusign-document-review-299.xyz/sign/envelope?doc=299,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #199
+http://secure-login-account-300.com/verify/credentials.php?id=300,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #200
+https://support-billing-portal-301.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #201
+http://chase-bank-verify-302.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #202
+http://appleid-confirm-303.top/auth/signin.aspx?session=303,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #203
+http://netflix-reactivate-membership-304.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #204
+http://paypal-resolution-center-305.org/cgi-bin/webscr?id=305,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #205
+http://194.26.29.306:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #206
+http://fedex-parcel-delivery-307.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #207
+http://wellsfargo-notice-308.cc/online/login.html?ref=308,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #208
+https://docusign-document-review-309.xyz/sign/envelope?doc=309,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #209
+http://secure-login-account-310.com/verify/credentials.php?id=310,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #210
+https://support-billing-portal-311.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #211
+http://chase-bank-verify-312.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #212
+http://appleid-confirm-313.top/auth/signin.aspx?session=313,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #213
+http://netflix-reactivate-membership-314.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #214
+http://paypal-resolution-center-315.org/cgi-bin/webscr?id=315,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #215
+http://194.26.29.316:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #216
+http://fedex-parcel-delivery-317.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #217
+http://wellsfargo-notice-318.cc/online/login.html?ref=318,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #218
+https://docusign-document-review-319.xyz/sign/envelope?doc=319,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #219
+http://secure-login-account-320.com/verify/credentials.php?id=320,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #220
+https://support-billing-portal-321.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #221
+http://chase-bank-verify-322.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #222
+http://appleid-confirm-323.top/auth/signin.aspx?session=323,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #223
+http://netflix-reactivate-membership-324.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #224

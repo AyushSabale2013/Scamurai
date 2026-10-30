@@ -1,8 +1,8 @@
 {
   "model_name": "xgboost",
   "model_display_name": "XGBoost",
-  "model_version": "1.0.0-xgboost-a7a13fca",
-  "trained_at": "2026-10-29T11:23:01+00:00",
+  "model_version": "1.0.0-xgboost-8cf1f9ca",
+  "trained_at": "2026-10-30T06:49:13+00:00",
   "extractor_version": "1.0.0",
   "feature_names": [
     "url_length",
@@ -223,7 +223,7 @@
   "explanation_method": "SHAP TreeExplainer",
   "explanation_unit": "log-odds",
   "artifact_file": "model.joblib",
-  "artifact_sha256": "a7a13fcace3d8c8784695cbff1ce9a0229b47990b541c783fd0e3dd72bff8214",
+  "artifact_sha256": "8cf1f9caf2f609c941c2a7931733632071272ef300c11710635224c78a511226",
   "artifact_format": "joblib (sklearn Pipeline), compress=3",
   "trained_on": "domain-grouped training partition (the same model that was evaluated; the test partition was never used for fitting or tuning)",
   "preprocessing": {
@@ -270,9 +270,9 @@
   "dependencies": {
     "python": "3.12.3",
     "scikit-learn": "1.8.0",
-    "numpy": "2.4.4",
-    "pandas": "3.0.2",
-    "joblib": "1.5.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "joblib": "1.6.0",
     "xgboost": "3.4.1",
     "shap": "0.54.1",
     "publicsuffix2": "2.20191221"
