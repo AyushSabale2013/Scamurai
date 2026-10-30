@@ -16,7 +16,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   try {
     res = await fetch(`${API_BASE}${path}`, { headers: { "Content-Type": "application/json" }, ...init });
   } catch {
-    throw new ApiError(0, "network_error", `Cannot reach the PhishGuard API at ${API_BASE}. Check that the backend is running.`);
+    throw new ApiError(0, "network_error", `Cannot reach the Scamurai API at ${API_BASE}. Check that the backend is running.`);
   }
   let body: unknown = null;
   try {

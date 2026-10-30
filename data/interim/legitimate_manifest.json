@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-30T07:52:49.518238Z",
+  "sources": [
+    {
+      "source": "hand_verified",
+      "url_count": 162,
+      "description": "Manually verified real legitimate URLs with deep paths, queries, UUIDs, login pages, and Indian sites."
+    },
+    {
+      "source": "tranco_top_1m",
+      "url": "https://tranco-list.eu/download/daily/top-1m.csv.zip",
+      "retrieved_at": "2026-10-30T07:52:35.888510+00:00",
+      "status": 200,
+      "sha256": "287cb693943363f576443f04f0447f7154fa8e5f0d723ef5f883049e7dfcf563",
+      "domain_count": 1000000
+    },
+    {
+      "source": "cdx_commoncrawl",
+      "domains_queried": 25,
+      "urls_collected": 0,
+      "cdx_failures": 2,
+      "retrieved_at": "2026-10-30T07:52:48.052633+00:00"
+    },
+    {
+      "source": "tranco_synthetic_paths",
+      "url_count": 70000,
+      "note": "Real domains from Tranco with shape-matched path patterns."
+    },
+    {
+      "source": "phiusiil_uci_967_legitimate_class",
+      "file": "PhiUSIIL_Phishing_URL_Dataset.csv",
+      "url_count": 134850,
+      "license": "CC BY 4.0",
+      "note": "All are https://www.<host> homepages with no path \u2014 used ONLY for homepage shape balance, NOT as sole legitimate source.",
+      "urls_used": 20000
+    }
+  ],
+  "total_raw": 90162,
+  "total_deduped": 85852,
+  "source_counts": {
+    "hand_verified": 162,
+    "tranco_synthetic_paths": 65791,
+    "phiusiil_homepage": 19899
+  }
+}

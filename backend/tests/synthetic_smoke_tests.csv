@@ -1,0 +1,8 @@
+url,label,pattern_type,description
+http://192.168.1.100:8080/secure/paypal/login.php,0,ip_host,Synthetic IP host pattern
+http://paypal.com@evil-attacker-site.com/verify,0,userinfo_at_trick,Synthetic @ sign authority trick
+http://xn--pypal-4ve.com/account/security/update,0,punycode_homograph,Synthetic Cyrillic homograph
+https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5,1,uuid_route,Real ChatGPT chat session
+https://claude.ai/chat/305c187a-fc1f-4d9a-9063-3f0b53b47a2a,1,uuid_route,Real Claude chat session
+https://onlinesbi.sbi/sbijava/retail/login.htm,1,indian_banking,Real State Bank of India login
+https://irctc.co.in/nget/train-search,1,indian_gov,Real IRCTC booking search

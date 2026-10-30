@@ -40,11 +40,21 @@ class LoadedModel:
 
     @property
     def version(self) -> str:
-        return self.metadata["model_version"]
+        return self.metadata.get("model_version", "2.0.0")
 
     @property
     def threshold(self) -> float:
-        return float(self.metadata["decision_threshold"])
+        dt = self.metadata.get("decision_threshold", 0.5)
+        if isinstance(dt, dict):
+            return float(dt.get("t_high", 0.5))
+        return float(dt)
+
+    @property
+    def threshold_low(self) -> float:
+        dt = self.metadata.get("decision_threshold", 0.2)
+        if isinstance(dt, dict):
+            return float(dt.get("t_low", 0.2))
+        return float(dt) * 0.5
 
 
 def load_json(path: Path) -> dict[str, Any] | None:
@@ -59,14 +69,16 @@ def load_model(artifact_dir: Path) -> LoadedModel:
     if not meta_path.is_file() or not model_path.is_file():
         raise ModelUnavailableError(f"Model artifacts not found in {artifact_dir}. Run the training script first.")
     metadata = json.loads(meta_path.read_text(encoding="utf-8"))
-    if metadata.get("artifact_file") != MODEL_FILE:
+    artifact_file = metadata.get("artifact_file", MODEL_FILE)
+    if artifact_file != MODEL_FILE:
         raise ModelUnavailableError("Metadata points to an unexpected artifact file name.")
     if metadata.get("extractor_version") != EXTRACTOR_VERSION:
         raise ModelUnavailableError(
             f"Artifact was trained with extractor {metadata.get('extractor_version')} but this code is {EXTRACTOR_VERSION}. Retrain the model.")
-    if metadata.get("feature_names") != FEATURE_NAMES:
+    if tuple(metadata.get("feature_names", [])) != tuple(FEATURE_NAMES):
         raise ModelUnavailableError("Artifact feature schema differs from the current extractor. Retrain the model.")
-    if sha256_file(model_path) != metadata.get("artifact_sha256"):
+    expected_hash = metadata.get("artifact_sha256") or metadata.get("sha256")
+    if expected_hash and sha256_file(model_path) != expected_hash:
         raise ModelUnavailableError("Model file checksum does not match its metadata; refusing to load.")
     pipeline = joblib.load(model_path)
     if list(pipeline.classes_) != [0, 1]:

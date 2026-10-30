@@ -47,6 +47,15 @@ class PredictionResult(BaseModel):
     threshold: float
     model_version: str
     features: dict[str, float]
+    risk_tier: Literal["likely_safe", "suspicious", "likely_phishing"] = "likely_safe"
+    threshold_high: float = 0.5
+    threshold_low: float = 0.2
+    top_reasons: list[str] = []
+    domain_reputation: str | None = None
+    limitations: list[str] = [
+        "Pure URL-only analysis without page content or DNS resolution.",
+        "Compromised legitimate domains or novel zero-day attacks may evade detection.",
+    ]
     url_parts: URLParts | None = None
     explanation: list[ExplanationItem] | None = None
     explanation_method: str | None = None
@@ -67,6 +76,10 @@ class BatchItem(BaseModel):
     class_name: Literal["phishing", "legitimate"] | None = None
     label: str | None = None
     phishing_score: float | None = None
+    risk_tier: Literal["likely_safe", "suspicious", "likely_phishing"] | None = None
+    threshold_high: float | None = None
+    threshold_low: float | None = None
+    top_reasons: list[str] = []
     notes: list[str] = []
     error: BatchItemError | None = None
     explanation: list[ExplanationItem] | None = None

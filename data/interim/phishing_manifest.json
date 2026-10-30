@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-30T07:29:46.869615Z",
+  "sources": [
+    {
+      "source": "openphish_community",
+      "url": "https://openphish.com/feed.txt",
+      "retrieved_at": "2026-10-30T07:28:42.125445Z",
+      "status": 200,
+      "content_length": 14398,
+      "url_count": 300,
+      "sha256": "7566ab09e6f67725bbdf727410b636a2cfa9a0569828334fc40dea9c59527ee3"
+    },
+    {
+      "source": "phishing_database_github",
+      "sub_sources": [
+        {
+          "source": "phishing_database_new_today",
+          "url": "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-NEW-today.txt",
+          "retrieved_at": "2026-10-30T07:28:50.759718Z",
+          "status": 200,
+          "content_length": 143,
+          "url_count": 3,
+          "sha256": "42f5125b35b05d00f500fad43786904cd95f6da07019b297412efdf25c08c1b5"
+        },
+        {
+          "source": "phishing_database_active_sample",
+          "url_count": 19810,
+          "retrieved_bytes": 2097152
+        }
+      ],
+      "total_urls": 19813,
+      "retrieved_at": "2026-10-30T07:29:45.779601+00:00",
+      "license": "MIT (https://github.com/mitchellkrogza/Phishing.Database/blob/master/LICENSE.md)"
+    },
+    {
+      "source": "phiusiil_uci_967_phishing_class",
+      "file": "PhiUSIIL_Phishing_URL_Dataset.csv",
+      "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "url_count": 100945,
+      "license": "CC BY 4.0",
+      "citation": "Prasad, A. & Chandra, S. (2024). PhiUSIIL Phishing URL Dataset. UCI ML Repository #967."
+    }
+  ],
+  "total_raw": 121058,
+  "total_deduped": 119342
+}

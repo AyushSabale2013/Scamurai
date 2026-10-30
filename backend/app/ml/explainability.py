@@ -22,27 +22,42 @@ from .feature_extraction import FEATURE_DEFINITIONS, FEATURE_NAMES
 class ModelExplainer:
     def __init__(self, pipeline: Any):
         self.pipeline = pipeline
-        self.clf = pipeline.steps[-1][1]
-        self.classes = list(pipeline.classes_)
-        self.phish_idx = self.classes.index(PHISHING)
+        if hasattr(pipeline, "steps"):
+            self.clf = pipeline.steps[-1][1]
+            self.scaler = pipeline.named_steps.get("scaler") if hasattr(pipeline, "named_steps") else None
+        else:
+            self.clf = pipeline
+            self.scaler = None
+        self.classes = list(getattr(self.clf, "classes_", getattr(pipeline, "classes_", [0, 1])))
+        self.phish_idx = self.classes.index(PHISHING) if PHISHING in self.classes else 0
         name = type(self.clf).__name__
-        self.scaler = pipeline.named_steps.get("scaler") if hasattr(pipeline, "named_steps") else None
         if name == "LogisticRegression":
             self.kind, self.unit = "linear_contributions", "log-odds"
             self._explainer = None
         else:
-            import shap  # imported lazily: only needed for tree models
+            try:
+                import shap  # imported lazily: only needed for tree models
 
-            self._explainer = shap.TreeExplainer(self.clf)
-            self.kind = "shap_tree"
-            self.unit = "log-odds" if name == "XGBClassifier" else "probability"
+                self._explainer = shap.TreeExplainer(self.clf)
+                self.kind = "shap_tree"
+                self.unit = "log-odds" if name == "XGBClassifier" else "probability"
+            except Exception:
+                self._explainer = None
+                self.kind = "unavailable"
+                self.unit = None
 
     @property
     def method_label(self) -> str:
-        return "SHAP TreeExplainer" if self.kind == "shap_tree" else "Logistic regression coefficient contributions"
+        if self.kind == "shap_tree":
+            return "SHAP TreeExplainer"
+        if self.kind == "linear_contributions":
+            return "Logistic regression coefficient contributions"
+        return "unavailable"
 
     def contributions(self, X: pd.DataFrame) -> np.ndarray:
         """(n_rows, n_features) contributions toward the phishing class."""
+        if self.kind == "unavailable" or (self._explainer is None and self.kind != "linear_contributions"):
+            raise RuntimeError("Model explanations are unavailable.")
         if self.kind == "linear_contributions":
             Z = self.scaler.transform(X) if self.scaler is not None else X.to_numpy()
             toward_class1 = Z * self.clf.coef_[0]

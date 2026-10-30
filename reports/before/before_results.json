@@ -1,0 +1,107 @@
+{
+  "model_version": "1.0.0-xgboost-8cf1f9ca",
+  "model_name": "xgboost",
+  "threshold": 0.22869873046875,
+  "results": [
+    {
+      "url": "https://claude.ai/chat/305c187a-fc1f-4d9a-9063-3f0b53b47a2a",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://github.com/anthropics/anthropic-sdk-python",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phishing",
+      "phishing_score": 0.999998,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://docs.python.org/3/library/urllib.parse.html",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://www.google.com/search?q=weather+today",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://stackoverflow.com/questions/tagged/python",
+      "phishing_score": 0.999999,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": true
+    },
+    {
+      "url": "https://www.google.com",
+      "phishing_score": 0.002738,
+      "threshold": 0.228699,
+      "prediction": "legitimate",
+      "is_false_positive": false
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "phishing_score": 0.00155,
+      "threshold": 0.228699,
+      "prediction": "legitimate",
+      "is_false_positive": false
+    },
+    {
+      "url": "https://mail.google.com/mail/u/0/#inbox",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": false
+    },
+    {
+      "url": "https://irctc.co.in/nget/train-search",
+      "phishing_score": 0.999999,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": false
+    },
+    {
+      "url": "https://onlinesbi.sbi/sbijava/retail/login.htm",
+      "phishing_score": 1.0,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": false
+    },
+    {
+      "url": "https://paytm.com/recharge",
+      "phishing_score": 0.999997,
+      "threshold": 0.228699,
+      "prediction": "phishing",
+      "is_false_positive": false
+    }
+  ],
+  "false_positive_count": 8,
+  "total_urls": 14
+}

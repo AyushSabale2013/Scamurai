@@ -76,7 +76,7 @@ export function BatchPage() {
     const blob = new Blob([toCsv(out)], { type: "text/csv;charset=utf-8" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = "phishguard-results.csv";
+    a.download = "scamurai-results.csv";
     a.click();
     URL.revokeObjectURL(a.href);
   };

@@ -48,7 +48,7 @@ function Brand() {
   return (
     <div className="flex items-center gap-2.5 px-3">
       <ShieldCheck className="h-6 w-6 text-teal-400" aria-hidden />
-      <span className="text-lg font-semibold tracking-tight">PhishGuard AI</span>
+      <span className="text-lg font-semibold tracking-tight">Scamurai</span>
     </div>
   );
 }
@@ -57,9 +57,9 @@ export function AppShell() {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
   const { data: health } = useHealth();
-  const title = NAV.find((n) => (n.to === "/" ? pathname === "/" : pathname.startsWith(n.to)))?.title ?? "PhishGuard AI";
+  const title = NAV.find((n) => (n.to === "/" ? pathname === "/" : pathname.startsWith(n.to)))?.title ?? "Scamurai";
 
-  useEffect(() => { document.title = `${title} · PhishGuard AI`; }, [title]);
+  useEffect(() => { document.title = `${title} · Scamurai`; }, [title]);
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);

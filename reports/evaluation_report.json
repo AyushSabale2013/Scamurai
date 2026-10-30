@@ -1,0 +1,705 @@
+{
+  "all_candidates_validation": {
+    "logistic_regression": {
+      "val_eval": {
+        "n": 29574,
+        "threshold": 0.8829,
+        "threshold_low": 0.0066,
+        "accuracy": 0.7871,
+        "balanced_accuracy": 0.8108,
+        "phishing_precision": 0.9879,
+        "phishing_recall": 0.6317,
+        "phishing_f1": 0.7706,
+        "phishing_f2": 0.6808,
+        "legitimate_precision": 0.6732,
+        "legitimate_recall": 0.9899,
+        "legitimate_f1": 0.8014,
+        "mcc": 0.641,
+        "roc_auc": 0.9231,
+        "pr_auc": 0.9553,
+        "fpr": 0.0101,
+        "fnr": 0.3683,
+        "specificity": 0.9899,
+        "brier_score": 0.0985,
+        "ece": 0.0609,
+        "prevalence_adjusted": {
+          "ppv_at_1pct_prevalence": 0.3864,
+          "ppv_at_0.1pct_prevalence": 0.0587,
+          "expected_false_alarms_per_10k": 101.3
+        },
+        "confusion_matrix": {
+          "tp_phishing": 10576,
+          "fn_phishing": 6166,
+          "fp_legitimate": 130,
+          "tn_legitimate": 12702
+        },
+        "three_tier_distribution": {
+          "likely_phishing": 10706,
+          "suspicious": 16825,
+          "likely_safe": 2043
+        }
+      },
+      "thresholds": {
+        "t_high": 0.8829,
+        "t_low": 0.0066,
+        "val_recall_at_t_high": 0.6317,
+        "val_fpr_at_t_high": 0.01,
+        "val_recall_at_t_low": 0.9801,
+        "val_fpr_at_t_low": 0.8786,
+        "rule_t_high": "Max recall with validation FPR <= 1.0%",
+        "rule_t_low": "Validation recall >= 98.0%"
+      },
+      "latency_ms": 0.155,
+      "train_time_sec": 1.74
+    },
+    "random_forest": {
+      "val_eval": {
+        "n": 29574,
+        "threshold": 0.4068,
+        "threshold_low": 0.1019,
+        "accuracy": 0.9464,
+        "balanced_accuracy": 0.9515,
+        "phishing_precision": 0.9917,
+        "phishing_recall": 0.9129,
+        "phishing_f1": 0.9507,
+        "phishing_f2": 0.9277,
+        "legitimate_precision": 0.897,
+        "legitimate_recall": 0.99,
+        "legitimate_f1": 0.9412,
+        "mcc": 0.8958,
+        "roc_auc": 0.9899,
+        "pr_auc": 0.9933,
+        "fpr": 0.01,
+        "fnr": 0.0871,
+        "specificity": 0.99,
+        "brier_score": 0.0437,
+        "ece": 0.04,
+        "prevalence_adjusted": {
+          "ppv_at_1pct_prevalence": 0.4804,
+          "ppv_at_0.1pct_prevalence": 0.0839,
+          "expected_false_alarms_per_10k": 99.8
+        },
+        "confusion_matrix": {
+          "tp_phishing": 15284,
+          "fn_phishing": 1458,
+          "fp_legitimate": 128,
+          "tn_legitimate": 12704
+        },
+        "three_tier_distribution": {
+          "likely_phishing": 15412,
+          "suspicious": 2382,
+          "likely_safe": 11780
+        }
+      },
+      "thresholds": {
+        "t_high": 0.4068,
+        "t_low": 0.1019,
+        "val_recall_at_t_high": 0.913,
+        "val_fpr_at_t_high": 0.01,
+        "val_recall_at_t_low": 0.9801,
+        "val_fpr_at_t_low": 0.1081,
+        "rule_t_high": "Max recall with validation FPR <= 1.0%",
+        "rule_t_low": "Validation recall >= 98.0%"
+      },
+      "latency_ms": 25.941,
+      "train_time_sec": 1.71
+    },
+    "xgboost": {
+      "val_eval": {
+        "n": 29574,
+        "threshold": 0.4702,
+        "threshold_low": 0.0961,
+        "accuracy": 0.9591,
+        "balanced_accuracy": 0.9627,
+        "phishing_precision": 0.9919,
+        "phishing_recall": 0.9353,
+        "phishing_f1": 0.9628,
+        "phishing_f2": 0.9461,
+        "legitimate_precision": 0.9214,
+        "legitimate_recall": 0.99,
+        "legitimate_f1": 0.9545,
+        "mcc": 0.9193,
+        "roc_auc": 0.9913,
+        "pr_auc": 0.9945,
+        "fpr": 0.01,
+        "fnr": 0.0647,
+        "specificity": 0.99,
+        "brier_score": 0.0313,
+        "ece": 0.0184,
+        "prevalence_adjusted": {
+          "ppv_at_1pct_prevalence": 0.4864,
+          "ppv_at_0.1pct_prevalence": 0.0858,
+          "expected_false_alarms_per_10k": 99.8
+        },
+        "confusion_matrix": {
+          "tp_phishing": 15659,
+          "fn_phishing": 1083,
+          "fp_legitimate": 128,
+          "tn_legitimate": 12704
+        },
+        "three_tier_distribution": {
+          "likely_phishing": 15787,
+          "suspicious": 2122,
+          "likely_safe": 11665
+        }
+      },
+      "thresholds": {
+        "t_high": 0.4702,
+        "t_low": 0.0961,
+        "val_recall_at_t_high": 0.9353,
+        "val_fpr_at_t_high": 0.01,
+        "val_recall_at_t_low": 0.9801,
+        "val_fpr_at_t_low": 0.1178,
+        "rule_t_high": "Max recall with validation FPR <= 1.0%",
+        "rule_t_low": "Validation recall >= 98.0%"
+      },
+      "latency_ms": 0.202,
+      "train_time_sec": 1.44
+    },
+    "calibrated_xgboost": {
+      "val_eval": {
+        "n": 29574,
+        "threshold": 0.5638,
+        "threshold_low": 0.1544,
+        "accuracy": 0.9563,
+        "balanced_accuracy": 0.9603,
+        "phishing_precision": 0.9919,
+        "phishing_recall": 0.9305,
+        "phishing_f1": 0.9602,
+        "phishing_f2": 0.9422,
+        "legitimate_precision": 0.9161,
+        "legitimate_recall": 0.99,
+        "legitimate_f1": 0.9516,
+        "mcc": 0.9142,
+        "roc_auc": 0.989,
+        "pr_auc": 0.993,
+        "fpr": 0.01,
+        "fnr": 0.0695,
+        "specificity": 0.99,
+        "brier_score": 0.04,
+        "ece": 0.0777,
+        "prevalence_adjusted": {
+          "ppv_at_1pct_prevalence": 0.4851,
+          "ppv_at_0.1pct_prevalence": 0.0854,
+          "expected_false_alarms_per_10k": 99.8
+        },
+        "confusion_matrix": {
+          "tp_phishing": 15579,
+          "fn_phishing": 1163,
+          "fp_legitimate": 128,
+          "tn_legitimate": 12704
+        },
+        "three_tier_distribution": {
+          "likely_phishing": 15707,
+          "suspicious": 3532,
+          "likely_safe": 10335
+        }
+      },
+      "thresholds": {
+        "t_high": 0.5638,
+        "t_low": 0.1544,
+        "val_recall_at_t_high": 0.9305,
+        "val_fpr_at_t_high": 0.01,
+        "val_recall_at_t_low": 0.9801,
+        "val_fpr_at_t_low": 0.2267,
+        "rule_t_high": "Max recall with validation FPR <= 1.0%",
+        "rule_t_low": "Validation recall >= 98.0%"
+      },
+      "latency_ms": 1.568,
+      "train_time_sec": 3.06
+    }
+  },
+  "winning_model": "xgboost",
+  "test_evaluation": {
+    "n": 28371,
+    "threshold": 0.4702,
+    "threshold_low": 0.0961,
+    "accuracy": 0.9631,
+    "balanced_accuracy": 0.9654,
+    "phishing_precision": 0.9911,
+    "phishing_recall": 0.9409,
+    "phishing_f1": 0.9653,
+    "phishing_f2": 0.9505,
+    "legitimate_precision": 0.9331,
+    "legitimate_recall": 0.9898,
+    "legitimate_f1": 0.9606,
+    "mcc": 0.9274,
+    "roc_auc": 0.9872,
+    "pr_auc": 0.9915,
+    "fpr": 0.0102,
+    "fnr": 0.0591,
+    "specificity": 0.9898,
+    "brier_score": 0.0321,
+    "ece": 0.0156,
+    "prevalence_adjusted": {
+      "ppv_at_1pct_prevalence": 0.4832,
+      "ppv_at_0.1pct_prevalence": 0.0848,
+      "expected_false_alarms_per_10k": 101.6
+    },
+    "confusion_matrix": {
+      "tp_phishing": 14566,
+      "fn_phishing": 915,
+      "fp_legitimate": 131,
+      "tn_legitimate": 12759
+    },
+    "three_tier_distribution": {
+      "likely_phishing": 14697,
+      "suspicious": 1821,
+      "likely_safe": 11853
+    }
+  },
+  "challenge_evaluation": {
+    "n": 1000,
+    "threshold": 0.4702,
+    "threshold_low": 0.0961,
+    "accuracy": 0.987,
+    "balanced_accuracy": 0.987,
+    "phishing_precision": 0.9939,
+    "phishing_recall": 0.98,
+    "phishing_f1": 0.9869,
+    "phishing_f2": 0.9828,
+    "legitimate_precision": 0.9803,
+    "legitimate_recall": 0.994,
+    "legitimate_f1": 0.9871,
+    "mcc": 0.9741,
+    "roc_auc": 0.9968,
+    "pr_auc": 0.9976,
+    "fpr": 0.006,
+    "fnr": 0.02,
+    "specificity": 0.994,
+    "brier_score": 0.0129,
+    "ece": 0.0156,
+    "prevalence_adjusted": {
+      "ppv_at_1pct_prevalence": 0.6226,
+      "ppv_at_0.1pct_prevalence": 0.1405,
+      "expected_false_alarms_per_10k": 60.0
+    },
+    "confusion_matrix": {
+      "tp_phishing": 490,
+      "fn_phishing": 10,
+      "fp_legitimate": 3,
+      "tn_legitimate": 497
+    },
+    "three_tier_distribution": {
+      "likely_phishing": 493,
+      "suspicious": 68,
+      "likely_safe": 439
+    }
+  },
+  "known_good_evaluation": {
+    "total": 167,
+    "false_positives": 26,
+    "problem_urls": [
+      {
+        "url": "https://timesofindia.indiatimes.com/india/latest-news/articleshow/12345678.cms",
+        "score": 0.7147,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://calendar.google.com/calendar/u/0/r/month",
+        "score": 0.5406,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://console.aws.amazon.com/ec2/home?region=us-east-1#Instances:",
+        "score": 0.8924,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://console.cloud.google.com/compute/instances?project=my-project",
+        "score": 0.9611,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://app.netlify.com/sites/my-site/overview",
+        "score": 0.9441,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://dashboard.heroku.com/apps/my-app",
+        "score": 0.5589,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://netbanking.hdfcbank.com/netbanking/",
+        "score": 0.9893,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://digilocker.meripehchaan.gov.in/public/signin",
+        "score": 0.8583,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://paytm.com/electricity-bill-payment",
+        "score": 0.9923,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://www.bharatpe.com/merchant",
+        "score": 0.9996,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://aadhaar.uidai.gov.in/verify-aadhaar",
+        "score": 0.8623,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://myaadhaar.uidai.gov.in/",
+        "score": 0.8687,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://www.vodafone.in/explore/recharge/recharge-plans",
+        "score": 0.9732,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://vahan.parivahan.gov.in/vahan4dashboard/",
+        "score": 0.992,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://www.apple.com/apple-pay/",
+        "score": 0.4948,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://dashboard.stripe.com/test/payments",
+        "score": 0.8397,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+        "score": 0.5201,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://signin.aws.amazon.com/console",
+        "score": 0.598,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://bit.ly/3abc123",
+        "score": 0.9961,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://t.co/abc123XYZ",
+        "score": 0.9995,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://goo.gl/maps/abc123",
+        "score": 0.9253,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://www.gouvernement.fr/les-actions-du-gouvernement",
+        "score": 0.4727,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://m\u00fcnchen.de/rathaus",
+        "score": 0.9983,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://\u65e5\u672c\u8a9e.jp/\u30c6\u30b9\u30c8",
+        "score": 0.9838,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://jsonplaceholder.typicode.com/posts/1",
+        "score": 0.994,
+        "verdict": "likely_phishing"
+      },
+      {
+        "url": "https://translate.google.com/?sl=en&tl=hi&text=hello",
+        "score": 0.955,
+        "verdict": "likely_phishing"
+      }
+    ]
+  },
+  "metadata": {
+    "model_name": "xgboost",
+    "model_version": "2.0.0",
+    "extractor_version": "2.0.0",
+    "feature_names": [
+      "brand_in_path",
+      "brand_in_subdomain",
+      "brand_keyword_combo",
+      "brand_typosquatting",
+      "has_embedded_url",
+      "has_explicit_http",
+      "has_userinfo",
+      "host_digits",
+      "host_dots",
+      "host_entropy",
+      "host_hyphens",
+      "host_keyword_count",
+      "host_len",
+      "is_ip_host",
+      "is_nonstandard_port",
+      "is_punycode",
+      "is_risky_tld",
+      "is_url_shortener",
+      "is_user_content_platform",
+      "max_label_len",
+      "min_dist_to_brand",
+      "path_digits",
+      "path_depth",
+      "path_entropy",
+      "path_hyphens",
+      "path_keyword_count",
+      "query_len",
+      "query_param_count",
+      "subdomain_count",
+      "tranco_rank_bucket"
+    ],
+    "num_features": 30,
+    "created_at": "2026-10-30T09:51:47.574773+00:00",
+    "sha256": "095fd990b78fb9f10ea6be5fa86824dadd5c54f5a0e19b94456ba378e3dd1c5e",
+    "decision_threshold": {
+      "t_high": 0.4702,
+      "t_low": 0.0961,
+      "rule_high": "Max recall with validation FPR <= 1.0%",
+      "rule_low": "Validation recall >= 98.0%",
+      "val_recall_at_t_high": 0.9353,
+      "val_fpr_at_t_high": 0.01
+    },
+    "calibration_method": "none",
+    "selected_by_protocol": {
+      "metric": "recall_at_val_fpr_1pct",
+      "score": 0.9353
+    },
+    "test_performance": {
+      "n": 28371,
+      "threshold": 0.4702,
+      "threshold_low": 0.0961,
+      "accuracy": 0.9631,
+      "balanced_accuracy": 0.9654,
+      "phishing_precision": 0.9911,
+      "phishing_recall": 0.9409,
+      "phishing_f1": 0.9653,
+      "phishing_f2": 0.9505,
+      "legitimate_precision": 0.9331,
+      "legitimate_recall": 0.9898,
+      "legitimate_f1": 0.9606,
+      "mcc": 0.9274,
+      "roc_auc": 0.9872,
+      "pr_auc": 0.9915,
+      "fpr": 0.0102,
+      "fnr": 0.0591,
+      "specificity": 0.9898,
+      "brier_score": 0.0321,
+      "ece": 0.0156,
+      "prevalence_adjusted": {
+        "ppv_at_1pct_prevalence": 0.4832,
+        "ppv_at_0.1pct_prevalence": 0.0848,
+        "expected_false_alarms_per_10k": 101.6
+      },
+      "confusion_matrix": {
+        "tp_phishing": 14566,
+        "fn_phishing": 915,
+        "fp_legitimate": 131,
+        "tn_legitimate": 12759
+      },
+      "three_tier_distribution": {
+        "likely_phishing": 14697,
+        "suspicious": 1821,
+        "likely_safe": 11853
+      }
+    },
+    "challenge_performance": {
+      "n": 1000,
+      "threshold": 0.4702,
+      "threshold_low": 0.0961,
+      "accuracy": 0.987,
+      "balanced_accuracy": 0.987,
+      "phishing_precision": 0.9939,
+      "phishing_recall": 0.98,
+      "phishing_f1": 0.9869,
+      "phishing_f2": 0.9828,
+      "legitimate_precision": 0.9803,
+      "legitimate_recall": 0.994,
+      "legitimate_f1": 0.9871,
+      "mcc": 0.9741,
+      "roc_auc": 0.9968,
+      "pr_auc": 0.9976,
+      "fpr": 0.006,
+      "fnr": 0.02,
+      "specificity": 0.994,
+      "brier_score": 0.0129,
+      "ece": 0.0156,
+      "prevalence_adjusted": {
+        "ppv_at_1pct_prevalence": 0.6226,
+        "ppv_at_0.1pct_prevalence": 0.1405,
+        "expected_false_alarms_per_10k": 60.0
+      },
+      "confusion_matrix": {
+        "tp_phishing": 490,
+        "fn_phishing": 10,
+        "fp_legitimate": 3,
+        "tn_legitimate": 497
+      },
+      "three_tier_distribution": {
+        "likely_phishing": 493,
+        "suspicious": 68,
+        "likely_safe": 439
+      }
+    },
+    "known_good_verification": {
+      "total": 167,
+      "false_positives": 26,
+      "problem_urls": [
+        {
+          "url": "https://timesofindia.indiatimes.com/india/latest-news/articleshow/12345678.cms",
+          "score": 0.7147,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://calendar.google.com/calendar/u/0/r/month",
+          "score": 0.5406,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://console.aws.amazon.com/ec2/home?region=us-east-1#Instances:",
+          "score": 0.8924,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://console.cloud.google.com/compute/instances?project=my-project",
+          "score": 0.9611,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://app.netlify.com/sites/my-site/overview",
+          "score": 0.9441,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://dashboard.heroku.com/apps/my-app",
+          "score": 0.5589,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://netbanking.hdfcbank.com/netbanking/",
+          "score": 0.9893,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://digilocker.meripehchaan.gov.in/public/signin",
+          "score": 0.8583,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://paytm.com/electricity-bill-payment",
+          "score": 0.9923,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://www.bharatpe.com/merchant",
+          "score": 0.9996,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://aadhaar.uidai.gov.in/verify-aadhaar",
+          "score": 0.8623,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://myaadhaar.uidai.gov.in/",
+          "score": 0.8687,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://www.vodafone.in/explore/recharge/recharge-plans",
+          "score": 0.9732,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://vahan.parivahan.gov.in/vahan4dashboard/",
+          "score": 0.992,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://www.apple.com/apple-pay/",
+          "score": 0.4948,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://dashboard.stripe.com/test/payments",
+          "score": 0.8397,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+          "score": 0.5201,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://signin.aws.amazon.com/console",
+          "score": 0.598,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://bit.ly/3abc123",
+          "score": 0.9961,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://t.co/abc123XYZ",
+          "score": 0.9995,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://goo.gl/maps/abc123",
+          "score": 0.9253,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://www.gouvernement.fr/les-actions-du-gouvernement",
+          "score": 0.4727,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://m\u00fcnchen.de/rathaus",
+          "score": 0.9983,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://\u65e5\u672c\u8a9e.jp/\u30c6\u30b9\u30c8",
+          "score": 0.9838,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://jsonplaceholder.typicode.com/posts/1",
+          "score": 0.994,
+          "verdict": "likely_phishing"
+        },
+        {
+          "url": "https://translate.google.com/?sl=en&tl=hi&text=hello",
+          "score": 0.955,
+          "verdict": "likely_phishing"
+        }
+      ]
+    },
+    "bug_url_verifications": [
+      {
+        "url": "https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5",
+        "score": 0.0809,
+        "tier": "likely_safe",
+        "is_safe": true
+      },
+      {
+        "url": "https://claude.ai/chat/305c187a-fc1f-4d9a-9063-3f0b53b47a2a",
+        "score": 0.0249,
+        "tier": "likely_safe",
+        "is_safe": true
+      }
+    ],
+    "dataset_manifest_hash": "cc340108f066f9b4264d22f2a458986695232f90b210c15be5a2579b9dfb10f3"
+  }
+}

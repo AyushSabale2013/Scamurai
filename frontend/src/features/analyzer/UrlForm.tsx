@@ -34,7 +34,7 @@ export function UrlForm({ onSubmit, busy }: { onSubmit: (url: string) => void; b
         </button>
       </div>
       <div id={`${id}-help`} className="mt-3 min-h-[1.25rem] text-sm">
-        {error ? <p role="alert" className="text-risk-300">{error}</p> : <p className="text-fog-500">PhishGuard reads the URL as text only. It never opens or downloads the site.</p>}
+        {error ? <p role="alert" className="text-risk-300">{error}</p> : <p className="text-fog-500">Scamurai reads the URL as text only — the site is never opened or contacted.</p>}
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
         {canPaste && (

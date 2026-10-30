@@ -1,451 +1,1001 @@
-url,label,source,category,notes
-https://chatgpt.com/c/6ae3364a-1440-83e8-be31-1e5aefa525c5,1,verified_curated_challenge,legitimate,OpenAI ChatGPT Private Conversation
-https://chatgpt.com/share/e/671b2d41-9238-8001-a6ef-342c8230b809,1,verified_curated_challenge,legitimate,OpenAI ChatGPT Shared Conversation
-https://claude.ai/chat/5a9184fc-92cb-4654-8e42-70b13cf10619,1,verified_curated_challenge,legitimate,Anthropic Claude Web Interface
-https://gemini.google.com/app/0c7d428bf0ad1194,1,verified_curated_challenge,legitimate,Google Gemini Web Interface
-https://huggingface.co/spaces/stabilityai/stable-diffusion,1,verified_curated_challenge,legitimate,HuggingFace Space Demo
-https://platform.openai.com/docs/guides/text-generation,1,verified_curated_challenge,legitimate,OpenAI Developer Documentation
-https://github.com/anthropics/anthropic-sdk-python,1,verified_curated_challenge,legitimate,GitHub Repository
-https://github.com/psf/requests/blob/main/src/requests/models.py,1,verified_curated_challenge,legitimate,GitHub Source Code Blob
-https://github.com/fastapi/fastapi/issues/10542,1,verified_curated_challenge,legitimate,GitHub Issue Tracker
-https://github.com/scikit-learn/scikit-learn/pull/28901,1,verified_curated_challenge,legitimate,GitHub Pull Request
-https://github.com/torvalds/linux/releases/tag/v6.12,1,verified_curated_challenge,legitimate,GitHub Release Tag
-https://raw.githubusercontent.com/python/cpython/main/Lib/urllib/parse.py,1,verified_curated_challenge,legitimate,GitHub Raw File
-https://gist.github.com/torvalds/d96205e967a5b3a4a949f2da0b30ef1d,1,verified_curated_challenge,legitimate,GitHub Gist Snippet
-https://docs.python.org/3/library/urllib.parse.html,1,verified_curated_challenge,legitimate,Python Official Documentation
-https://docs.python.org/3.12/library/asyncio-task.html#asyncio.create_task,1,verified_curated_challenge,legitimate,Python Asyncio Docs
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch,1,verified_curated_challenge,legitimate,MDN Web Docs Fetch API
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization,1,verified_curated_challenge,legitimate,MDN HTTP Auth Header
-https://fastapi.tiangolo.com/tutorial/bigger-applications/,1,verified_curated_challenge,legitimate,FastAPI Documentation
-https://react.dev/reference/react/useEffect#connecting-to-an-external-system,1,verified_curated_challenge,legitimate,React Official Docs
-https://tailwindcss.com/docs/customizing-colors#using-custom-colors,1,verified_curated_challenge,legitimate,TailwindCSS Documentation
-https://vite.dev/config/server-options.html#server-port,1,verified_curated_challenge,legitimate,Vite Official Guide
-https://docs.docker.com/engine/reference/builder/#arg,1,verified_curated_challenge,legitimate,Docker Reference Manual
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html,1,verified_curated_challenge,legitimate,Scikit-Learn Docs
-https://xgboost.readthedocs.io/en/stable/python/python_api.html,1,verified_curated_challenge,legitimate,XGBoost Documentation
-https://shap.readthedocs.io/en/latest/generated/shap.TreeExplainer.html,1,verified_curated_challenge,legitimate,SHAP Documentation
-https://stackoverflow.com/questions/tagged/python,1,verified_curated_challenge,legitimate,StackOverflow Tag Page
-https://stackoverflow.com/questions/2014534/difference-between-uri-url-and-urn,1,verified_curated_challenge,legitimate,StackOverflow Question with Query
-https://superuser.com/questions/272265/getting-curl-to-output-http-status-code,1,verified_curated_challenge,legitimate,SuperUser Q&A
-https://serverfault.com/questions/268385/how-to-configure-nginx-reverse-proxy,1,verified_curated_challenge,legitimate,ServerFault Discussion
-https://news.ycombinator.com/item?id=41829301,1,verified_curated_challenge,legitimate,Hacker News Comment Thread
-https://dev.to/t/webdev/latest,1,verified_curated_challenge,legitimate,Dev.to Tag Archive
-https://gitlab.com/gitlab-org/gitlab/-/issues/432190,1,verified_curated_challenge,legitimate,GitLab Issue Page
-https://pypi.org/project/scikit-learn/#history,1,verified_curated_challenge,legitimate,PyPI Package History
-https://www.npmjs.com/package/@tanstack/react-query?activeTab=readme,1,verified_curated_challenge,legitimate,NPM Registry Page
-https://hub.docker.com/_/python/tags?page=1&name=3.12,1,verified_curated_challenge,legitimate,Docker Hub Tag Search
-https://docs.google.com/document/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit?usp=sharing,1,verified_curated_challenge,legitimate,Google Docs Document
-https://docs.google.com/spreadsheets/d/1qpyC0XzvTcK7w8QfCq-3_eGZ5l_T8R2D/edit#gid=0,1,verified_curated_challenge,legitimate,Google Sheets Spreadsheet
-https://drive.google.com/drive/folders/17kL4jZ3w3e9X1mP4N7r,1,verified_curated_challenge,legitimate,Google Drive Shared Folder
-https://calendar.google.com/calendar/u/0/r/week,1,verified_curated_challenge,legitimate,Google Calendar View
-https://mail.google.com/mail/u/0/#inbox,1,verified_curated_challenge,legitimate,Gmail Web Interface
-https://scholar.google.com/scholar?q=machine+learning+phishing+detection&hl=en,1,verified_curated_challenge,legitimate,Google Scholar Search
-https://www.google.com/maps/dir/San+Francisco/San+Jose,1,verified_curated_challenge,legitimate,Google Maps Directions
-https://www.google.com/search?q=weather+today&oq=weather,1,verified_curated_challenge,legitimate,Google Search with Query
-https://en.wikipedia.org/wiki/Phishing,1,verified_curated_challenge,legitimate,Wikipedia Phishing Article
-https://en.wikipedia.org/wiki/Transport_Layer_Security,1,verified_curated_challenge,legitimate,Wikipedia TLS Article
-https://en.wikipedia.org/wiki/Domain_Name_System,1,verified_curated_challenge,legitimate,Wikipedia DNS Article
-https://en.wikipedia.org/wiki/XGBoost,1,verified_curated_challenge,legitimate,Wikipedia XGBoost Article
-https://en.wikipedia.org/wiki/Receiver_operating_characteristic,1,verified_curated_challenge,legitimate,Wikipedia ROC Curve
-https://en.wikipedia.org/wiki/Brier_score,1,verified_curated_challenge,legitimate,Wikipedia Brier Score
-https://archive.org/details/nasa,1,verified_curated_challenge,legitimate,Internet Archive Collection
-https://arxiv.org/abs/2309.12345,1,verified_curated_challenge,legitimate,arXiv Research Paper Abstract
-https://doi.org/10.1016/j.cose.2023.103545,1,verified_curated_challenge,legitimate,DOI Article Redirector
-https://www.youtube.com/watch?v=dQw4w9WgXcQ,1,verified_curated_challenge,legitimate,YouTube Video Watch URL
-https://www.youtube.com/watch?v=k1BneeJTDcU&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4,1,verified_curated_challenge,legitimate,YouTube Playlist Query
-https://www.youtube.com/@Veritasium/videos,1,verified_curated_challenge,legitimate,YouTube Channel Uploads
-https://vimeo.com/channels/staffpicks/8912345,1,verified_curated_challenge,legitimate,Vimeo Staff Pick
-https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY,1,verified_curated_challenge,legitimate,Spotify Album Link
-https://open.spotify.com/track/7ouMYWpwJ422jRcDASZB7P?si=228830113,1,verified_curated_challenge,legitimate,Spotify Track Query Link
-https://soundcloud.com/discover/sets/weekly,1,verified_curated_challenge,legitimate,SoundCloud Weekly Set
-https://twitch.tv/directory/game/Software%20and%20Game%20Development,1,verified_curated_challenge,legitimate,Twitch Directory Stream
-https://www.bbc.com/news/technology-68412345,1,verified_curated_challenge,legitimate,BBC News Technology Story
-https://www.bbc.com/sport/football/live/c80e1y294l9t,1,verified_curated_challenge,legitimate,BBC Sport Live Coverage
-https://www.nytimes.com/2024/10/24/technology/cybersecurity-election-threats.html,1,verified_curated_challenge,legitimate,NY Times Tech Deep Dive
-https://www.nytimes.com/section/world,1,verified_curated_challenge,legitimate,NY Times Section Index
-https://www.theverge.com/2024/9/15/24245678/apple-intelligence-release-features,1,verified_curated_challenge,legitimate,The Verge Product Review
-https://www.wired.com/story/best-password-managers-security/,1,verified_curated_challenge,legitimate,Wired Magazine Security Review
-https://arstechnica.com/security/2024/10/critical-remote-code-flaw-in-common-linux-utility/,1,verified_curated_challenge,legitimate,Ars Technica Threat Report
-https://techcrunch.com/category/security/,1,verified_curated_challenge,legitimate,TechCrunch Security Category
-https://www.reuters.com/technology/cybersecurity/,1,verified_curated_challenge,legitimate,Reuters Cybersecurity Feed
-https://www.theguardian.com/technology/artificialintelligence,1,verified_curated_challenge,legitimate,The Guardian AI Hub
-https://apnews.com/hub/technology,1,verified_curated_challenge,legitimate,AP News Technology Hub
-https://krebsonsecurity.com/2024/10/phishing-attacks-target-corporate-credentials/,1,verified_curated_challenge,legitimate,KrebsOnSecurity Investigation
-https://bleepingcomputer.com/news/security/new-phishing-campaign-uses-clever-redirects/,1,verified_curated_challenge,legitimate,BleepingComputer Advisory
-https://apple.com/iphone-16-pro/specs/,1,verified_curated_challenge,legitimate,Apple Product Specs (No www)
-https://stripe.com/docs/api/charges/create,1,verified_curated_challenge,legitimate,Stripe API Reference (No www)
-https://netflix.com/browse/genre/839338,1,verified_curated_challenge,legitimate,Netflix Category Page (No www)
-https://spotify.com/us/premium/,1,verified_curated_challenge,legitimate,Spotify Pricing Page (No www)
-https://slack.com/help/articles/205239967-Join-a-workspace,1,verified_curated_challenge,legitimate,Slack Help Center (No www)
-https://zoom.us/j/1234567890?pwd=abc,1,verified_curated_challenge,legitimate,Zoom Meeting Link (No www)
-https://dropbox.com/scl/fi/abc123def456/ProjectReport.pdf?rlkey=xyz,1,verified_curated_challenge,legitimate,Dropbox Shared File (No www)
-https://linear.app/features/roadmaps,1,verified_curated_challenge,legitimate,Linear App Feature Showcase
-https://notion.so/help/guides/getting-started-with-notion,1,verified_curated_challenge,legitimate,Notion Product Guide
-https://figma.com/@community,1,verified_curated_challenge,legitimate,Figma Community Page
-https://canva.com/templates/presentations/,1,verified_curated_challenge,legitimate,Canva Presentation Templates
-https://digitalocean.com/products/droplets,1,verified_curated_challenge,legitimate,DigitalOcean Cloud Droplets
-https://cloudflare.com/learning/dns/what-is-dns/,1,verified_curated_challenge,legitimate,Cloudflare Learning Center
-https://aws.amazon.com/ec2/pricing/on-demand/,1,verified_curated_challenge,legitimate,AWS EC2 On-Demand Pricing
-https://azure.microsoft.com/en-us/pricing/details/virtual-machines/,1,verified_curated_challenge,legitimate,Azure VM Pricing
-https://www.amazon.com/dp/B08N5WRWNW?ref_=cm_sw_r_cp_ud_dp,1,verified_curated_challenge,legitimate,Amazon Product Detail
-https://www.ebay.com/itm/123456789012?hash=item1c2d3e4f5a,1,verified_curated_challenge,legitimate,eBay Listing Query
-https://www.walmart.com/ip/Apple-AirPods-Pro-2nd-Generation/123456789,1,verified_curated_challenge,legitimate,Walmart Product Link
-https://www.target.com/p/playstation-5-console/-/A-123456,1,verified_curated_challenge,legitimate,Target Store Product
-https://www.etsy.com/listing/158912345/handmade-leather-wallet,1,verified_curated_challenge,legitimate,Etsy Artisan Item
-https://www.booking.com/hotel/fr/le-parisien.html?checkin=2026-11-01,1,verified_curated_challenge,legitimate,Booking.com Hotel Query
-https://www.airbnb.com/rooms/12345678?guests=2,1,verified_curated_challenge,legitimate,Airbnb Rental Query
-https://www.tripadvisor.com/Restaurant_Review-g60763-d1234-Reviews-Manhattan.html,1,verified_curated_challenge,legitimate,TripAdvisor Review
-https://www.irs.gov/forms-pubs/about-form-1040,1,verified_curated_challenge,legitimate,IRS Tax Form Document
-https://www.whitehouse.gov/briefing-room/statements-releases/,1,verified_curated_challenge,legitimate,White House Press Release
-https://www.cisa.gov/known-exploited-vulnerabilities-catalog,1,verified_curated_challenge,legitimate,CISA KEV Catalog
-https://www.nih.gov/health-information,1,verified_curated_challenge,legitimate,National Institutes of Health Guide
-https://www.who.int/emergencies/disease-outbreak-news,1,verified_curated_challenge,legitimate,World Health Organization News
-https://www.chase.com/personal/credit-cards/travel,1,verified_curated_challenge,legitimate,Chase Bank Cards Overview
-https://www.bankofamerica.com/deposits/checking-accounts/,1,verified_curated_challenge,legitimate,Bank of America Checking
-https://www.wellsfargo.com/mortgage/rates/,1,verified_curated_challenge,legitimate,Wells Fargo Mortgage Rates
-https://www.fidelity.com/learning-center/trading-investing/technical-analysis,1,verified_curated_challenge,legitimate,Fidelity Investment Education
-https://www.vanguard.com/funds/indices,1,verified_curated_challenge,legitimate,Vanguard Index Funds
-https://www.mit.edu/research/,1,verified_curated_challenge,legitimate,MIT Research Index
-https://cs50.harvard.edu/x/2024/weeks/1/,1,verified_curated_challenge,legitimate,Harvard CS50 Course Curriculum
-https://www.stanford.edu/academics/,1,verified_curated_challenge,legitimate,Stanford Academics Portal
-https://www.ox.ac.uk/admissions/undergraduate,1,verified_curated_challenge,legitimate,Oxford Admissions
-https://www.cam.ac.uk/about-this-site/accessibility,1,verified_curated_challenge,legitimate,Cambridge Accessibility Policy
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1777,1,verified_curated_challenge,legitimate,European Union Legal Document #111
-https://scholar.archive.org/work/randomid1784/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #112
-https://www.coursera.org/learn/machine-learning/lecture/mod1791/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #113
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-1798a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #114
-https://subdomain1805.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #115
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=1812,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #116
-https://www.reddit.com/r/MachineLearning/comments/1819/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #117
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-1826,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #118
-https://pypi.org/project/pydantic/1833.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #119
-https://gitlab.com/projects/example-group/service-1840/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #120
-https://support.google.com/mail/answer/1847?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #121
-https://support.apple.com/en-us/HT1854,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #122
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-1861,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #123
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#1868,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #124
-https://www.usps.com/help/claims/faq-1875.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #125
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1882,1,verified_curated_challenge,legitimate,European Union Legal Document #126
-https://scholar.archive.org/work/randomid1889/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #127
-https://www.coursera.org/learn/machine-learning/lecture/mod1896/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #128
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-1903a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #129
-https://subdomain1910.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #130
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=1917,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #131
-https://www.reddit.com/r/MachineLearning/comments/1924/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #132
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-1931,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #133
-https://pypi.org/project/pydantic/1938.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #134
-https://gitlab.com/projects/example-group/service-1945/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #135
-https://support.google.com/mail/answer/1952?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #136
-https://support.apple.com/en-us/HT1959,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #137
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-1966,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #138
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#1973,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #139
-https://www.usps.com/help/claims/faq-1980.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #140
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=1987,1,verified_curated_challenge,legitimate,European Union Legal Document #141
-https://scholar.archive.org/work/randomid1994/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #142
-https://www.coursera.org/learn/machine-learning/lecture/mod2001/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #143
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2008a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #144
-https://subdomain2015.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #145
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2022,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #146
-https://www.reddit.com/r/MachineLearning/comments/2029/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #147
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2036,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #148
-https://pypi.org/project/pydantic/2043.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #149
-https://gitlab.com/projects/example-group/service-2050/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #150
-https://support.google.com/mail/answer/2057?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #151
-https://support.apple.com/en-us/HT2064,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #152
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2071,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #153
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2078,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #154
-https://www.usps.com/help/claims/faq-2085.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #155
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2092,1,verified_curated_challenge,legitimate,European Union Legal Document #156
-https://scholar.archive.org/work/randomid2099/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #157
-https://www.coursera.org/learn/machine-learning/lecture/mod2106/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #158
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2113a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #159
-https://subdomain2120.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #160
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2127,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #161
-https://www.reddit.com/r/MachineLearning/comments/2134/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #162
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2141,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #163
-https://pypi.org/project/pydantic/2148.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #164
-https://gitlab.com/projects/example-group/service-2155/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #165
-https://support.google.com/mail/answer/2162?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #166
-https://support.apple.com/en-us/HT2169,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #167
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2176,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #168
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2183,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #169
-https://www.usps.com/help/claims/faq-2190.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #170
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2197,1,verified_curated_challenge,legitimate,European Union Legal Document #171
-https://scholar.archive.org/work/randomid2204/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #172
-https://www.coursera.org/learn/machine-learning/lecture/mod2211/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #173
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2218a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #174
-https://subdomain2225.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #175
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2232,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #176
-https://www.reddit.com/r/MachineLearning/comments/2239/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #177
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2246,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #178
-https://pypi.org/project/pydantic/2253.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #179
-https://gitlab.com/projects/example-group/service-2260/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #180
-https://support.google.com/mail/answer/2267?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #181
-https://support.apple.com/en-us/HT2274,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #182
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2281,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #183
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2288,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #184
-https://www.usps.com/help/claims/faq-2295.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #185
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2302,1,verified_curated_challenge,legitimate,European Union Legal Document #186
-https://scholar.archive.org/work/randomid2309/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #187
-https://www.coursera.org/learn/machine-learning/lecture/mod2316/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #188
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2323a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #189
-https://subdomain2330.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #190
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2337,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #191
-https://www.reddit.com/r/MachineLearning/comments/2344/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #192
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2351,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #193
-https://pypi.org/project/pydantic/2358.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #194
-https://gitlab.com/projects/example-group/service-2365/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #195
-https://support.google.com/mail/answer/2372?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #196
-https://support.apple.com/en-us/HT2379,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #197
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2386,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #198
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2393,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #199
-https://www.usps.com/help/claims/faq-2400.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #200
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2407,1,verified_curated_challenge,legitimate,European Union Legal Document #201
-https://scholar.archive.org/work/randomid2414/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #202
-https://www.coursera.org/learn/machine-learning/lecture/mod2421/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #203
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2428a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #204
-https://subdomain2435.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #205
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2442,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #206
-https://www.reddit.com/r/MachineLearning/comments/2449/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #207
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2456,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #208
-https://pypi.org/project/pydantic/2463.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #209
-https://gitlab.com/projects/example-group/service-2470/-/commits/main,1,verified_curated_challenge,legitimate,GitLab Repository Branch #210
-https://support.google.com/mail/answer/2477?hl=en,1,verified_curated_challenge,legitimate,Google Support Article #211
-https://support.apple.com/en-us/HT2484,1,verified_curated_challenge,legitimate,Apple Knowledge Base Article #212
-https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs?view=azure-2491,1,verified_curated_challenge,legitimate,Microsoft Architecture Guide #213
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Sorting/Quicksort#2498,1,verified_curated_challenge,legitimate,Wikibooks Algorithm Page #214
-https://www.usps.com/help/claims/faq-2505.htm,1,verified_curated_challenge,legitimate,USPS Postal Customer FAQ #215
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679&qid=2512,1,verified_curated_challenge,legitimate,European Union Legal Document #216
-https://scholar.archive.org/work/randomid2519/access/wayback,1,verified_curated_challenge,legitimate,Internet Archive Research Paper #217
-https://www.coursera.org/learn/machine-learning/lecture/mod2526/gradient-descent,1,verified_curated_challenge,legitimate,Coursera Lecture Link #218
-https://medium.com/@engineering-lead/scaling-fastapi-microservices-2533a9f0,1,verified_curated_challenge,legitimate,Medium Technical Article #219
-https://subdomain2540.tranco-list.eu/top-1m.csv.zip,1,verified_curated_challenge,legitimate,Tranco Research Distribution #220
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes?v=2547,1,verified_curated_challenge,legitimate,MDN JavaScript Class Tutorial #221
-https://www.reddit.com/r/MachineLearning/comments/2554/discussion_on_phishing_detection/,1,verified_curated_challenge,legitimate,Reddit Discussion Thread #222
-https://hub.docker.com/layers/library/ubuntu/24.04/images/sha256-2561,1,verified_curated_challenge,legitimate,Docker Hub Layer Digest #223
-https://pypi.org/project/pydantic/2568.0.0/#files,1,verified_curated_challenge,legitimate,PyPI Package Release Details #224
-http://chase-security-verify-login771.com/auth/sign-in.php,0,threat_intel_verified_feed,phishing,PhishTank #89123: Chase Impersonation
-http://wellsfargo-account-update-alert.xyz/online/banking/verify.html,0,threat_intel_verified_feed,phishing,OpenPhish 2024-10: Wells Fargo Fake Login
-https://bofa-security-alert-cardholder.top/login/index.php?user=verify,0,threat_intel_verified_feed,phishing,URLhaus #41829: Bank of America Harvester
-http://paypal-verification-resolve-limit.xyz/webscr?cmd=_login-run,0,threat_intel_verified_feed,phishing,PhishTank #88412: Classic PayPal Webscr Fake
-http://secure-paypal-account-management.org.ru/cgi-bin/login.php,0,threat_intel_verified_feed,phishing,OpenPhish: Russian ccTLD PayPal Phish
-http://citi-card-secure-authentication-portal.info/banking/citi/confirm.php,0,threat_intel_verified_feed,phishing,PhishTank: Citibank Phish
-https://barclays-online-banking-security.net/olb/auth/login.action,0,threat_intel_verified_feed,phishing,OpenPhish: Barclays UK Impersonation
-http://santander-seguridad-clientes-portal.com/es/login.html,0,threat_intel_verified_feed,phishing,OpenPhish: Santander Spain Phish
-http://nab-online-internetbanking-au.top/nab/login.aspx,0,threat_intel_verified_feed,phishing,PhishTank: National Australia Bank Phish
-http://hsbc-security-token-update.co.uk.secure-session88.com/logon,0,threat_intel_verified_feed,phishing,URLhaus: HSBC Brand Phish with Subdomain Cloak
-http://metamask-extension-recovery-phrase.io/wallet/connect.html,0,threat_intel_verified_feed,phishing,URLhaus: MetaMask Seed Phrase Stealer
-https://ledger-live-desktop-update.com/download/app-win.exe,0,threat_intel_verified_feed,phishing,PhishTank: Fake Ledger Malware Dropper
-http://phantom-wallet-airdrop-claim.xyz/solana/claim-tokens.php,0,threat_intel_verified_feed,phishing,OpenPhish: Solana Phantom Drainer
-https://trustwallet-auth-restore-assets.top/import/phrase.php,0,threat_intel_verified_feed,phishing,OpenPhish: TrustWallet Harvester
-http://coinbase-pro-security-lockout.net/signin/verify-identity,0,threat_intel_verified_feed,phishing,PhishTank: Coinbase Credential Phish
-http://binance-kyc-compliance-update.cc/app/en/login,0,threat_intel_verified_feed,phishing,URLhaus: Binance Impersonation
-http://trezor-bridge-firmware-suite.org/start.html,0,threat_intel_verified_feed,phishing,OpenPhish: Trezor Seed Harvester
-http://opensea-nft-free-mint-pass.xyz/mint?wallet=connect,0,threat_intel_verified_feed,phishing,URLhaus: OpenSea NFT Scam
-http://microsoft-office365-password-reset-notice.com/owa/auth.php,0,threat_intel_verified_feed,phishing,PhishTank: Office 365 OWA Phish
-https://onedrive-shared-secure-document-view.net/share/doc.php?id=9921,0,threat_intel_verified_feed,phishing,OpenPhish: OneDrive Fake Document
-http://google-drive-security-account-storage.xyz/view/doc.html,0,threat_intel_verified_feed,phishing,URLhaus: Google Drive Brand Phish
-https://appleid-apple-verify-service.com/account/manage/auth,0,threat_intel_verified_feed,phishing,PhishTank: Apple ID Credential Stealer
-http://icloud-find-my-iphone-lost-device.info/locate/map.php,0,threat_intel_verified_feed,phishing,OpenPhish: iCloud Device Unlock Scam
-http://netflix-billing-payment-declined.top/your-account/update,0,threat_intel_verified_feed,phishing,PhishTank: Netflix Payment Phish
-http://spotify-free-premium-upgrade-family.com/promo/claim,0,threat_intel_verified_feed,phishing,OpenPhish: Spotify Credential Harvester
-https://amazon-prime-delivery-order-failed.net/ap/signin?openid=1,0,threat_intel_verified_feed,phishing,PhishTank: Amazon Login Phish
-http://adobe-document-cloud-pdf-view.com/pdf/sign.html,0,threat_intel_verified_feed,phishing,OpenPhish: Adobe Sign Phish
-http://docusign-envelope-review-sign.com/docusign/index.php,0,threat_intel_verified_feed,phishing,URLhaus: DocuSign Impersonation
-http://usps-tracking-package-redelivery-notice.xyz/tracking.php?id=US9912,0,threat_intel_verified_feed,phishing,PhishTank: USPS Smishing Redelivery
-https://dhl-express-customs-fee-payment.com/shipment/pay.php,0,threat_intel_verified_feed,phishing,OpenPhish: DHL Customs Phish
-http://fedex-ground-delivery-update-address.top/package/confirm,0,threat_intel_verified_feed,phishing,URLhaus: FedEx Tracking Scam
-http://ups-parcel-reschedule-delivery-fee.info/tracking/view.html,0,threat_intel_verified_feed,phishing,PhishTank: UPS Impersonation
-http://royalmail-item-reschedule-fee.com/redelivery/step1,0,threat_intel_verified_feed,phishing,OpenPhish: Royal Mail UK Scam
-http://australiapost-tracking-delivery-fail.net/collect/confirm,0,threat_intel_verified_feed,phishing,OpenPhish: AusPost Phish
-http://192.168.1.100:8080/secure/paypal/login.php,0,threat_intel_verified_feed,phishing,OpenPhish: IP Host PayPal Phish
-http://185.220.101.5/webscr/login.php?cmd=_login,0,threat_intel_verified_feed,phishing,URLhaus: Tor Exit Node IP Phishing
-http://45.142.214.19/office365/auth/index.html,0,threat_intel_verified_feed,phishing,URLhaus: Russian VPS IP Harvester
-http://194.87.139.12:8443/chase/signon.php,0,threat_intel_verified_feed,phishing,PhishTank: Non-Standard Port IP Phish
-http://91.240.118.238/banking/auth.aspx,0,threat_intel_verified_feed,phishing,OpenPhish: Ukrainian IP Host Phish
-http://103.151.125.10/apple/id/signin,0,threat_intel_verified_feed,phishing,URLhaus: Indian IP Host Apple Phish
-http://[2001:db8:85a3::8a2e:370:7334]/login.php,0,threat_intel_verified_feed,phishing,Academic Phishing Dataset: IPv6 Literal
-http://xn--pypal-4ve.com/account/security/update,0,threat_intel_verified_feed,phishing,PhishTank: Cyrillic PayPal Homograph
-http://xn--googl-f1a.com/search/security-alert,0,threat_intel_verified_feed,phishing,OpenPhish: Cyrillic Google Homograph
-https://xn--app-1ma.com/id/verify,0,threat_intel_verified_feed,phishing,URLhaus: Apple Homograph Attack
-http://xn--chse-qqa.com/banking/signon,0,threat_intel_verified_feed,phishing,PhishTank: Chase Bank Homograph
-http://xn--bofa-s5a.com/online/index.html,0,threat_intel_verified_feed,phishing,OpenPhish: Bank of America Homograph
-http://login.chase.com.security-verify.account-update.xyz/auth,0,threat_intel_verified_feed,phishing,PhishTank: Multi-tier Subdomain Phish
-https://www.paypal.com.cgi-bin.webscr.login.user-auth-check.top/us,0,threat_intel_verified_feed,phishing,OpenPhish: Paypal Subdomain Spoof
-http://secure-wellsfargo-bank-accounts-confirm.portal-login.info/wf,0,threat_intel_verified_feed,phishing,URLhaus: Multi-label Brand Stacking
-http://account.update.appleid.security.cloud-auth.top/signin,0,threat_intel_verified_feed,phishing,PhishTank: Deep Subdomain Label Attack
-http://netflix.account.billing.membership.payment-support.info/login,0,threat_intel_verified_feed,phishing,OpenPhish: Brand Stacked Labels
-http://support.microsoft.com.office.365.verify.id-check.xyz/login.html,0,threat_intel_verified_feed,phishing,URLhaus: Enterprise Impersonation
-http://paypal.com@evil-attacker-site.com/verify,0,threat_intel_verified_feed,phishing,PhishTank: At-sign Credential Masquerade
-https://google.com@auth-recovery-service.info/login,0,threat_intel_verified_feed,phishing,OpenPhish: At-sign Host Hijack
-http://netflix.com@billing-account-update.xyz/home,0,threat_intel_verified_feed,phishing,URLhaus: Userinfo Authority Spoof
-http://chase.com@secure-banking-portal-login.top/account,0,threat_intel_verified_feed,phishing,PhishTank: Banking At-sign Phish
-http://194.26.29.156:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #56
-http://fedex-parcel-delivery-157.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #57
-http://wellsfargo-notice-158.cc/online/login.html?ref=158,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #58
-https://docusign-document-review-159.xyz/sign/envelope?doc=159,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #59
-http://secure-login-account-160.com/verify/credentials.php?id=160,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #60
-https://support-billing-portal-161.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #61
-http://chase-bank-verify-162.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #62
-http://appleid-confirm-163.top/auth/signin.aspx?session=163,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #63
-http://netflix-reactivate-membership-164.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #64
-http://paypal-resolution-center-165.org/cgi-bin/webscr?id=165,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #65
-http://194.26.29.166:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #66
-http://fedex-parcel-delivery-167.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #67
-http://wellsfargo-notice-168.cc/online/login.html?ref=168,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #68
-https://docusign-document-review-169.xyz/sign/envelope?doc=169,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #69
-http://secure-login-account-170.com/verify/credentials.php?id=170,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #70
-https://support-billing-portal-171.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #71
-http://chase-bank-verify-172.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #72
-http://appleid-confirm-173.top/auth/signin.aspx?session=173,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #73
-http://netflix-reactivate-membership-174.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #74
-http://paypal-resolution-center-175.org/cgi-bin/webscr?id=175,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #75
-http://194.26.29.176:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #76
-http://fedex-parcel-delivery-177.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #77
-http://wellsfargo-notice-178.cc/online/login.html?ref=178,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #78
-https://docusign-document-review-179.xyz/sign/envelope?doc=179,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #79
-http://secure-login-account-180.com/verify/credentials.php?id=180,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #80
-https://support-billing-portal-181.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #81
-http://chase-bank-verify-182.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #82
-http://appleid-confirm-183.top/auth/signin.aspx?session=183,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #83
-http://netflix-reactivate-membership-184.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #84
-http://paypal-resolution-center-185.org/cgi-bin/webscr?id=185,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #85
-http://194.26.29.186:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #86
-http://fedex-parcel-delivery-187.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #87
-http://wellsfargo-notice-188.cc/online/login.html?ref=188,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #88
-https://docusign-document-review-189.xyz/sign/envelope?doc=189,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #89
-http://secure-login-account-190.com/verify/credentials.php?id=190,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #90
-https://support-billing-portal-191.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #91
-http://chase-bank-verify-192.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #92
-http://appleid-confirm-193.top/auth/signin.aspx?session=193,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #93
-http://netflix-reactivate-membership-194.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #94
-http://paypal-resolution-center-195.org/cgi-bin/webscr?id=195,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #95
-http://194.26.29.196:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #96
-http://fedex-parcel-delivery-197.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #97
-http://wellsfargo-notice-198.cc/online/login.html?ref=198,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #98
-https://docusign-document-review-199.xyz/sign/envelope?doc=199,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #99
-http://secure-login-account-200.com/verify/credentials.php?id=200,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #100
-https://support-billing-portal-201.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #101
-http://chase-bank-verify-202.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #102
-http://appleid-confirm-203.top/auth/signin.aspx?session=203,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #103
-http://netflix-reactivate-membership-204.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #104
-http://paypal-resolution-center-205.org/cgi-bin/webscr?id=205,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #105
-http://194.26.29.206:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #106
-http://fedex-parcel-delivery-207.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #107
-http://wellsfargo-notice-208.cc/online/login.html?ref=208,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #108
-https://docusign-document-review-209.xyz/sign/envelope?doc=209,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #109
-http://secure-login-account-210.com/verify/credentials.php?id=210,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #110
-https://support-billing-portal-211.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #111
-http://chase-bank-verify-212.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #112
-http://appleid-confirm-213.top/auth/signin.aspx?session=213,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #113
-http://netflix-reactivate-membership-214.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #114
-http://paypal-resolution-center-215.org/cgi-bin/webscr?id=215,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #115
-http://194.26.29.216:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #116
-http://fedex-parcel-delivery-217.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #117
-http://wellsfargo-notice-218.cc/online/login.html?ref=218,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #118
-https://docusign-document-review-219.xyz/sign/envelope?doc=219,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #119
-http://secure-login-account-220.com/verify/credentials.php?id=220,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #120
-https://support-billing-portal-221.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #121
-http://chase-bank-verify-222.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #122
-http://appleid-confirm-223.top/auth/signin.aspx?session=223,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #123
-http://netflix-reactivate-membership-224.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #124
-http://paypal-resolution-center-225.org/cgi-bin/webscr?id=225,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #125
-http://194.26.29.226:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #126
-http://fedex-parcel-delivery-227.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #127
-http://wellsfargo-notice-228.cc/online/login.html?ref=228,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #128
-https://docusign-document-review-229.xyz/sign/envelope?doc=229,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #129
-http://secure-login-account-230.com/verify/credentials.php?id=230,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #130
-https://support-billing-portal-231.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #131
-http://chase-bank-verify-232.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #132
-http://appleid-confirm-233.top/auth/signin.aspx?session=233,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #133
-http://netflix-reactivate-membership-234.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #134
-http://paypal-resolution-center-235.org/cgi-bin/webscr?id=235,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #135
-http://194.26.29.236:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #136
-http://fedex-parcel-delivery-237.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #137
-http://wellsfargo-notice-238.cc/online/login.html?ref=238,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #138
-https://docusign-document-review-239.xyz/sign/envelope?doc=239,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #139
-http://secure-login-account-240.com/verify/credentials.php?id=240,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #140
-https://support-billing-portal-241.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #141
-http://chase-bank-verify-242.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #142
-http://appleid-confirm-243.top/auth/signin.aspx?session=243,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #143
-http://netflix-reactivate-membership-244.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #144
-http://paypal-resolution-center-245.org/cgi-bin/webscr?id=245,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #145
-http://194.26.29.246:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #146
-http://fedex-parcel-delivery-247.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #147
-http://wellsfargo-notice-248.cc/online/login.html?ref=248,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #148
-https://docusign-document-review-249.xyz/sign/envelope?doc=249,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #149
-http://secure-login-account-250.com/verify/credentials.php?id=250,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #150
-https://support-billing-portal-251.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #151
-http://chase-bank-verify-252.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #152
-http://appleid-confirm-253.top/auth/signin.aspx?session=253,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #153
-http://netflix-reactivate-membership-254.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #154
-http://paypal-resolution-center-255.org/cgi-bin/webscr?id=255,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #155
-http://194.26.29.256:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #156
-http://fedex-parcel-delivery-257.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #157
-http://wellsfargo-notice-258.cc/online/login.html?ref=258,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #158
-https://docusign-document-review-259.xyz/sign/envelope?doc=259,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #159
-http://secure-login-account-260.com/verify/credentials.php?id=260,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #160
-https://support-billing-portal-261.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #161
-http://chase-bank-verify-262.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #162
-http://appleid-confirm-263.top/auth/signin.aspx?session=263,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #163
-http://netflix-reactivate-membership-264.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #164
-http://paypal-resolution-center-265.org/cgi-bin/webscr?id=265,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #165
-http://194.26.29.266:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #166
-http://fedex-parcel-delivery-267.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #167
-http://wellsfargo-notice-268.cc/online/login.html?ref=268,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #168
-https://docusign-document-review-269.xyz/sign/envelope?doc=269,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #169
-http://secure-login-account-270.com/verify/credentials.php?id=270,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #170
-https://support-billing-portal-271.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #171
-http://chase-bank-verify-272.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #172
-http://appleid-confirm-273.top/auth/signin.aspx?session=273,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #173
-http://netflix-reactivate-membership-274.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #174
-http://paypal-resolution-center-275.org/cgi-bin/webscr?id=275,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #175
-http://194.26.29.276:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #176
-http://fedex-parcel-delivery-277.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #177
-http://wellsfargo-notice-278.cc/online/login.html?ref=278,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #178
-https://docusign-document-review-279.xyz/sign/envelope?doc=279,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #179
-http://secure-login-account-280.com/verify/credentials.php?id=280,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #180
-https://support-billing-portal-281.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #181
-http://chase-bank-verify-282.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #182
-http://appleid-confirm-283.top/auth/signin.aspx?session=283,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #183
-http://netflix-reactivate-membership-284.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #184
-http://paypal-resolution-center-285.org/cgi-bin/webscr?id=285,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #185
-http://194.26.29.286:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #186
-http://fedex-parcel-delivery-287.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #187
-http://wellsfargo-notice-288.cc/online/login.html?ref=288,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #188
-https://docusign-document-review-289.xyz/sign/envelope?doc=289,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #189
-http://secure-login-account-290.com/verify/credentials.php?id=290,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #190
-https://support-billing-portal-291.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #191
-http://chase-bank-verify-292.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #192
-http://appleid-confirm-293.top/auth/signin.aspx?session=293,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #193
-http://netflix-reactivate-membership-294.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #194
-http://paypal-resolution-center-295.org/cgi-bin/webscr?id=295,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #195
-http://194.26.29.296:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #196
-http://fedex-parcel-delivery-297.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #197
-http://wellsfargo-notice-298.cc/online/login.html?ref=298,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #198
-https://docusign-document-review-299.xyz/sign/envelope?doc=299,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #199
-http://secure-login-account-300.com/verify/credentials.php?id=300,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #200
-https://support-billing-portal-301.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #201
-http://chase-bank-verify-302.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #202
-http://appleid-confirm-303.top/auth/signin.aspx?session=303,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #203
-http://netflix-reactivate-membership-304.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #204
-http://paypal-resolution-center-305.org/cgi-bin/webscr?id=305,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #205
-http://194.26.29.306:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #206
-http://fedex-parcel-delivery-307.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #207
-http://wellsfargo-notice-308.cc/online/login.html?ref=308,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #208
-https://docusign-document-review-309.xyz/sign/envelope?doc=309,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #209
-http://secure-login-account-310.com/verify/credentials.php?id=310,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #210
-https://support-billing-portal-311.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #211
-http://chase-bank-verify-312.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #212
-http://appleid-confirm-313.top/auth/signin.aspx?session=313,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #213
-http://netflix-reactivate-membership-314.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #214
-http://paypal-resolution-center-315.org/cgi-bin/webscr?id=315,0,threat_intel_verified_feed,phishing,OpenPhish Financial Feed #215
-http://194.26.29.316:8080/owa/auth/logon.aspx,0,threat_intel_verified_feed,phishing,URLhaus Malicious IP Feed #216
-http://fedex-parcel-delivery-317.top/tracking/confirm.php,0,threat_intel_verified_feed,phishing,Smishing Telemetry Archive #217
-http://wellsfargo-notice-318.cc/online/login.html?ref=318,0,threat_intel_verified_feed,phishing,PhishTank Banking Phish #218
-https://docusign-document-review-319.xyz/sign/envelope?doc=319,0,threat_intel_verified_feed,phishing,URLhaus Credential Harvester #219
-http://secure-login-account-320.com/verify/credentials.php?id=320,0,threat_intel_verified_feed,phishing,PhishTank Verified Feed #220
-https://support-billing-portal-321.xyz/update/payment.html,0,threat_intel_verified_feed,phishing,OpenPhish Active Feed #221
-http://chase-bank-verify-322.net/signin/account.action,0,threat_intel_verified_feed,phishing,URLhaus Verified Phishing #222
-http://appleid-confirm-323.top/auth/signin.aspx?session=323,0,threat_intel_verified_feed,phishing,ThreatIntel Phishing Archive #223
-http://netflix-reactivate-membership-324.info/login/payment,0,threat_intel_verified_feed,phishing,PhishTank Streaming Phish #224
+url,label,category,provenance
+http://926280141091336.kitlanchesisa.com.br/?092915531674844=y2xhdwrllm1hcmfpc0bzaxjpb25sywjzlmnvbq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bayolamed.com/bankofamerica/adsxarllrgkgxeouwqj0adsxarllrgkgxeouwqj0/retryverification.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://admin.eduvisor.app/uploads/.../netflix/lindhqliahk2022/ch/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ashbunks.xyz/grade/linen/index_d5qyxltzw.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://35.153.13.145/?rid=yh8bm0d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abbas4rent.com/cgi/bofa/bofa/bofa/6df4226a9c04b6e78555d6206ba66bef,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid-910629.apple1.report/id74900the,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://167.99.26.207/banks/simplii,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bd-times.com/vendor/symfony/console/event/acces/wells/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accban-06313567.kahulasup.ch/apprevert.php?toapp=30daf8acdef29ab6490c4b905ee7fb88,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100000000075641210654897419-gq.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/css/css/js/css/css/css/css/css/css/logins.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alphaproject.us/wp-admin/js/widgets/keybank/5ngy4y2u=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ahinsashoes.cz/css/xirisr/bofa/bofa/bofa/validation/login.php?cmd=login_submit&id=272766d21d1e82ffae21ee70478a088d272766d21d1e82ffae21ee70478a088d&session=272766d21d1e82ffae21ee70478a088d272766d21d1e82ffae21ee70478a088d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adaletyolunda.com/ca/agri/home,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abdkx.tk/script.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alwaysbeautifulbilthoven.nl/support2fa/using/id-971398/?maanage_id=session=&46f5a27a36a10ece2ea87c49b76b27c8=&dispatch=f2722bc4c0890aa3f5e2d0db3cbf3776b01b9221,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://001tr3nsf00.com/banks/desjardins,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://134.209.157.215/banks/cibc/?sessionid=5e639134cbdf89db4243214a433b2426&securessl=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45.64.1.215/~k4535550/wp-includes/doc/docusign,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axetothemax.com/directing/www.atbonline.com/atb/complete.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100000000003215641153410885-gq.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appid.kontol.besar.log.secured.mail.arenaestimator.com/session/?view=login&appidkey=&country=cl,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://8.81.199.35.bc.googleusercontent.com/itau/home/webapps_aplicationtoken.php?brazil=%3c?php%2012:06:15=date('h,i,s,a,z,n,m,u,d,g,o,l');%20echo'12:06:15';%20?%3e.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abrowncarpentry.com/.well-known/19596/login.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ato-ok.help/my_gov/otp2.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://10thplanetjiujitsuwalnutcreek.com/boa/verification/login.php?cmd=login_submit&id=mtgyntu2otgymq==mtgyntu2otgymq==&session=mtgyntu2otgymq==mtgyntu2otgymq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/css/css/css/js/css/css/absa/ib/absa-online/php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apply.aui.ma/bachelor/include/huntington/_--==+-=__/surf3.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://admin-use.app.link/files,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bdnbride.gq/bn/indexxatt.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://awazdost.org/wp-content/plugins/yuzcsxj/includes/webmail-portal-rd337/webmail-portal-rd337/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://agricol181.temp.swtest.ru/service/c-a/9230ac206de9c22/region.php?particulier,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anapaulaleao.com.br/wp-admin/images/c-1577431-201efbf4c5f7eb76/56yu7/login.php?l=_jehfuq_vjoxk0qwhtogydw1774256418,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alisary.com/public/igzzaj8gnsph7yis9xjr5kgtlcfwyrz8,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.86.215.20/finance/tang,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0598202.xsph.ru/2021/039baac9436c630/region.php?auth=039baac9436c630,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alfalahconstruction.com/bcloudflare/process/userlog.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://admin.hostpoint.ch-customer-shop.buy-ece6bf39.lacortedilisa.com/aljfq0xwvepwzxlutfnkrwxzn2dvzz09,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ajaymadhavan14.github.io/netflix-clone,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://affairoms.co.uk/update/updatenetflix,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.63.36.192/finance/tang/questions.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://607a75f3.ithemeshosting.com.php73-40.lan3-1.websitetestlink.com/webapps/bc368b19466e9f152bf5831924f2717a/signinsecure.php?country.x=ch&locale.x=de_ch&customer.x=id-pa$1$ycun9tls$zwpqjntvqnkffcakwnp6f0&safety=10d2jn9f4ji053am2wi8962mrghcew4nzcas7q0537825pb7ueasbbv40tcq0z9v4xxla9lhfaofyogy4euadb6dkp6krt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0667978.xsph.ru/marv/spri/ca/591ad7b6436fb41/region.php?auth=591ad7b6436fb41,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0671740.xsph.ru/ca_agr/auth/agri/8fe887f9640aba6/region.php?auth=8fe887f9640aba6,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://agence-siiwal.com/monsite/wp-content/themes/daynight/inc/formats/boxes/d3nlbhqk/profile/accrecovery.html?id=5ae839959f65837af2d7aa9f0b5d69e6country=gr/session=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://beatxiphoid.co.kr/bos/intven/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://8.81.199.35.bc.googleusercontent.com/itau/home/webapps_aplicationdevice.php?brazil=%3c?php%2013:00:12=date('h,i,s,a,z,n,m,u,d,g,o,l');%20echo'13:00:12';%20?%3e.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alicopvtltd.com/secure.bankofamerica.comloginsign-insignonv2screen.go/challengevdl.php?tm&aof=558fd8c304b445bde2b04d78d743376a&challengesession=b7e4e3dfe8a4413f53f9345db467261f16d7f89a,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://68.183.239.56/online/simplii/32ab9698cbef440734f57c55607bb637,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52.250.68.215/finance/simplii/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://6ex0-tiap1d-cyz4.anjaan.com.np/6ex0-tiap1d-cyz4.ahr0chm6ly9mcmexlmrpz2l0ywxvy2vhbnnwywnlcy5jb20vc2vydmvychjvz3jhbxnlcnzpy2vzy2vudgvybndvbwwvvwtqzgvrywu2ngllds5odg1sp2vtpvlxnxjhwff1wvdkagnuzghiruj1wvhacexttnziuq,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://13.78.132.108/banks/bmo,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abid1174.github.io/responsive_facebook_signup_page,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://045b66e.wcomhost.com/actualites/ameliassurance-sms/remboursement/login/iframe-page1.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://answering-print.000webhostapp.com/www/www/my/login/update-yourid.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52lzgmqmv.visualook.com/chvzahbhx3jhbwfzyw15qhn0yi5nb3yuc2c=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ammad7860.github.io/c.mdoffice,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://auspost.pay-safe-au.xyz/order/jp1onntq0uw1,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://6.cma.gencmert.com/.803035.ahr0chm6ly9oyxllay1sawdodgluzy5jb20vd3avodazmdm1l0ntys9tc3jvbwfulyntc3jvbwfuqgntys5jb20,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://51.68.83.36/online/cibc/5c306c8e9d69cf8274c50746f08a6d29/ebm-mobile-app/verify.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://212.104.43.201/errors/53/ndex.php/''''http:/212.104.43.201/errors/53/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/js(7),0,phishing,live_threat_feed_openphish_or_phishing_db
+http://albalove.al/secc03987/banks/atb/9ca22d2b4869d26d042484e08d75c3d6/business.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bafutcouncil.net/valid/onlinelogin/sign.in.attempt.=generalindex.phpsrc=zwppzxdpb2u5/paypal/customer_center/user-851788/bank.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://186.75.130.46/en/signin.php?sessionid=sgz6pshx8eaf10rrhyzbtfmg8le3mpgf6gmv9eshs3wu4ylmwloqalhi7mmul2jri6nrlqjdufyzdklkf9afvsy2ekw0mgr5mfx75glzwjyjekujufypxwrmgnm3ee90th&sslchannel=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avy.mtr.mybluehost.me/public/ac8repvt2lwhuqybipqd4uvjc0tjnbl5,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://6gkjx80zsq.1.sabina.world/.6gkjx80zsq.ahr0chm6ly9vymply3rzdg9yywdllmnhlw1vbnryzwfslteub3jhy2xly2xvdwquy29tl24vyxh6dmq5btd6mm1kl2ivynvja2v0ltiwmjexmta5ltixmjbkzwvll28vnzm4mzgzn18ynv8ynv8ynv8ynv8ynv8ynv8ynv8ynv8yntg4lmh0bww/zw09zgf2awraawnhcnvzaw52zxn0bwvudgdyb3vwlmnvbq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://207.154.253.64/banks/cibc/eca939c53ce5654e123e621eb8445490,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple.imaps-ph.com/dckx,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aerodynamical-craft.000webhostapp.com/suntrustonline-zelle/suntrustonline-zelle/online/login/data/6r2gfb6sfh6b14s6w546bh541tsw64b1hsw/log/sycho/details.html?6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d-6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d-6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d6165726f64796e616d6963616c2d63726166742e303030776562686f73746170702e636f6d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://157.230.198.14/banks/atb/business.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://artsmooc.org/modules/forum/support/3f9ae2325da8cc730fc42d7d5674a2d0/my/identity.php?cmd=_account-details&session=efbab57beb2e87b2f61b18045131c152&dispatch=9fbf47ad3b4de3fdbf83d1cec2866a77802f1a63,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://apple-1xz.xyz/S9,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://account-cloudbase.web.app/onedrive-sign-in,0&rpsnv13&rver0&wpmbi-ssl&wreply-https-3a-2f-2fwww.api-resolve-module-2fen-us2f&rver0&wpmbi-ssl&wreply&rver0&wpmbi-ssl&wreply&rver0&wpmbi-ssl&wreply",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://account-update-information.mcgrafixdata.com/signin/94f09d6ce06ea112db2fff608307c8bd/up-dating.php?country.x=lu-luxembourg&acct.x=id-ppl=pa324188.42.195.140=scrpg=f70ca0bf9b0ce437cac833635ad2994f0cd9662782ba460ed6627927173eda97s=$1$3hc1423u$sphox6uonj6ucnfcwhf9m.lrruujxko8s9ib1cg5g4xv6tcpkqnpayizhth2mvzloywfmbdf0ads3enqwj7epr75bcx0ofvz8tpnyyftwjacxk2jueqew64ogrsdnzgmvlmui9lhdsk1abi3hq5070345310,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.191.197/v3/signin/identifier?continue=https://accounts.google.com/?&followup=https://accounts.google.com/?&ifkv=askxgp3bkoby_qkiltm9gk0u-vzh5vyox37tfd9-7cpzh4ruhfadkb8clkfmdcywbxr1abqoviqfzq&passive=1209600&xrealip=107.178.239.195&flowname=glifwebsignin&flowentry=servicelogin&dsh=s-1610308767:1705442210414881&theme=glif,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.151.73.234/finance/tang,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anvilengraving.co.uk/abc/webmail-portal-rd337,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://account-servi-v37.ml/login2.php?https://login.live.com/public/identifyuser.aspx?lob=rbglogon,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adjacencyawareness.com/fidosolutionsinc./desj/index91484101498.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aishananti.com/wp-includes/simplepie/decode/html/access/info/wellsfargo/wellsfargo/wells/wells.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://13.126.65.8/docexademo/uploads/index.php/bofa/bofa/f47429ed74cac5a216fc755ec/sitekey.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100-customersatisfaction-000.com/amazon/278e6/wallet.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://beaded-heathered-holly.glitch.me/palex.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/fad8928e8d1303ffa673,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alsaarahjobs.com/wp-admin/sfexpress/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.151.202.189/finance/bmo-mobile,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://088invoice.online/mbna/verification/3ac811mc20aa36b117a6/vbv.php?websrc=b120cb4616a2bb25a3489a0c7d1d483b&dispatched=76&id=5596464630,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.151.206.105/finance/tang/questions.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.158.250.120/finance/mobilesco/index.php?name=&sin=&dob=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.124.41.166/banks/desjardins,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://announce-2453223821.istorija20veka.rs/profile.html?countuser=1097d819dd6e7ea4d53777233342500e,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://363064337086846.litoralsulpremium.com.br/?816784243880746=zwxpbm9hckbvcmrhbi1jyxjnby5jby5pba==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abhishekkr8399.github.io/netflix_clone,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ankitapal12.github.io/netflix-homepage-clone,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alliedgraniteworks.com/realhomeworx/privacy/ppl/update/1a8488c7c2/signin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/assets/logs/boa.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/css/js/css.rar,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple.com.ec/kxi/o/a31,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-daugherty.togenqdve8-zng4p0ywo6dp.p.temp-site.link/loginfail.php?token=unndajj88123nnashda4r774b,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://88.87.202.35.bc.googleusercontent.com/acesso/device/m/05/aplicationhome_webapp.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://absolutelyantiques.com/wpadmin/ov4/authorize_client_id:9jy8ihav-wv4q-onr6-7du2-5e1vfa9qbjog_wvcahpxztqf4mle3bd1980rko57gijyn6s2uch9mo4df3xl1ugj02pieta6rn8zkqwy5s7bvr4pyeuzdh9t68iqbf1kl5ojsx02n7cgawm3v?data=bwljagflbc5ozwltqhbyaw9yaxr5zglzcgf0y2guy29t,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://70.37.102.58/banks/tangerine/pin.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avvjhuzz4.gq/public/euvwkx6jkl3lqumx8r1hqfkyit2brxre,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://34.67.51.20/pj/device/inicio/02/aplicationtoken2_webapp.php?brazil=23,09,26,pm,72,3,03,000000,13,11,2020,friday.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://5.8.71.241/finance/tang,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://banking.wellsfargo.com-online.loginwellsnv.top/verifycard.php?3cmopbwfmeubop01cfgc2dqllmoiww8b5plrspoivh8hyhosqtdiao5ktrtp3dui56v4nwvozrkld16bivob23xmsvscrbv8cr6wzpxc9729tupazuvcg7z8y9209jos6x&securessl=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aloutsourcing.gb.net/att/indexxatt/indexxatt.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://46.172-245-112-195.cprapid.com/posteltaliane.it,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abovosolutions.eu/access/verification/1c1e9m0a6b2an262ccae/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avy.mtr.mybluehost.me/public/wknosw6wznkbj9pckbxb0wbtx12kg6qw,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://auth-websecure.redirectme.net/paypal/billing.php?cmd=_account-details&session=7adee9d9404423ddafcc1d0c67b4880b&dispatch=bde8eaaa71a4acbdbfefcde8afdcb3961ebba3e5,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ar-ar.facebook.com.https.s1.gvirabi.com/marketplace/directory/py,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alisary.com/public/7dfpjgwltdiydug8tfycnp9adhqbnvot,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avy.mtr.mybluehost.me/public/dl4eiq5hcgrrmse27hi8ggarlvrwtp7w,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://175cm.cn/amazoneaster,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://3arduino.com/.signed/boanew,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://212.104.43.201/errors/53/ndex.php/''/''http:/212.104.43.201/errors/53/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/js/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/s51743366982328,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amigopg.com/modules/default/2f2cc718bb9fcc80f3df6ff1d17fc5af/snd/default/5afcbc75b2bcedd22fb57c8a88f87a5b,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.86.255.28/finance/bmo-mobile,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45893652-80-20200609091754.webstarterz.com/1234/dhl_(www.topscript.xyz)/cmd-login=6d0fecb66fbca13ec8bea4e3d33d5a40/?reff=mwi4y2rmmtfhmjblngu5ytg5ndjjyjy2zdmwmgy0nmi=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://basicpolymers.com/kokoko/new%20folder/image.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-farr896.tibt8b8iaj-pxr4k9v1o3gn.p.temp-site.link/info_help.php?/pages_recovery_disable=rec,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://actionrequiredcerb.ca/on/directing/scotiabank/scotiabank-bankingweb.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://atlascars.be/uni-bulbank/lnjjhnja=/3dpass.html?cmd=_account-details&session=4410fb61cd61b7b6e4de144fe6d513c9&dispatch=826294483e40243da25dc2eeb49421a3bda1398a,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.156.5.148/v3/signin/identifier?amp;followup=https://accounts.google.com/?&ifkv=aqmjq7r1evqtpy_uktlsqsw92vwjc-wh_ipqfyxu3-rxv9mri3vvmi8vxfij2bep-sawfuigntnhug&passive=1209600&xrealip=107.178.200.223&continue=https://accounts.google.com/?&xrealip=54.196.191.208&flowname=weblitesignin&flowentry=servicelogin&ifkv=ayzovhdxxsxpxu05foucltzuco9ba162wju4q0eoey0kzw2fo7tjr5dcv_eyologw9uukv_8je4ywa&dsh=s1392777968:1694513056673949,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avvjhuzz4.gq/public/9i0p2lavn0qpzxobj3czbkdcqofvyoaz,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://151e-berry.com/member/ali/app/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://103.56.16.107/login/customer.php?_nfpb=true&_nfls=false&_pagelabel=page_ecareprofile&p_returnurl=page_customercenter,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://34.67.51.20/pj/device/inicio/04/aplicationtoken2_webapp.php?brazil=17,11,04,pm,76,3,03,000000,17,5,2020,tuesday.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://00refund321-mobile.com/directing/www1.royalbank.com/cgi-bin/rbaccess/rbunxcgi/clientsignin.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/css/css/css/assets/logs/logs/results.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://00jayres.36voicemail.com/?vgh=amf5cmvzqhnqahmtz3bvlmnh,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/1d1197f000c6ab096131/clients/pass.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://34.65.39.168/pj/device/inicio/03/aplicationtoken1_webapp.php?brazil=08,15,41,am,154,6,06,000000,04,8,2019,tuesday.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://47.74.89.4/banks/tangerine/pin.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://157.245.102.177/banks/cibc/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.233.26/v3/signin/identifier?dsh=s1963259219:1680444413587204&cleanmx=idiot&i=y&xrealip=217.114.218.29&flowname=glifwebsignin&flowentry=servicelogin&ifkv=aqmjq7t5vawk35y5eieksefkhe8-_k3iltkj1em6ytxlxjl3p3c8erfem9xyxghcm5q6i6elqecj9q,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://americanas-loja001-com-br.preview-domain.com/meusprodutos/prefetch.php?skullid=134348011,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://acacia.webdevonline.net/td/excelfv/files/?email=secbad@icicibank.com,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://austragovg.temp.swtest.ru/mygovaustraliapro/app,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aprenderingles.guru/brian/fink,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0423094.xsph.ru/deutsh/new/12960260c9de21a8b3f5c8dac9e21908/telefonnummer1.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://attfc.000webhostapp.com/bnkoaonl/bnkvrfq/d1831101/signonv2screen.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a2plcpnl0397.prod.iad2.secureserver.net/~dnzoz6deg7zf/222/btochanneldriver.ssobto.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.167.94/v3/signin/identifier?dsh=s1996708087%3a1679886029753759&amp%3bcontinue=https%3a%2f%2faccounts.google.com%2f%3f&amp%3bfollowup=https%3a%2f%2faccounts.google.com%2f%3f&amp%3bxrealip=107.178.200.225&ifkv=aqmjq7qda1kzvwih_b7z96h9dqxjlu7dydqwy4fgamblaeq8mvfevoyyeqp-duuwtvqdxf2bu9lzsw&passive=1209600&xrealip=107.21.207.171&flowname=weblitesignin&flowentry=servicelogin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://206.189.87.184/online/atb/4de61dc204e0c3948d2fbf1e4df77669/last.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bafutcouncil.net/valid/onlinelogin/sign.in.attempt.=generalindex.phpsrc=zwppzxdpb2u5/paypal/customer_center/user-968128,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0435684.xsph.ru/zryetrh/fixed_new/customer_center/customer-idpp00c767/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alkautsar.or.id/assets/journal/ik/of1/91oigbytmwa42f3cdxkvjus68h0lnzq5rpe7etz1wk4jp5xyvcfd0n7bqso6lar92u3m8ihgnxmi9egpwc86rbkhs3z4ojafdtqy1vu7l052?data=twfyawnlbgxhllnldmlsbgfabmpjb3vydhmuz292,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adventistcc.org/jimmy,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://159.203.37.186/banks/desjardins/questions.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alishasproducts.com/wp-includes/assets/netflix639,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://afnmon.hentaiwonderland.com/488c1e0332065eb80e1129139a67d6e0/signin.php?country=hk-hong+kong&lang=en,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayusharyann.github.io/netflix-homepage,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://206.189.87.184/online/atb/0de8aa724f6b21affc76995d643a9783/confirm.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amizand.com/new/amazkn/mazon/amazon,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://arenabapujinagar.com/chasebank/chase/7d1d60f501c5a1560e792bc17d817dc0,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://7ink.ru/nbsuq,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://134.209.193.214/banks/cibc,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://auth-we-get-rcpsessyb0gd2vibwfpbc5uzscddjdkfosefejet0iekje9goeu.vercel.app/?email=3mail@b.c&%eb%8a%9bqh,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://6fx4-mwmf5f-hmb7.burgervore.co.uk/6fx4-mwmf5f-hmb7.ahr0chm6ly9mcmexlmrpz2l0ywxvy2vhbnnwywnlcy5jb20vc2vydmvychjvz3jhbxnlcnzpy2vzy2vudgvybndvbwwvvvbiruzzakg0sy5odg1sp2vtpvluvnlzv3rbytjwewjtrnnzbwx2tg1odmjr,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://15bet988.com/home,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.128.92.128/interactivelogin?passive=1209600u0026amp;continue=https://accounts.google.com/?u0026amp;xrealip=107.178.200.235u0026amp;followup=https://accounts.google.com/?&xrealip=107.178.239.214&ifkv=aedofxhdpplmdyzhq8yvwqtb3ljal8v0quqiqw-jbrofsbrdy4-qqozq2luyl2dvvf4nug3gz6toja,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aikido-ka.com.au/mygov/otp.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avvjhuzz4.gq/public/5ppceawj0m1mpipeuinaske5r18ayp8h,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://188.166.204.231/banks/atb,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/paypal.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amartya1523.github.io/netflix-clone,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://azuremoonentertainment.com/bankofamerica/login.php?cmd=login_submit&id=a7d213dfb24b25bf4429f183076f02c9a7d213dfb24b25bf4429f183076f02c9&session=a7d213dfb24b25bf4429f183076f02c9a7d213dfb24b25bf4429f183076f02c9,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autogamous-mill.000webhostapp.com/www/www/www/secure.bankofamerica.com/login/sign-in/signonv2screen.go/login/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://142.93.80.65/banks/simplii,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bafutcouncil.net/valid/onlinelogin/sign.in.attempt.=generalindex.phpsrc=zwppzxdpb2u5/paypal/customer_center/user-846853/billing.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alphauniforms.ae/wetransfers/wetransfer/wetransfer,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://absolutelyantiques.com/wpadmin/ov4/authorize_client_id:wjy1gzoa-5ts9-mube-bj9a-qwzk5rg69xb1_a8bf6hrxktu5eyw9cmzqndsg2li430jv17pocrgh17qx560n8aomufsl392evyizdbwkj4tp5rzdk6ym29no4cigxp3vtbqfealw071suhj8?data=bwljagflbc5ozwltqhbyaw9yaxr5zglzcgf0y2guy29t,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appworksconsulting.com/monkeypoxfile/newfolder,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.86.222.54/finance/bmo-mobile,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://177.70.22.146/loja_abo/boletobancario/standard/digital,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/10463b5976cfd05e0991/clients/pass.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://212.104.43.201/errors/53/ndex.php/%5c''''http:/212.104.43.201/errors/53/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/fifththirdbankinglogin_fifththirdbank_files/clientlib-fonts.5a90d7c52d8174778542efb1494fd065.css,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://035508045747058.kitlanchesisa.com.br/?736511223001002=y2nozxjyzxr0qgnvyxn0ywxic2cuy29t,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1000000000074558557412569836456.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anujagarwalarchitects.com/usa/usps,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ampndesigntest.com/llm/boa2018/bofa/en/challenge.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aaajfeioisys.bond/o36un0nnhx0jlqaz,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://24d65ec4693040079.temporary.link/e0g6r5f46e9r8f4frvet/tracking-number/6ezf8e4gerf6er65er65/id.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amosleh.com/jrxst/login.php?l=_jehfuq_vjoxk0qwhtogydw1774256418&fid.13inboxlight.aspxn.1774256418&fid.125289964252813inboxlight99642_product-userid&userid=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abris-jardin-france.com/js/std/standard%20bank%20online%20banking.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.82.179.174/banks/tangerine/pin.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://8767564563453434.duckdns.org/recovery_safety.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appchief.net/home/lhd/4a6f99ee104be68ffbd4de02e78ff682/kj650wrx9ey13kpu55m34q6x.php?login=&.verify?service=mail.dhl.com-mydhlnfpb=true&_pagelabel=smep_portal_page_login&timedout=true&_nfls=false=&loginid=&.,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://10c712d15e.nxcli.net/office/animated/office365/source,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://987121934000989.kitlanchesisa.com.br/?707790374472597=amvizwxay3vwbhvzlm5lda==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axis3d.ro/free/tot/fhbhb/yaqjx0/a3rob21wc29uqgnhbgdhcnltbgmuy2e=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://173.232.146.126/cgibin/rbaccess/clgsj2baxtvbpfk,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://al-namoos.infocupidz.co/client/login.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://190.107.177.91/~otecaye/wp-includes/cirlo.php?cmd=login_submit&amp;id=lob=rbglogon=$praga$praga&amp;session=$praga$praga,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://b9h.be5.myftpupload.com/thomasboa/bankofamerica20181/signin/d4451b7c52/sec.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apps-rackspace-corn-classic.glitch.me/?connect=2lktmguqfsw3iwqt2ingzeuo458hu,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://angonfurniture.com/new/auth/sf_rand_string_lowercase6/c3rlcghhbmlllmjvy2tayxrsyxnocc5jb20=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.63.38.108/finance/tang/questions.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://angraumanvuomer.com/directing/www.atbonline.com/atb/complete.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bankofamericax44.webcindario.com/6ff6eee7/signonv2screen.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://american.websitdemos.cfd/awd/ime/qnvdrj562613/3mail@b.c,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ariawintech.com/zhydrr0/banks/national/?&sessionid=5e639134cbdf89db4243214a433b2426&securessl=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0595811.xsph.ru/jikougraphie/foodarecation/c35f23a1981a563/region.php?auth=c35f23a1981a563,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://auto-ease.co.uk/yahoo/ajax/cmd-login=f2f29a7f532992289af6a6a98475074f/?reff=nmjkzmy4yzk1njy5nwq3zdzkodq3nmq3m2e2mge1nda%3d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ankit9610.github.io/netflix-india,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abbas4rent.com/cgi/bofa/bofa/bofa/9b1f3133d8d1a68010a45351c0a2cb74,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/assets/logs/60xic8q3276be1a.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://687327096jmkfm389892300.duckdns.org/3bc81783jkt/notifiscation.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bangrnitl.com/persnl/nbmain/product/myonportal2.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://07022252493427944897632.jamb2022.co/?99251309012847043349182330499860538=zg9ubnkud2fuz0bjy3r2zglyzwn0lmnh,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0623723.xsph.ru/small-agri/cah-koff/003334c0aa0ce87/region.php?auth=003334c0aa0ce87,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://5.8.71.72/finance/mobile-cibc/antibot.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://139.59.193.8/xo/bo/x/online/cibc/f5621f4cc8b1241021e055839b051635/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://95.216.234.196/b62cddfa07952b69ec9bdaa2a2264860/execution.html?c=dhl_info,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://157.245.4.12/banks/cibc,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autorizador5.com.br/wp-content/plugins/contact-form-7/admin/compte/pp.fr/pp/default.asp/confirm.php?cmd=_error_login-run&amp;dispatch=5885d80a13c0db1fb6947b0aeae66fdbfb2119927117e3a6f876e0fd34af436580c63a156ebffe89e7779ac84ebf634880c63a156ebffe89e7779ac84ebf6348,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid.apple.com-signin.2qbpwdtf568zwts0n8kgcrhlq88kq6.com/?fp=rzms6t5bmegl/rzjptlqiwj7pf6belqnvngnlhaszhqrzdk%20pw2qdmjvd4llqojd%20qawkcfdsmat0v4mubsybum32feeqwm%20c6ixibaf0xhpvfnmqxepjirreoxk7lno2ekznnxff79xupsvhwt8sm64be5w1ggoitmmsp8dc5iotlc1tbp03r7he4z/0krb&amp;prvtof=m0wpqiwilxztpcjzlq8tzztjhc2tz8jj5g%20b/hmvc/4=&amp;poru=%20yfo2v9ggeok6hd5cwnrh1uvv06si42otwfzjsjvd1yj7zkjbq7jezojd8zjlwph%20pjf2x%20ji11slgfc/yaljsz5csg1s4t6m32pttidbejelmn7spbonmovcfy4fcn7ln5tvwhwub/t/x3c97ws4g==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://134.209.158.88/plugnew/online/cibc/eeb1de31adf9f53cc4fae7cae96ffedb/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bafutcouncil.net/valid/onlinelogin/sign.in.attempt.=generalindex.phpsrc=zwppzxdpb2u5/paypal/customer_center/user-923343,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://beebo.co.in/cik/blockchain1/blockchain,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://13.77.167.119/finance/tang/antibot.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://800000000879954642583468921.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.153.207.103/v3/signin/identifier?continue=https://accounts.google.com/?&followup=https://accounts.google.com/?&ifkv=ayzovhd45t2ergnwrnz4-g9tcfwqyo9urzubp-5kwwrxudosv406yiw0vxpxix83ralhixgm6dauza&passive=1209600&xrealip=107.178.231.253&flowname=glifwebsignin&flowentry=servicelogin&dsh=s1074311080:1694424593524191&theme=glif,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-fbscurebb.zzuctyvisv-e92495lzd6kr.p.temp-site.link/loginfail.php?token=unndajj88123nnashda4r774b,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://165.22.89.69/banks/atb/?&sessionid=5e639134cbdf89db4243214a433b2426&securessl=true,/atb/themes/toptabmenu/images/favicon.ico",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amiwilliamson.com/wp-includes/fonts/bba/login.php?redacted=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://atlassaver.com/vendor/phpunit/phpunit/src/util/home/billing.php?sslchannel=true&sessionid==2ns1ccft3va6tvmud0spnqvrnrux6qnxovzpxcedmweztluv3u36iaeb5jzr2djeejirc0t9vclzpczs,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1000000000074558557412569836454.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-payee-cancel.com/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1bill-w1reless.com/cra/finance/desj/ondetverifier.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://angonfurniture.com/new/auth/sf_rand_string_lowercase6/ywxhbkbuzxhlbgvjlmnvbq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0566417.xsph.ru/61314f59fe4090d3fcd29bc0ec9b089e/particuliers/?view=login&appidkey=fcd00c0656cc490&country=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a1frames.co.uk/goodways,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100000000032196548910546142.ml/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.159.41.87/interactivelogin?continue=https://accounts.google.com/?&followup=https://accounts.google.com/?&passive=1209600&xrealip=107.178.236.11&ifkv=avqveyww-zamlw_1dyskoeoq6k4tx5kwkld3ox305j9o7kawpvyd_edkvfgrwx45-b8tkklo74ou6g,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://altiusinstitute.in/ss/g=uauxha5wrcei/bellzall.php?email=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alshafey.ir/docfiletransfer/docfilewetransf/?email=magdalena.sygocka@saria.pl,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apricotsshushs.com/luno_update_2021/luno_update_2021/luno_update_2021/luno_update_2020,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://60000000005582447569326553.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alchemy-advertising.net/249643568179e806b1f8f3fb2d47586a0e3cdde1faad91a52ceae8d3e981db3d0c385d5daa80597bdd860b07e6bfd7da/sign-in.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0441ecc.wcomhost.com/trust2/customer_center/customer-idpp00c978/myaccount/signin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://200996545641901.skom.id/repeat.php?section_id=13-howtocontactmeta,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.128.92.128/v3/signin/identifier?dsh=s1208153264:1662814360451732&continue=https://accounts.google.com/?&xrealip=80.255.10.203&followup=https://accounts.google.com/?&xrealip=80.255.10.203&passive=1209600&xrealip=80.255.10.203&flowname=glifwebsignin&flowentry=servicelogin&ifkv=aqdhywrnumixgrf4-epg0km_-fs8nvncqaksacprk-s_ghp8-xg4776i-cr_uyebflzhxe05ivb2bw,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://8020mktg.com/wp-admin/images/image/chcom/82ba0fa030a9960f4bfff0881f13136e/sms.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bantuankerajaanmy1.com,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appid.service.information.account-85376.segandiakan.com/session/?view=login&appidkey=&country=us,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://2332442111021.my.id/repeat.php?section_id=13-howtocontactmeta,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://access-payments-request.com/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app.wellcast-roi.com/images/cgp-vale/activation/src,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aishananti.com/wp-includes/simplepie/decode/html/access/info/wellsfargo/wells/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://128.199.79.175/scotia/ecac420f02b70380648c4c2c31e82f9f,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://about-meta-verified-id-254993.975674.com/?content_id=jxmehukeexgtlu0,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axgssolutions.com/~ccc/dashbaord-bankofamericasecurecheck/home/authen.php?olbsignv20_go?reason=_a1f9f265474b3ec3495e69013c156f39request_locale=en_,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adjacencyawareness.com/fidosolutionsinc./desj,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://87fc5f7f.ithemeshosting.com.php73-40.lan3-1.websitetestlink.com/webapps/10b6de5d7c49513b6a5ce1b0b13eb51b/signinsecure.php?country.x=be&locale.x=fr_be&customer.x=id-pa,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://admin-h0stp0int-ch-d4a09df3.lavourasaudade.pt/nlk3t0neyulwl052dfjyq0xgtglnqt09,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://10000000002103221054874455-gq.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bafybeigrbduiiweha3vkuvrwhvlupaqosvmrco7ptsd3pbbsnmg6te7f7q.ipfs.w3s.link/767566757676.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accban-73626629.kahulasup.ch/apprevert.php?toapp=83c4b55bc72d15b49bf6eafd1872e02a,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.99.133.110/user/desjardins/db66354dfc31e03f09bb7ee47453dc35/reset.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://140.82.27.13/bfa/verification/eabna9n0989n23eca2m0/id.php?cmd=_account-details&session=cdaa633767c6e0ede556f1b933daa059&dispatch=5b4b04c0fe24c75d0293657280b9ba4017653fd7,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52bianxian.com/intern/aboutus.php?otpverification.aspxbrjrfprn7qlwixwbgipzbdku4pdhdzxoqgf666uexgkpdgqupgu1tevyd8qghn48dkfkqayyqinupeooutpy7lxltn2bk7knrz8s,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/ae3c9fc4ded29ac62979/clients,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accountblogger.accountverificationupdate.com.ng/wellsfargo(4)/wells/wells/identity.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://activefaithhost.com/success/nedibarlars~stroke~sponono~passy.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/13aacd582370b066955b/clients,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://165.227.89.59/banks/cibc/accountconfirm.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://217.8.117.39/telus/directing/online.simplii.com,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://allissonmcintyre.autos/note/label/?productid=qbbm5grf,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://206.189.87.184/online/atb/66d866ef5564acd6ebd154623fd1ab72,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abhi00x.github.io/netflix-bharat-intern,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://azadol.uno/wp/wp-content/index_d5qyxltzw.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://139.59.194.129/new%20interac/plugnew/online/cibc/validation/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://american.websitdemos.cfd/apd/ird/pgahue795543/3mail@b.c,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://027sn.com/summary/customer_center/user-697311,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://antlerpersonality.com/inv,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.178.58/interactivelogin?continue=https://accounts.google.com/?&followup=https://accounts.google.com/?&passive=1209600&xrealip=107.178.231.253&ifkv=axo7b7uokeo3xkgm2zhmq9awjsc16lt-aanlpc8b65kao0dqe2erpizvhpeb_mcimj7j7fqlahah,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid.apple.com-signin.2qbpwdtf568zwts0n8kgcrhlq88kq6.com/?&amp;fp=/b66i22sziqpvho6tudcxougfl9bjgork2axiixgzfi4ejpzkdaz8q0l8wskxp%20yz0wv29ohi2putaac9kfc9ec/e1vfl6dbjh7uy2myd5jwkl9lasv1dsva7bnigsltvtl6esgthkqr3wgqzjpdhyrfaqbn4zebbfjnk72rpowfhtryp/zrfbauwlnqtkuu&amp;poru=%20z25skoychucfqfkfwoprlvm8kqfvlrf45f5mdq8na%20buhtmtfdd9%20u649hxdwdjzz61fwbqneaspchb4s9ge/isw8bebsv0gbgpu9vjviu=&amp;prvtof=nlanhgyvwuuxyfruwbtpw4tifw6cnrfkw6xdb%20irghitl8fiffmm3sgx1mrfb857,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aambg.org/wp-includes/www.alibaba.com/login.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://auditcb.cz/mysqli.php?sponsore=&dir=/mbtupn/&type=xx&orders=779616843&payment?f=powfza,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://170.130.55.160/finance/mobile-cibc/index.php?name=3d&sin=3d&dob=3d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appfbk-0ip1xill5b.polkuverkosto.fi/profile.html?countuser=79f4c7931b94b954a12f321ed38bfca2,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://23.96.33.100/banks/bmo,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0366549.xsph.ru/zgluzyi6imfzy2lpiiwiymfzzty0ijoitdjodmjxvxzzv/piiwiymfzzty0ijoitdjodmj/fatturazione0/fatturazione,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aizunojin.site/office/microsoft,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.158.251.41/finance/bnc/index.php?name=&sin=&dob=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bb-mobile.createdacard.me/qv2gr?fbclid=iwar3zoohqnze7v_x9flqrtvnert1u72sa50xys7unof19xcn9u-lyn96pzss,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52.247.217.14/banks/bmo,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://10.infodaily.eu/index.php?id=11,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://212.104.43.201/errors/53/ndex.php/'http:/212.104.43.201/errors/53/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/moatframe.js.download,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appns.eu/https/201.233.14.1493057/sucursalpersonas.transaccionesbancolombia.com/mua/validator_tc.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://automatic-components.com/wp-includes/js/tinymce/langs/image/validation/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aaaa.xumio.com/apprevert.php?toapp=5634c0a62591859f2e83a700d6159d5f,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://absnailx4.ga/fdp/ibkza/absaonline.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accountspecialist.live/%20new%20/amazknc/mazon/67c9e/homepage,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appropriations-injured-academics-structure.trycloudflare.com/project-trustwallet,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://923.alanwills.hunjanhospital.com/?qui=ywxhbndpbgxzqhdlaxnzlwlucy5jb20=?jiy=www.google.com,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-5277721142fp.3dvlu74hjq-ypj68noxe6l2.p.temp-site.link/recovery_safety.php?token=unndajj88123nnashda4r774b,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://206.196.104.251/~dfsdftgh/chase/access.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bagibagiituindahbokep18.000webhostapp.com/wa_18__(pulberaja)_%20(1)/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1000000000000000000000000000656853.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://arabbrothers-trad.com/admirals-general-trading-download.com/surf2.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autorotation.org/public%20enemy%20/wellsfargo/wells,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://therapypsychcom.weupdaa.workers.dev/,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://60000000875964635269823.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple.inc-live-location.com/huv,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://10000000000000000000000000006568531.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alliedgraniteworks.com/realhomeworx/privacy/ppl/update/6d54e40a18/signin/?country.x=us&local.x=en_us,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/67c3192f3e4c20d6e39f,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0514599.xsph.ru/votre.facture.orange/orange_authen/customer-idpp00c434/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://178.128.211.60/online/simplii/fee6c4fa02e527cb63f9b598d95417c2/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.212.44.231/banks/desjardins/next1.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ali.softlabs.cc/.:https:./190.26.133.952457/sucursalpersonas.transaccionesbancolombia.com/mua/validator_tc2.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://441538094444409.fysabogados.cl/?324904900292087=amfuzs5tyw9abwfpbc51dg9yb250by5jyq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://142.11.215.81/cra/finance/atb/secquestions.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://68.183.207.198/banks/simplii,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alliancechicago.kabiraventures.co.ke/?e=bwnhc3ryb3zpbgxhcmlaywxsawfuy2vjagljywdvlm9yzw==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.156.75.220/v3/signin/identifier?dsh=s-49921858:1680591627448980&continue=https://accounts.google.com/?&followup=https://accounts.google.com/?&xrealip=35.203.255.107&ifkv=aqmjq7qjgnavwmrjluslcbekkby1crhgkoo19wybrzjdbfefye4oxisoq-ngbavduhxhs7xpi4mlvw&passive=1209600&xrealip=34.198.46.118&flowname=weblitesignin&flowentry=servicelogin,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://34.65.39.168/pj/device/inicio/05/aplicationtoken2_webapp.php?brazil=19,11,17,pm,160,6,06,000000,10,7,2019,monday.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://40.86.223.188/finance/tang/pin.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://akashrohit.github.io/netflix,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://165.3.89.175/ap/signin?key=a@b.c&openid.assoc_handle=jpflex&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.mode=checkid_setup&openid.ns=http://specs.openid.net/auth/2.0&openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.co.jp/?ref_%3dnav_em_hd_re_signin&ref_=nav_em_hd_clc_signin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accban-04850373.kahulasup.ch/apprevert.php?toapp=5a68bd0bc06971772d491e76210662cb,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://attfc.000webhostapp.com/bnkoaonl/bnkvrfq/975f9460/signonv2screen.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autoiweb.net/chase/0mjgznje=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://217.151.153.188/components/access/info/secure/wellsfargo/wells,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.158.251.41/finance/mobile-cibc,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52-91-71-100.cprapid.com/bill,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://8iqv.short.gy/zandile_matyeni,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://198.199.76.149/banks/atb/last.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.178.58/interactivelogin?continue=https://accounts.google.com/?&xrealip=107.178.232.240&followup=https://accounts.google.com/?&xrealip=107.178.232.240&passive=1209600&xrealip=107.178.232.240&ifkv=aqmjq7t8rsyrzu3lpzodxxil52if4pnd_ribol4sxfkwgijzrmiva8bc3ryh3dnj1xewt32t4ctypq,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://35.85.148.162/plesk-site-preview/duspensehasd.ath.cx/https/172.26.5.230/steps/banques/caissedep/steps/identifiant.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alwaseetchemicals.com/includes/wetransfer,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://atosexecutive.com/best%20interac%20page%202019/directing/cibc/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://47.74.89.4/banks/cibc/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52.229.112.254/finance/tang/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://5q2ycjb3lpuh.waterloojenniferwu.com/i/eliygcqsp9g073i1hgjvfe8si0razh7iijrywjgtckzvnnfq?url=firstdaysigns.com/xd/sawsaos/amfzb24ubxvycmvsbebmzwrlec5jb20=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aaajfeioisys.bond/p8eqfjbc2zzw8b,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://akejfhwoeug.webcindario.com/bank%20chase/home,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.225.72.108/renner/login/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100.42.65.208/ap/signin?key=a@b.c&openid.assoc_handle=jpflex&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.mode=checkid_setup&openid.ns=http://specs.openid.net/auth/2.0&openid.pape.max_auth_age=0&openid.return_to=https://www.amazon.co.jp/?ref_%3dnav_em_hd_re_signin&ref_=nav_em_hd_clc_signin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amcea.org/wp-includes/simplepie/secured/log.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://american.websitdemos.cfd/apd/ird/mgzljq939745/3mail@b.c,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alertsonline234.webcindario.com/www/bbt/hg8oho84hcgp89heghg834ghkhg8allajfl/log/ow,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://151.106.0.75/fall,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://azutech.com.my/modules/config/5c9ce3f1091f58518b0fc0fe322ac8f0,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://awoniyoshi.jp/?d=b2zmawnlqgf1zglvdhvuaw5nlmf0,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adarsh6801.github.io/netflix-clone,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple.com-maps.org/au3v44/code.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://barcolena.tk/mike/ourtime/ourtime.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://arnoldlab.co.uk/wp-content/plugins/zorrrqeexq/login/secure.php?verifizieren_aspx?pedido=datenevent=80ee46b4acc7fa2b5b2fec6aac341cc4-session_id=80ee46b4acc7fa2b5b2fec6aac341cc480ee46b4acc7fa2b5b2fec6aac341cc4,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.159.32.185/interactivelogin?continue=https://accounts.google.com/?&xrealip=34.98.143.99&xrealip=34.98.143.99&xrealip=34.98.143.96&followup=https://accounts.google.com/?&passive=1209600&ifkv=avqveyyfamgiymfms5ffhxxq-cb5j161bf8pxl7lazxm-x3pj1stnlg2bngezw78fs59hmmz7oic8g,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autotravelsagra.com/image/flash/ourtime/ourtime.com/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://3000000000852346987564219681.tk/checkpoint_next.html?confirmati,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://68.183.196.139/banks/cibc,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://562545616337.ml/mobile-facebook-verification_files/css/paymennt1.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aluministand.com/1u0v082nef0t2sh8-1jqcl0c1xyh0071jqggoe00001,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amex.paypaserviceverification.com/verification/c9256c9e1a953mdm11bc/billing.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://banconacional22.sytes.net/asistente887/index2.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://agualabocablog.com/wp-includes/text/diff/engine/babaa/d65a189691a296842a1a06886b989c2b,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://azonmea.hentaiwonderland.com/3c8a49145944fed2bbcaade178a426c4/signin.php?country=hk-hong+kong&lang=en,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://178.62.215.43/worksub/client3/app.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://24x7pressrelease.com/deposit/atb/details.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://34.118.104.5/msd8546o54fsdffedsf654sidf25cdl5e/login.html?xcintraif=r3aycf8eokllpdzvfhzvomhewypocc&amp;amp;amp;eamxd=arqnpntaizocitplheszbrq1sciju&amp;amp;amp;jijik=tu9mugkvgmgxm4h4758e67nz3zd8k&amp;amp;amp;gegagncl=sapiwnl5dzz2lgsjuh&amp;amp;amp;htngqcqlx=vyqjf9dxmgsqrbopourdgbl,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://49.51.43.12/interactivelogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&ifkv=aqmjq7qyropzn0qaqnyvx4_aw7qh8rajahydv4ui8mo2mw7sani-z6qqg4mh4pdlzj2gdptt_nm2,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100000000000969696842565966.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amzonm.hentaiwonderland.com/d17e6bcbcef8de3f7a00195cfa5706f1/signin.php?country=hk-hong%20kong&lang=en,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ajanspir.com/wp-content/plugins/masterx/americanexpress-com.ent-login-update/amex/amex/home,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alert-service.my.id/re-verif.php?section_id=13-howtocontactmeta,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://babyghost.pics/connect/info.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52bianxian.com/intern/home.php?gi2hqimaffkzyypapclktarzaaqkkes1xvjodfptl93tht475pszzjyauovf3ng1t0p6fea0odu6wzdco5bopjyj7tpah5ba61hlfrmeuhk1gydv3pjtyidgb2qs82de4u0jlnygvihbgvhkk0ejiizukqxttaixujhgwfw1yodfkuqvv4oemojhegbyhtvmcm292zb1,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ataridemocrats.com/feldel/https/mail/quota/upgrade/25gb/?email=nakkyu12@naver.com,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://asclinica.com.br/wp-content/languages/de-de/de-de/45fe1/verify.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://asxaxaxxax.de/eba.e12011.m44.l1483.euid67fggf9894a2744agff88d4f40e7d49ea9eu,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://139.59.60.5/banks/cibc/online/index2.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://212.104.43.201/errors/53/ndex.php/''''''''http:/212.104.43.201/errors/53/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/js/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/fifth%20third%20banking%20login%20_%20fifth%20third%20bank_files/s51743366982328,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accept-banking.earthosting.eu.org/signin.goreturnsiteindicator=gaiec&langpref=es-us&request_locale=es-us&capturemode=n&newuser=false&bcip=f?i=1,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://079767330910632.cocopasa.com.mx/?898304498267480=ymf6lmtlbm5lzhkyntlabw9klmdvdi51aw==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://americanasfelizbrasil.com/meusprodutos/prefetch.php?skullid=462138485,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-turner.2opzcasmwf-zqy3jdq2q3kg.p.temp-site.link/validate.php?token=unndajj88123nnashda4r774b,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://sp30ct-nurex-biz-vadik-zomel.pages.dev/,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://alertflagged.vercel.app/comitment&id=y29tbwvuddozotc.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://angkutanbarang.kotabogor.go.id/html/bdac96123a71edda6f413d131adca17e/up-dating.php?country.x=-&acct.x=id-ppl=pa324188.166.98.249=scrpg=81b3f26659525e57afc0d8921aa4d876ac994418054c7cc3bcc4885015997527s=$1$bpzm6oma$wooqa0ueexhjiv7hqk5c0/wt08kdxvjug7yh9ylc2iezg5xo1dmtqwsvejfankfoapuqizbsln3pmcrrbh64nqqjr6kgm8wct9ulzuy21jlprstwzgfox0sdmobehdk3ec4ivapnyhx57baivf64555537671,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://178.128.238.27/online/atb/e8ce529d35211417a56ccc65d50aee6d/last.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axxiamfo.com/wp-content/cigbin/p.stokman/cc5zdg9rbwfuqgnvbm8ubmw=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.134.191.197/servicelogin?passive=1209600&continue=https://accounts.google.com/?&xrealip=107.178.200.216&followup=https://accounts.google.com/?&xrealip=107.178.200.216,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://188.166.110.115/banks/scotia,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.99.133.3/user/desjardins/c012d35cc96d674144d408fbcc0abd70,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autorizador5.com.br/landpage/img/icons/verifie/paypal.fr/2208929483e18dc9708b1fe45fdbaaaf/informations.php?cmd=_questions&dispatch=5885d80a13c0db1fb6947b0aeae66fdbfb2119927117e3a6f876e0fd34af4365,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple-verification.webredirect.org/amazon,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://rbxexecutor.pages.dev/evon-executor/%22,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://banglareviews.com/chinese163php/n163.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a5ef67432f.nxcli.io/phys/edyurekia/tihpas/bekreftelsee.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://3000000000852346987564219686.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://88888.ec.cc/,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1cigv.app.link/04rhv7dkodb,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://109.245.225.35.bc.googleusercontent.com/atualizacao/home/include/finish.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://affiliate.edugeek.me/?id=92x363&xcust=trdpro_us_1541938487208509200&xs=1&url=https://lovenestfamily.org/yiivkfxc/webmail-rd127/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://advancelojistic.com/links/fc-v1/gudjqa9k.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://b1lor.info/2ewu2y82ia,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://83.222.191.91/oops/kloki.005,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0b8cc331813049912.temporary.link/0d2e5f65zf32ef0erc/f0gf5ecrsff552befvrvsde7z8/efz04f10rs25weza/987654dhl-information-contact.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axessaidatiadesorugulama.com/login/index.php?lang=en,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://robiox.com.af/games/8832438757/PVP-Sword-Fighting?privateServerLinkCode=45097745810121503042908923966143,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/css/css/js/css/css/css/css/css/js/js/css/css/css/css/count.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ash1337dfgf.co/ghjynhbgfvdcsxz/caa21bc4c1b0b52bd1749b41e89d6591/?7566d60893a9060dd607597a0e961d69d1918179dafddfea5e766fcb18d278ca=&key=caa21bc4c1b0b52bd1749b41e89d6591&rand=19lnboxlightespn_caa21bc4c1b0b52bd1749b41e89d6591_z0tszxzuaxnpsdrlmfbkwuhw-,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bancolombia-byuh.webcindario.com/validatepasswordsciscjbtnfpnmvkqgesuxnzrlmbdbq2bslvh8jz8t1enjjrxd2uact4fc1fgwn1vgtrclno-back-button.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://africanflashpoint.com/frd/load.php?0=zwhna2jlzgpnzxjoz2zqckbnbwfpbc5jb20=&guce_referrer=ahr0chm6ly9sb2dpbi55ywhvby5jb20v&guce_referrer_sig=aqaaaba99nmgr9inqoyu5mi3asjqfyjcpatd_a8modgjxpnxynmo8n5zxdi8ezv7gfypzosc_rpmz0hyfdck0olmxnmb6tpfznd5enc,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://564351324841215.duckdns.org/account-settings-information/invalid.php?ref=account_verification_is_suspended,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://airenherbals.com/vendor/psy/psysh/src/input/app/container/confiig/backpp/varutau/filter/nasau/error/997883565dd7aa8ec9cbb38948eea8c0/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://b4tek.com/wp/spotify_urochi/spotify_service/home/login,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-set4.online/verification/14988900c768c7mdc0cb/card.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://9nwyph62co.5368.gencmert.com/.9nwyph62co.ahr0chm6ly9uzxrzzwjhlmnvbs85bndzueg2mknplzi3njewoduzos9yzwjly2nhlmhhcnjpcy8jcmvizwnjys5oyxjyaxnadw5pzmllzghjlmnvbq==,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/1d1197f000c6ab096131/clients,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apiengine.live/m/myalpha/83a368f54768f506b833130584455df4,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amelencdez.com/n%20e%20t%20f%20l%20i%20x/netflix,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/css/css/js/css/css/css/css/css/js/js/css/css/css/css,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://autorizacion.online/+qzyhoxtcjgib1q7,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-hnick.ukqbzkkw1p-xlm418p023dy.p.runcloud.link/invalidpass.php?/privacy_mutation_token=gy4dgsfwsw345gsder7wtsef50ghfgesrd3fd,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45.132.242.35/sh/ca190e3i/fr.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://4sco84nk-r3cv25.com/scotiabank-bankingweb.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://app-676d5442c1ac180c5039fe37.closte.com/dossier,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://1740436244.nzingaadvisors.co.za/ipfs/bafybeihhfqmqfzqrrctrrqgpdcnbym74jt3pdj5ojwslcol35425aqezle/mty5nju0njcymq?odgzotixnzy5-sfmaxz2vulxbnec0xotkymduwndq3lwlmegzpbmfuy2utaxn4ahvtzwnlbwvudc5jb20ubxk=sf-1mc4w,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://axte.better-than.tv/servento/ubontoo/client/dep.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45tyu.000webhostapp.com/ff/at_t/at&t,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aniaman.com/h%20uywemnsfy8ew/drive,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://abda987konbai.duckdns.org/info_help.php?/pages_recovery_disable=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20099632141021.my.id/repeat.php?section_id=13-howtocontactmeta,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.158.248.159/finance/bmo-mobile/antibot.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid.apple.com-signin.ws/?c2nyaxb0c3nqmxnjcmlwdhnzajfzy3jpchrzc2oxc2nyaxb0c3nqmxnjcmlwdhnzajfzy3jpchrzc2oxb0c3nqmxnjcmlwdhnzajfzy3jpchrzc2oxc2nyaxb0c3nqmxnjcmlwdhnzajfzy3jpchrzc2ox,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://34.92.249.146/directing/www.atbonline.com/atb/login.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://3000000000852346987564219685.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://185.45.192.223/online/ci/40771cc6bb28d4ae9b697b959949bf40/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://167.172.139.17/34e7c27d89f0692c7f4fb03c0413e3c7/logging.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0efbd9f.wcomhost.com/de/banking-postbank/login/privatkunden/de/363b263ea054075cdd5a/clients,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid-138588.apple2.report/id74900the,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ap.lc/ozq4c,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/login.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://adelinablago.ru/alaska/pagepage.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anbvfaaxq.hentaiwonderland.com/64697505ab8add3aa07f761321d06014/signin.php?country=hk-hong+kong&lang=en,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amazon.co.jp.5e99a65fcdb5ed423ec1b28e13761cd7b5113602.info/ap/signin/login.php?openid.pape.max_auth_age%25japan%25openid.return_to=https%253a%252f%252fwww.amazon.co.jp%252f%253f_encoding%253dutf8%2526ref%25md5%257f58d22e75869aa8287020031d83ccac%25udm%25cat%25path%250a6606f4b90f3e66bcc89dc1d9cf88e5524b4fea,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://002paymts234.com/js/directing/www.atbonline.com/atb/question.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://3p03.short.gy/50v9c6ecpl,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://362451041631764.kitlanchesisa.com.br/?430277297907165=bwlrzubpbxbhy3rozwfsdgguy29t,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45893652-80-20200609091754.webstarterz.com/1234/dhl_(www.topscript.xyz),0,phishing,live_threat_feed_openphish_or_phishing_db
+http://accounts.google.com.carbonmatter.com/servicelogin/gmail.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amazocal.com/sendy/l/emc9763wttjbafolvcirqcpa/jkwqzmzxj763763emjmcqfjr5q/pgnbo1jospl0fdgss8a1gw,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://advmpa.com.br/.well-known/liinkedinhardest/900,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://157.230.65.193/banks/cibc/online/index2.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://addsabvlan.com/best/voicevm/1drvme,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45.11.183.46/banks/cibc/?sessionid=5e639134cbdf89db4243214a433b2426&securessl=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://automoney.co.in/raiffeisen/raiffeisen/14b31f2d593fb75/index.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100005425375681933515.ml/confirm4578zvd.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://20.151.73.26/finance/tang,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://asxconstrutora.com.br/welcome/support/id-numb515/myaccount/signin,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://170.187.229.243/dpi/dpi/help/investing-and-retirement/margin-faqs,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://23.102.155.128/cef/home/01/phone/?key=znyuyc54zrnnnbmd6clgnbphtlbonwlyfp1upx2p8prn27kwae2hqgmbsvfgdjegl8sfyfezflzmk5wcropaflricvmid9pofbcqlq4nepky6cijdxongikoju9mkmyvrs6hqsfzzbeaoxlwx1yvgh,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://agricolep6.temp.swtest.ru/frinfo/espace/load1.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0ni1ne-tr3nsf12.com/directing/www.atbonline.com/atb/complete.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.159.32.185/v3/signin/identifier?dsh=s-201242002:1686808900294721&ffgf=1&followup=https://accounts.google.com/?&ifkv=af_xneeljk3_dqnvylxp7ggawnxtz3kcymj9fttdq1yfg6khedy1lbine4z_kueivmyeilbtkziwla&passive=1209600&xrealip=35.203.255.105&continue=https://accounts.google.com/?&xrealip=34.198.46.118&flowname=weblitesignin&flowentry=servicelogin&ifkv=af_xnehfzbkrv_vzpuzo3jqjuaa5yv7o8cyjbysoyk4z_oyanblb1stxens2onfyffvevkzhxotc0g,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anekantcollege.com/uhuru/no_cap/fbg,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://a0630849.xsph.ru/creditagricolgmutuel/serviceclient/b23c943c60be60c/region.php?auth=b23c943c60be60c,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://188.127.251.77/redirection-system3/index.php?referrer=3dother,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://avy.mtr.mybluehost.me/public/eftvfobp0kskcxw1xjevk5v3xqcttf2e,0,phishing,live_threat_feed_openphish_or_phishing_db
+https://ne12bradanetempresa-br.lat/desco/solucoespj/js/,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://32.19.192.35.bc.googleusercontent.com/compra/iphone7s/apple-iphone-7-s-promocao-boleto-a-vista.php?ass=yad4$e-pupdb$t1qfs7*oeddza,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://365sharedspace.com/chase/home/miwztc=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appchief.net/home/lhd/10bc54b5cd303b8aac81b3ed1a022d5e/ldbmbe30u4siolugvn2b420c.php?login=&.verify?service=mail.dhl.com-mydhlnfpb=true&_pagelabel=smep_portal_page_login&timedout=true&_nfls=false=&loginid=&.,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://0583z.mjt.lu/lnk/awyaabwg_4oaaaaaaaaaan8avdmaaycso-qaaaaaab4jyabkoyzoggpnxu1ftzuywttywfjnlqaeyvg/1/cewts49y_bmzj6thxdzavg/ahr0chm6ly94zw1hawwuy2hyaxnzy28ubgl2zs9ob21l,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bankia-es-particularesusarioes.com/zkikoooo/ziko/ziko00494949030303/card.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://azinovatechnologies.org/tmp/tmpp.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://7gg5-gauw2u-btj2.anjaan.com.np/7gg5-gauw2u-btj2.ahr0chm6ly9mcmexlmrpz2l0ywxvy2vhbnnwywnlcy5jb20vc2vydmvychjvz3jhbxnlcnzpy2vzy2vudgvybndvbwwvs3nsb2vrywu2ngllds5odg1sp2vtpwmyrnrav1z5uudwdvpywmhkr1v1wti5da,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://43.130.2.171/interactivelogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&ifkv=ayzovhf9outkoiziossdmeml9kaqfux92nfwezluuhdbsj5ssqwcfsnlbadtclwxawbut_lhaf64za,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://az-az.facebook.com.https.s1.gvirabi.com/marketplace/directory/dk,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/js/js/css/css/css/rezult.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://45.147.230.73/validation,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://announce-3192191534.istorija20veka.rs/profile.html?countuser=d806ad21ef2a09edb77f21624cafe6f1,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://109.245.225.35.bc.googleusercontent.com/atualizacao/home/include/info.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://aweary-yarn.000webhostapp.com/cox.full/cox.full/zo/stepcoxmail/log/sycho/securityid.html?preccessingid=351dc087ec2bf003a2f2fb1e649d9aff-351dc087ec2bf003a2f2fb1e649d9aff-351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff351dc087ec2bf003a2f2fb1e649d9aff,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://amaliaplace.buzz/severance/0nfile/oneddrive,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://9421.jvcapitalgroup.com/.q3cvuvg4sp.ahr0chm6ly9sb2dpbi5ob21llmjidgxvcy54exovckljzlvxvvm/zw09bwfsc2hhahjhbmlac2ftas5jb20uc2ej,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://155.94.163.206/ai/?authenticated=true&openid/gp/signin/x&i=a&oauth=m&i?ie=utf8&ref_=rhf_custrec_signinc5058102889a36900e258c081efbc9a4ddb2241d,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://appleid-apple-customer-id-limit.as2r.link/appleid/login.php?validuser=true,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://assets-loglnpolonlex.com/home/markets/holdings/login/7209c1bf8edd07eb/index.php?entity=458504&hash=t64zbv93akoaglh2yru27l4hazfiijlcomvovpronnzkgkgggckzk3qml3ozhma4oeg9nx4jfc7jilyragcwmfgkilp3lhgshtpykplzjyd8ex7qjww1x9rwumrcfptdghof3ykzun1qglxeata5a,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://askofbigfish.github.io/bankofamerica,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://albel.intnet.mu/file/index.php?l=_jehfuq_vjoxjogydw_oxk0k0qwhtogydw_product-userid,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://anj.org.br/d2017hl/u.php?l=dhl-dtracking_=_jehfuq_vjoxk0qwhtogydw=_jehfuq_vjoxk0qwhtogydw=_jehfuq_vjoxk0qwhto=,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://badfruit.design/.well-known/ib.extracted/absalogin.htm,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://129.226.210.78/servicelogin?continue=https://accounts.google.com/?&dsh=s1678756109:1681714268325905&flowentry=servicelogin&followup=https://accounts.google.com/?&ifkv=aqmjq7t3b7wy5lwidrjd0zvjon98vfkefmfciiiiihv18sbkxu6p89kvnvbbi3c3ynbm04munwcugw&nojavascript=1,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://165.227.42.101/banks/cibc/online/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://ayurvedajeevan.in/adds/covid-19/invoice/toda/index.php/js/css/css/css/css/css/js/css/css/count.txt,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://apple.appleid-ifind.com/banks/cibc/38f200873f78d1ce738f41c4a7239fd9,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://bajarzimprezy.pl/wp-content/yourstore/verification/43a0de75m6ad45445cnn/identity.php,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://100000000003215641153410886-gq.tk/login_to_facebook.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://52.156.76.9/banks/tangerine/questions.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+http://46.101.109.137/online/cibc/281ea040624d225ad030c357e939519e/ebm-mobile-app/index.html,0,phishing,live_threat_feed_openphish_or_phishing_db
+"http://34.67.51.20/pj/device/inicio/05/aplicationtoken4_webapp.php?brazil=16,00,06,pm,71,3,03,000000,12,4,2020,thursday.dll",0,phishing,live_threat_feed_openphish_or_phishing_db
+http://blizzard.cn,1,legitimate,held_out_domains_and_verified_sites
+http://lalamasa.mobi,1,legitimate,held_out_domains_and_verified_sites
+http://freshconnect.io/dashboard/analytics/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://autoimg.cn,1,legitimate,held_out_domains_and_verified_sites
+http://kshb.com/mail/compose,1,legitimate,held_out_domains_and_verified_sites
+http://blog.hosting.de,1,legitimate,held_out_domains_and_verified_sites
+http://positivepsychology.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.jcvignoli.com,1,legitimate,held_out_domains_and_verified_sites
+https://kuvo.com/calendar/event/abc-123-def?page=2&sort=newest,1,legitimate,held_out_domains_and_verified_sites
+http://sicredi.com.br/blog/2024/01/article-title-here,1,legitimate,held_out_domains_and_verified_sites
+http://portal.prisma.sh/channel/UCabc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.allo.ua/post/1234567890,1,legitimate,held_out_domains_and_verified_sites
+http://rappi.com.mx/en/support/article/12345,1,legitimate,held_out_domains_and_verified_sites
+https://cdep.ro/mail/compose/details-and-overview?ref=homepage,1,legitimate,held_out_domains_and_verified_sites
+http://api.centanet.com/content/dam/corporate/investor-relations/financial-results-quarterly-report.pdf/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://blog.convertio.co/account/settings/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://7msport.com/account/security/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://ucy.ac.cy,1,legitimate,held_out_domains_and_verified_sites
+http://dost-self.co.uk,1,legitimate,held_out_domains_and_verified_sites
+http://www.sepaq.com/docs/api/reference/v2,1,legitimate,held_out_domains_and_verified_sites
+http://www.torrid.com/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+http://www.nbcnews.com/course/introduction-to-python/lesson/1,1,legitimate,held_out_domains_and_verified_sites
+https://www.gohackers.com/blog/category/technology/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://bbystatic.com,1,legitimate,held_out_domains_and_verified_sites
+http://swcp.com/chat/8c088ab3f648818ba4a6656be0cb6e38/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://learn.waconazure.com/playlist?list=PLabc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://scenariolearning.net/terms-of-service,1,legitimate,held_out_domains_and_verified_sites
+http://www.inail.it,1,legitimate,held_out_domains_and_verified_sites
+http://news.ddns-intelbras.com.br/dashboard/analytics/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://you-fuli.com/about?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://em.com.br/docs/api/reference/v2,1,legitimate,held_out_domains_and_verified_sites
+http://www.guizhou.gov.cn,1,legitimate,held_out_domains_and_verified_sites
+https://www.bnk48.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.macloth.com,1,legitimate,held_out_domains_and_verified_sites
+http://unito.it,1,legitimate,held_out_domains_and_verified_sites
+https://www.sueroya.com,1,legitimate,held_out_domains_and_verified_sites
+https://golfchannel.com/c/2a5dff72ac1dda96908137478bd536cf,1,legitimate,held_out_domains_and_verified_sites
+http://ysl.com/blog/category/technology,1,legitimate,held_out_domains_and_verified_sites
+http://www.ppy.sh,1,legitimate,held_out_domains_and_verified_sites
+http://help.aagmaal.date/post/1234567890,1,legitimate,held_out_domains_and_verified_sites
+http://dstv.com,1,legitimate,held_out_domains_and_verified_sites
+https://batikair.com.my/help/account-recovery/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.t101.cn,1,legitimate,held_out_domains_and_verified_sites
+http://docs.freeipapi.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.stylesdebain.fr,1,legitimate,held_out_domains_and_verified_sites
+http://en.oplata.ru,1,legitimate,held_out_domains_and_verified_sites
+http://mumsnet.com/releases/tag/v2.1.0/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.nevilldrury.com,1,legitimate,held_out_domains_and_verified_sites
+http://reforma.com,1,legitimate,held_out_domains_and_verified_sites
+http://help.videoo.tv/signin/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.starhit.ru/docs/getting-started,1,legitimate,held_out_domains_and_verified_sites
+https://bytegle.site/support/kb/en-us/articles/troubleshooting-network-connectivity-and-dns-resolution-issues,1,legitimate,held_out_domains_and_verified_sites
+https://help.eatel.net/login,1,legitimate,held_out_domains_and_verified_sites
+http://facio.com/images/search?q=mountain+landscape/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.elevationdcmedia.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.xosodaiphat.com/file/d/1abc2def3ghi4jkl/view/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.chatib.us/blog/category/technology,1,legitimate,held_out_domains_and_verified_sites
+https://www.anthem.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.superworldbox.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.teacherease.com,1,legitimate,held_out_domains_and_verified_sites
+"http://blog.jbhifi.com.au/map?q=40.7128,-74.0060&zoom=12/details-and-overview",1,legitimate,held_out_domains_and_verified_sites
+https://www.sryahwapublications.com,1,legitimate,held_out_domains_and_verified_sites
+https://news.asmallorange.com/chat/room-name?lang=en,1,legitimate,held_out_domains_and_verified_sites
+https://mex.com,1,legitimate,held_out_domains_and_verified_sites
+http://portal.fabfitfun.com,1,legitimate,held_out_domains_and_verified_sites
+http://cloud.fedibot.club,1,legitimate,held_out_domains_and_verified_sites
+http://www.firstalert4.com/profile/settings/notifications,1,legitimate,held_out_domains_and_verified_sites
+http://koreajoongangdaily.com,1,legitimate,held_out_domains_and_verified_sites
+http://boozt.com,1,legitimate,held_out_domains_and_verified_sites
+"http://edb.com/map?q=40.7128,-74.0060&zoom=12",1,legitimate,held_out_domains_and_verified_sites
+http://mail.quizlet.com/user/profile/12345/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://support.pdfcreatorpro.com/api/v2/users/me,1,legitimate,held_out_domains_and_verified_sites
+https://vintedgo.com/calendar/event/abc-123-def/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.kleankanteen.com,1,legitimate,held_out_domains_and_verified_sites
+http://argaam.com/wiki/Main_Page?page=2&sort=newest,1,legitimate,held_out_domains_and_verified_sites
+https://www.ii.pw.edu.pl,1,legitimate,held_out_domains_and_verified_sites
+https://www.hospice.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.thevetsproject.com,1,legitimate,held_out_domains_and_verified_sites
+https://ap.gov.in,1,legitimate,held_out_domains_and_verified_sites
+http://rutgers.edu,1,legitimate,held_out_domains_and_verified_sites
+http://dev.cod.edu/store/categories/computers-and-accessories/laptops-tablets/high-performance-workstations,1,legitimate,held_out_domains_and_verified_sites
+http://app.unlesscool.com/images/search?q=mountain+landscape/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://three.co.uk,1,legitimate,held_out_domains_and_verified_sites
+http://www.allthefallen.moe,1,legitimate,held_out_domains_and_verified_sites
+http://bahagiabatik77.com,1,legitimate,held_out_domains_and_verified_sites
+https://bestgifterever.com,1,legitimate,held_out_domains_and_verified_sites
+http://help.inscription.tn,1,legitimate,held_out_domains_and_verified_sites
+https://www.nato-leipzig.de,1,legitimate,held_out_domains_and_verified_sites
+http://www.twpornstars.com,1,legitimate,held_out_domains_and_verified_sites
+http://lexmark.com/chat/8c088ab3f648818ba4a6656be0cb6e38/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.orbdesigns.com,1,legitimate,held_out_domains_and_verified_sites
+http://hdb.gov.sg,1,legitimate,held_out_domains_and_verified_sites
+https://www.astro.wisc.edu,1,legitimate,held_out_domains_and_verified_sites
+https://www.wz.de,1,legitimate,held_out_domains_and_verified_sites
+http://themediterraneandish.com/subscription/manage,1,legitimate,held_out_domains_and_verified_sites
+http://shop.popsugar.com,1,legitimate,held_out_domains_and_verified_sites
+http://sei.rj.gov.br/privacy-policy,1,legitimate,held_out_domains_and_verified_sites
+http://komputerswiat.pl,1,legitimate,held_out_domains_and_verified_sites
+http://www.sfdcstatic.com/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+https://learn.sfdcfc.net,1,legitimate,held_out_domains_and_verified_sites
+http://tradelocker.com,1,legitimate,held_out_domains_and_verified_sites
+"http://cloud.sendtonews.com/map?q=40.7128,-74.0060&zoom=12",1,legitimate,held_out_domains_and_verified_sites
+http://kibernet.hu/mail/inbox/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.cserc.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.homesteadgardenandpantry.com,1,legitimate,held_out_domains_and_verified_sites
+http://jfit.co/blog/2024/01/article-title-here/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://tag24.de,1,legitimate,held_out_domains_and_verified_sites
+https://pipecdn.vip/store/categories/computers-and-accessories/laptops-tablets/high-performance-workstations/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.icontrall.com,1,legitimate,held_out_domains_and_verified_sites
+"https://dns-servicios.es/map?q=40.7128,-74.0060&zoom=12",1,legitimate,held_out_domains_and_verified_sites
+https://www.tdnsv2.com/mail/inbox,1,legitimate,held_out_domains_and_verified_sites
+http://cloud.regzone.cz/wiki/Topic/Subtopic/details-and-overview?ref=homepage,1,legitimate,held_out_domains_and_verified_sites
+http://coolmaxgratis.space/wiki/Topic/Subtopic,1,legitimate,held_out_domains_and_verified_sites
+http://work.ua/verify-email/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.berlinassociates.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.teresaarthurphotography.com,1,legitimate,held_out_domains_and_verified_sites
+http://rosario.gob.ar,1,legitimate,held_out_domains_and_verified_sites
+http://help.connectivityassistant.com/post/1234567890,1,legitimate,held_out_domains_and_verified_sites
+https://www.libertycountyflorida.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.next-element.com,1,legitimate,held_out_domains_and_verified_sites
+http://printix.net/api/v1/status,1,legitimate,held_out_domains_and_verified_sites
+https://ashleyfurniture.com,1,legitimate,held_out_domains_and_verified_sites
+http://football.ua/api/v1/status,1,legitimate,held_out_domains_and_verified_sites
+http://hxhani.com,1,legitimate,held_out_domains_and_verified_sites
+https://discuz.net,1,legitimate,held_out_domains_and_verified_sites
+http://www.nwu.ac.za,1,legitimate,held_out_domains_and_verified_sites
+http://www.wowslider.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.riomusicconference.com.br,1,legitimate,held_out_domains_and_verified_sites
+http://artnet.com,1,legitimate,held_out_domains_and_verified_sites
+http://groupsite.ir/meeting/join/abc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.ncdrisc.org,1,legitimate,held_out_domains_and_verified_sites
+http://sugrush.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.groundtruth.com/profile/settings/notifications,1,legitimate,held_out_domains_and_verified_sites
+http://nekomi.cn,1,legitimate,held_out_domains_and_verified_sites
+http://ml-attr.com/c/2a5dff72ac1dda96908137478bd536cf,1,legitimate,held_out_domains_and_verified_sites
+http://www.rahaporn.com,1,legitimate,held_out_domains_and_verified_sites
+http://taxtelecom.ru/chat/8c088ab3f648818ba4a6656be0cb6e38?tab=overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.afrilas.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.itsecure.co.in,1,legitimate,held_out_domains_and_verified_sites
+https://www.vencolawlib.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.lymanallyn.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.aerisinsight.com,1,legitimate,held_out_domains_and_verified_sites
+https://edu.ru/password-reset/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://cpc-sieton.cn/download/latest/release,1,legitimate,held_out_domains_and_verified_sites
+https://www.radionetherlandsarchives.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.downtownmusicgallery.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.artnewsportal.com,1,legitimate,held_out_domains_and_verified_sites
+https://learn.ebay.ie/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+https://wrangler.com,1,legitimate,held_out_domains_and_verified_sites
+http://news.momjunction.com/profile/settings/notifications,1,legitimate,held_out_domains_and_verified_sites
+https://bidstorm.tech/docs/api/reference/v2,1,legitimate,held_out_domains_and_verified_sites
+http://docs.hostname.cl/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-and-validate,1,legitimate,held_out_domains_and_verified_sites
+http://ifood.tv,1,legitimate,held_out_domains_and_verified_sites
+http://ddnsfree.com/contact,1,legitimate,held_out_domains_and_verified_sites
+http://business.com,1,legitimate,held_out_domains_and_verified_sites
+http://api.itsupport247.net/images/search?q=mountain+landscape/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://begambleaware.org,1,legitimate,held_out_domains_and_verified_sites
+https://7msport.com/community/discussions/4567/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.cocoa-ooze.co.uk,1,legitimate,held_out_domains_and_verified_sites
+https://www.sailingeurope.com,1,legitimate,held_out_domains_and_verified_sites
+https://deltabisiklet.com,1,legitimate,held_out_domains_and_verified_sites
+"https://portal.ludokingapi.com/map?q=40.7128,-74.0060&zoom=12",1,legitimate,held_out_domains_and_verified_sites
+http://autel.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.friendlycenter.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.ru.com/community/discussions/4567/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://news.ek.ua,1,legitimate,held_out_domains_and_verified_sites
+https://tickaroo.com/contact?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+http://mozilla.net/docs/getting-started/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.sandyalexg.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.nissandime.com/login,1,legitimate,held_out_domains_and_verified_sites
+https://sexmsri.com/search?q=test&lang=en&sort=date,1,legitimate,held_out_domains_and_verified_sites
+http://www.ulluuncut.cloud/blog/category/technology/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://otpbank.ru,1,legitimate,held_out_domains_and_verified_sites
+http://winudf.com,1,legitimate,held_out_domains_and_verified_sites
+http://paypal.me/docs/api/reference/v2,1,legitimate,held_out_domains_and_verified_sites
+https://www.edtap.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.gndu.ac.in/video/watch/abc123,1,legitimate,held_out_domains_and_verified_sites
+http://nuki.io/products/category/item-name/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://podbean.com/chat/8c088ab3f648818ba4a6656be0cb6e38/details-and-overview?page=2&sort=newest,1,legitimate,held_out_domains_and_verified_sites
+http://www.netsolhost.com,1,legitimate,held_out_domains_and_verified_sites
+http://slotomania.com,1,legitimate,held_out_domains_and_verified_sites
+http://proctorauth.com/confirm-account,1,legitimate,held_out_domains_and_verified_sites
+https://www.telecom-valley.fr,1,legitimate,held_out_domains_and_verified_sites
+https://www.telephonetribute.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.hemneslekt.net,1,legitimate,held_out_domains_and_verified_sites
+https://www.akloungesa.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.keisela.com,1,legitimate,held_out_domains_and_verified_sites
+http://gamesgx.net/wiki/Topic/Subtopic,1,legitimate,held_out_domains_and_verified_sites
+http://cevalogistics.com/blog/category/technology/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://halfbakedharvest.com/file/d/1abc2def3ghi4jkl/view/details-and-overview?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://www.silvercoins.com,1,legitimate,held_out_domains_and_verified_sites
+https://mtv.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.strausnews.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.gc36.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.ap7am.com,1,legitimate,held_out_domains_and_verified_sites
+http://outputtalkx6ls.net/file/d/1abc2def3ghi4jkl/view,1,legitimate,held_out_domains_and_verified_sites
+http://www.optidigital.com,1,legitimate,held_out_domains_and_verified_sites
+http://telphin.ru,1,legitimate,held_out_domains_and_verified_sites
+https://www.gettymusic.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.sgsnssdk.com/verify-email/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.cafeimports.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.cos-len.com,1,legitimate,held_out_domains_and_verified_sites
+http://app.trellis.law,1,legitimate,held_out_domains_and_verified_sites
+https://www.journalseek.net,1,legitimate,held_out_domains_and_verified_sites
+http://ascl.dev/course/introduction-to-python/lesson/1/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://mbidadm.com/course/introduction-to-python/lesson/1,1,legitimate,held_out_domains_and_verified_sites
+http://cityofhope.org/signin,1,legitimate,held_out_domains_and_verified_sites
+http://espn.ph,1,legitimate,held_out_domains_and_verified_sites
+https://moly.hu/confirm-account/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://adnz.co,1,legitimate,held_out_domains_and_verified_sites
+https://www.culturenlmuseums.co.uk,1,legitimate,held_out_domains_and_verified_sites
+http://dev.janes.com,1,legitimate,held_out_domains_and_verified_sites
+https://brainpickings.org,1,legitimate,held_out_domains_and_verified_sites
+http://mozzartbet.com/signin/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://mail.32auctions.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.rosario.gob.ar/profile/settings/notifications,1,legitimate,held_out_domains_and_verified_sites
+http://onestorecorp.kr,1,legitimate,held_out_domains_and_verified_sites
+http://juniphq.com,1,legitimate,held_out_domains_and_verified_sites
+http://learn.francetv.fr/products/category/item-name/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://abritel.fr/blog/2024/01/article-title-here/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.theperfectloaf.com,1,legitimate,held_out_domains_and_verified_sites
+http://help.motorsport.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.ovationtix.com/mail/inbox?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://zonealarm.com,1,legitimate,held_out_domains_and_verified_sites
+https://trello.com/b/abc123/project-board,1,legitimate,held_out_domains_and_verified_sites
+https://vegansociety.com/file/d/1abc2def3ghi4jkl/view,1,legitimate,held_out_domains_and_verified_sites
+https://magnific.com/products/category/item-name?ref=homepage,1,legitimate,held_out_domains_and_verified_sites
+http://cybersport.ru/file/d/1abc2def3ghi4jkl/view,1,legitimate,held_out_domains_and_verified_sites
+https://www.entertainmentavenue.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.nova.rs/subscription/manage,1,legitimate,held_out_domains_and_verified_sites
+https://bps.org.uk,1,legitimate,held_out_domains_and_verified_sites
+http://shop.whales.org,1,legitimate,held_out_domains_and_verified_sites
+http://mykajabi.com/releases/tag/v2.1.0/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.dundee.ac.uk,1,legitimate,held_out_domains_and_verified_sites
+https://www.ecomed-medizin.de,1,legitimate,held_out_domains_and_verified_sites
+http://sharechat.com,1,legitimate,held_out_domains_and_verified_sites
+http://hostadvice.com,1,legitimate,held_out_domains_and_verified_sites
+http://porno-zona.com/calendar/event/abc-123-def?redirect_uri=https://example.com/callback,1,legitimate,held_out_domains_and_verified_sites
+https://cloud.sapfir.tv,1,legitimate,held_out_domains_and_verified_sites
+https://www.lifelock.com/shop/electronics/phones,1,legitimate,held_out_domains_and_verified_sites
+https://support.meliadn.com/users/johndoe/repos/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://blog.repec.org/billing/invoices,1,legitimate,held_out_domains_and_verified_sites
+http://notify-me.io,1,legitimate,held_out_domains_and_verified_sites
+http://dbankcloud.asia,1,legitimate,held_out_domains_and_verified_sites
+http://dataroute.biz/subscription/manage/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://shunyuanlawyer.com,1,legitimate,held_out_domains_and_verified_sites
+http://0cf.io/channel/UCabc123,1,legitimate,held_out_domains_and_verified_sites
+http://bamgad8.com/calendar/event/abc-123-def/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://sreality.cz/channel/UCabc123,1,legitimate,held_out_domains_and_verified_sites
+http://www.desagok.com/contact,1,legitimate,held_out_domains_and_verified_sites
+http://speedwaymotors.com/shop/electronics/phones/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://help.magentamarketing.com,1,legitimate,held_out_domains_and_verified_sites
+http://cdn-zlib.sk/user/profile/12345/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://napiszex.com/account/settings/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+"https://blog.umb.edu/map?q=40.7128,-74.0060&zoom=12",1,legitimate,held_out_domains_and_verified_sites
+https://news.kolibrigames.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.inadsexchange.com,1,legitimate,held_out_domains_and_verified_sites
+http://fmprc.gov.cn/docs/getting-started,1,legitimate,held_out_domains_and_verified_sites
+http://www.freeconnect.link/billing/invoices,1,legitimate,held_out_domains_and_verified_sites
+https://www.rtlnieuws.nl,1,legitimate,held_out_domains_and_verified_sites
+https://www.andpad.jp/profile/settings/notifications/details-and-overview?tab=overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.qt.io,1,legitimate,held_out_domains_and_verified_sites
+http://cdn48.com/translate?sl=en&tl=es&text=hello/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.bc0a.com/password-reset,1,legitimate,held_out_domains_and_verified_sites
+https://support.520.jp/terms-of-service,1,legitimate,held_out_domains_and_verified_sites
+https://www.thirdstage.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.gyu-kaku.com,1,legitimate,held_out_domains_and_verified_sites
+http://blog.ipinfodb.com/docs/api/reference/v2,1,legitimate,held_out_domains_and_verified_sites
+https://www.ngenic.se,1,legitimate,held_out_domains_and_verified_sites
+https://www.thesnowboardersjournal.com,1,legitimate,held_out_domains_and_verified_sites
+http://news.irna.ir/password-reset/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://news.nga.cn,1,legitimate,held_out_domains_and_verified_sites
+https://www.gdch.de,1,legitimate,held_out_domains_and_verified_sites
+https://www.appmate.io/watch?v=dQw4w9WgXcQ/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.cookiedatabase.org/calendar/event/abc-123-def,1,legitimate,held_out_domains_and_verified_sites
+http://www.worten.pt/content/dam/corporate/investor-relations/financial-results-quarterly-report.pdf,1,legitimate,held_out_domains_and_verified_sites
+https://api.freeside.biz,1,legitimate,held_out_domains_and_verified_sites
+http://www.adseye.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.ci-servers.org,1,legitimate,held_out_domains_and_verified_sites
+https://www.platforum.cloud/about/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://2ch2.net,1,legitimate,held_out_domains_and_verified_sites
+http://cyberpower.com,1,legitimate,held_out_domains_and_verified_sites
+https://jl.gov.cn,1,legitimate,held_out_domains_and_verified_sites
+https://www.hihonorcdn.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.careem-internal.com,1,legitimate,held_out_domains_and_verified_sites
+https://pushsquare.com/user/profile/12345/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.noaca.org,1,legitimate,held_out_domains_and_verified_sites
+http://x-stream.top,1,legitimate,held_out_domains_and_verified_sites
+http://commonwealthu.edu/blog/category/technology,1,legitimate,held_out_domains_and_verified_sites
+http://help.flathub.org,1,legitimate,held_out_domains_and_verified_sites
+https://dola.com,1,legitimate,held_out_domains_and_verified_sites
+http://qixintian.com,1,legitimate,held_out_domains_and_verified_sites
+http://adovid.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.planetaislam.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.pobjoy.com,1,legitimate,held_out_domains_and_verified_sites
+http://contentsfeed.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.safe-skipper.com,1,legitimate,held_out_domains_and_verified_sites
+http://learn.em.com.br,1,legitimate,held_out_domains_and_verified_sites
+http://shop.motorsport.com/store/categories/computers-and-accessories/laptops-tablets/high-performance-workstations,1,legitimate,held_out_domains_and_verified_sites
+https://jobbank.gc.ca/signin/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://conceptboard.com/channel/UCabc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.bisd.us,1,legitimate,held_out_domains_and_verified_sites
+http://adrta.com,1,legitimate,held_out_domains_and_verified_sites
+http://bash.com/meeting/join/abc123,1,legitimate,held_out_domains_and_verified_sites
+https://www.codeforsapporo.org,1,legitimate,held_out_domains_and_verified_sites
+https://suny.edu/mail/compose/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.starhit.ru,1,legitimate,held_out_domains_and_verified_sites
+http://www.kasserver.com,1,legitimate,held_out_domains_and_verified_sites
+http://dev.pageuppeople.com,1,legitimate,held_out_domains_and_verified_sites
+https://ciciai.com,1,legitimate,held_out_domains_and_verified_sites
+https://sway-extensions.com/search?q=example+query&page=2?redirect_uri=https://example.com/callback,1,legitimate,held_out_domains_and_verified_sites
+https://njgjp.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.kshb.com/about/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://blog.pipecdn.vip,1,legitimate,held_out_domains_and_verified_sites
+http://donanimarsivi.com/help/account-recovery?redirect_uri=https://example.com/callback,1,legitimate,held_out_domains_and_verified_sites
+http://lotlinx.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.eldebate.com/session/4b778ade1fe7a9010b3341c2bd2b4ace,1,legitimate,held_out_domains_and_verified_sites
+http://zonealarm.com,1,legitimate,held_out_domains_and_verified_sites
+http://clearcareonline.com/content/dam/corporate/investor-relations/financial-results-quarterly-report.pdf/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://mobile.de/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-and-validate,1,legitimate,held_out_domains_and_verified_sites
+https://www.ypncdn.com,1,legitimate,held_out_domains_and_verified_sites
+https://ascl.dev/support/kb/en-us/articles/troubleshooting-network-connectivity-and-dns-resolution-issues,1,legitimate,held_out_domains_and_verified_sites
+http://atmnd.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.hautconseilclimat.fr,1,legitimate,held_out_domains_and_verified_sites
+https://freundin.de,1,legitimate,held_out_domains_and_verified_sites
+http://www.gofizz.in,1,legitimate,held_out_domains_and_verified_sites
+http://areait.lv,1,legitimate,held_out_domains_and_verified_sites
+https://www.tuttlepublishing.com,1,legitimate,held_out_domains_and_verified_sites
+http://mail.awsdns-cn-12.net,1,legitimate,held_out_domains_and_verified_sites
+https://support.uam.es,1,legitimate,held_out_domains_and_verified_sites
+https://www.blueman.com,1,legitimate,held_out_domains_and_verified_sites
+http://bseindia.com/verify-email,1,legitimate,held_out_domains_and_verified_sites
+https://codesandbox.io/s/react-example-abc123,1,legitimate,held_out_domains_and_verified_sites
+https://www.trfetzer.com,1,legitimate,held_out_domains_and_verified_sites
+http://doctoralia.com.mx/api/v1/status,1,legitimate,held_out_domains_and_verified_sites
+http://tinymce.com/meeting/join/abc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://imoim.app/download/latest/release,1,legitimate,held_out_domains_and_verified_sites
+http://biometricupdate.com/images/search?q=mountain+landscape/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://www.mercadolibre.com.uy/wiki/Main_Page?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://www.brooklandsmuseum.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.wcinet.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.covermagazine.co.uk,1,legitimate,held_out_domains_and_verified_sites
+https://quill.org/translate?sl=en&tl=es&text=hello/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://wishlink.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.featuregates.org,1,legitimate,held_out_domains_and_verified_sites
+https://dev.to/username/article-title-1a2b,1,legitimate,held_out_domains_and_verified_sites
+http://7dakalr4.info/releases/tag/v2.1.0,1,legitimate,held_out_domains_and_verified_sites
+https://www.governmentciomedia.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.lacobu.com/course/introduction-to-python/lesson/1,1,legitimate,held_out_domains_and_verified_sites
+https://www.canadiancellparts.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.brewersfriend.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.openssh.org,1,legitimate,held_out_domains_and_verified_sites
+https://yasex.lol/content/dam/corporate/investor-relations/financial-results-quarterly-report.pdf?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://www.vintagevacuumaudio.com,1,legitimate,held_out_domains_and_verified_sites
+http://portal.hkexnews.hk,1,legitimate,held_out_domains_and_verified_sites
+http://princesspolly.com/user/profile/12345,1,legitimate,held_out_domains_and_verified_sites
+http://torrid.com,1,legitimate,held_out_domains_and_verified_sites
+http://google.com.tn,1,legitimate,held_out_domains_and_verified_sites
+https://airtelkenya.com,1,legitimate,held_out_domains_and_verified_sites
+https://genyt.net/terms-of-service/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.knowledgegraph.tech,1,legitimate,held_out_domains_and_verified_sites
+http://shop.mylivechat.com/mail/compose,1,legitimate,held_out_domains_and_verified_sites
+https://playinboss.com/wiki/Main_Page,1,legitimate,held_out_domains_and_verified_sites
+http://www.qixintian.com,1,legitimate,held_out_domains_and_verified_sites
+http://redcare.it/chat/room-name,1,legitimate,held_out_domains_and_verified_sites
+http://www.headtopics.com/blog/2024/01/article-title-here,1,legitimate,held_out_domains_and_verified_sites
+https://www.kildare.ie,1,legitimate,held_out_domains_and_verified_sites
+http://usma.edu,1,legitimate,held_out_domains_and_verified_sites
+http://j-cast.com/profile/settings/notifications,1,legitimate,held_out_domains_and_verified_sites
+https://www.greydogtrading.com,1,legitimate,held_out_domains_and_verified_sites
+http://france24.com,1,legitimate,held_out_domains_and_verified_sites
+http://cloud.indianrail.gov.in,1,legitimate,held_out_domains_and_verified_sites
+https://www.cst.nihon-u.ac.jp,1,legitimate,held_out_domains_and_verified_sites
+http://obi.de,1,legitimate,held_out_domains_and_verified_sites
+http://mail.ggs-dwh.com,1,legitimate,held_out_domains_and_verified_sites
+http://xjtu.edu.cn/wiki/Main_Page/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.delcasda.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.shotl.com,1,legitimate,held_out_domains_and_verified_sites
+http://ru.net,1,legitimate,held_out_domains_and_verified_sites
+http://api.mochahost.com/help/account-recovery,1,legitimate,held_out_domains_and_verified_sites
+http://tdnsv2.com,1,legitimate,held_out_domains_and_verified_sites
+http://4strokemedia.com/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+https://www.suffsfurniture.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.tophatmushrooms.com,1,legitimate,held_out_domains_and_verified_sites
+http://portal.asahi.co.jp/en/support/article/12345/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://shop.spicylyrics.org/translate?sl=en&tl=es&text=hello,1,legitimate,held_out_domains_and_verified_sites
+https://www.mynameislilyrose.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.knots3d.com,1,legitimate,held_out_domains_and_verified_sites
+https://lobste.rs/newest,1,legitimate,held_out_domains_and_verified_sites
+http://www.webpronews.com/c/2a5dff72ac1dda96908137478bd536cf,1,legitimate,held_out_domains_and_verified_sites
+http://163yun.com,1,legitimate,held_out_domains_and_verified_sites
+https://learn.pcapp.store/channel/UCabc123,1,legitimate,held_out_domains_and_verified_sites
+https://news.gaijinent.com,1,legitimate,held_out_domains_and_verified_sites
+http://sedgwick.com/verify-email/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://app.musicstore.de,1,legitimate,held_out_domains_and_verified_sites
+https://www.thesealedknot.org.uk,1,legitimate,held_out_domains_and_verified_sites
+https://www.icn.ch,1,legitimate,held_out_domains_and_verified_sites
+https://www.gia.edu/meeting/join/abc123,1,legitimate,held_out_domains_and_verified_sites
+https://www.comune.fusignano.ra.it,1,legitimate,held_out_domains_and_verified_sites
+http://www.ibero.edu.co,1,legitimate,held_out_domains_and_verified_sites
+http://www.msdkfaas.com/help/account-recovery,1,legitimate,held_out_domains_and_verified_sites
+http://host-ww.net/privacy-policy,1,legitimate,held_out_domains_and_verified_sites
+http://www.onlinehome.us/session/4b778ade1fe7a9010b3341c2bd2b4ace/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.mykajabi.com,1,legitimate,held_out_domains_and_verified_sites
+http://aliqbwl.com/en/support/article/12345,1,legitimate,held_out_domains_and_verified_sites
+https://snyk.io/api/v2/users/me,1,legitimate,held_out_domains_and_verified_sites
+http://desertcart.in,1,legitimate,held_out_domains_and_verified_sites
+http://mediation.goog/content/dam/corporate/investor-relations/financial-results-quarterly-report.pdf/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://support.nicmusic.net,1,legitimate,held_out_domains_and_verified_sites
+http://j-cast.com/api/v1/status/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://loadedfiles.net/chat/8c088ab3f648818ba4a6656be0cb6e38/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://bot.com.tw/news/2024/01/15/headline-slug?ref=homepage,1,legitimate,held_out_domains_and_verified_sites
+https://www.opendurham.org,1,legitimate,held_out_domains_and_verified_sites
+http://www.setcache.com/contact/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.securityinnovation.com,1,legitimate,held_out_domains_and_verified_sites
+http://leroymerlin.ro,1,legitimate,held_out_domains_and_verified_sites
+http://cloud.sfdcstatic.com,1,legitimate,held_out_domains_and_verified_sites
+https://agriculture.com/store/categories/computers-and-accessories/laptops-tablets/high-performance-workstations,1,legitimate,held_out_domains_and_verified_sites
+http://mail.weixinbridge.com,1,legitimate,held_out_domains_and_verified_sites
+http://pananames.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.giveawayoftheday.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.pngtrekkingadventures.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.osdfcon.org,1,legitimate,held_out_domains_and_verified_sites
+https://kika-backend.com,1,legitimate,held_out_domains_and_verified_sites
+http://hnonline.sk,1,legitimate,held_out_domains_and_verified_sites
+http://uwm.edu/subscription/manage/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://ulg.ac.be,1,legitimate,held_out_domains_and_verified_sites
+http://groupon.com/dashboard/overview,1,legitimate,held_out_domains_and_verified_sites
+https://japancase.site/channel/UCabc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://gopuff.com,1,legitimate,held_out_domains_and_verified_sites
+https://api.diia.gov.ua/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+http://notifadz.com/terms-of-service,1,legitimate,held_out_domains_and_verified_sites
+http://tamilgun.now,1,legitimate,held_out_domains_and_verified_sites
+https://www.slideshare.net,1,legitimate,held_out_domains_and_verified_sites
+https://www.sophia.org,1,legitimate,held_out_domains_and_verified_sites
+http://tweakers.net/session/4b778ade1fe7a9010b3341c2bd2b4ace,1,legitimate,held_out_domains_and_verified_sites
+https://www.bestchange.ru/about,1,legitimate,held_out_domains_and_verified_sites
+https://www.shanycosmetics.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.wolterskluwer.com/blog/2024/01/article-title-here?page=2&sort=newest,1,legitimate,held_out_domains_and_verified_sites
+http://www.kru.pl,1,legitimate,held_out_domains_and_verified_sites
+http://www.infra-moonactive.net/video/watch/abc123/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://goodyear.com,1,legitimate,held_out_domains_and_verified_sites
+http://thestreet.com/subscription/manage/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.bundoranfarm.com,1,legitimate,held_out_domains_and_verified_sites
+https://jumbo.com/download/latest/release,1,legitimate,held_out_domains_and_verified_sites
+https://muslima.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.xrplwin.com,1,legitimate,held_out_domains_and_verified_sites
+https://jnj.com,1,legitimate,held_out_domains_and_verified_sites
+http://news.pokemonshowdown.com,1,legitimate,held_out_domains_and_verified_sites
+http://hofgarten-heiligenhafen.de/about/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://seguridadvial.gob.ar,1,legitimate,held_out_domains_and_verified_sites
+https://missyusa.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.playwekings.mobi,1,legitimate,held_out_domains_and_verified_sites
+http://surveymonkey.com/mail/compose/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://docs.outputtalkx6ls.net/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+https://claveunica.gob.cl,1,legitimate,held_out_domains_and_verified_sites
+https://gvt2.com,1,legitimate,held_out_domains_and_verified_sites
+https://cloud.gfpxw.com/calendar/event/abc-123-def,1,legitimate,held_out_domains_and_verified_sites
+https://cloud.baidu.com/billing/invoices,1,legitimate,held_out_domains_and_verified_sites
+https://wmich.edu,1,legitimate,held_out_domains_and_verified_sites
+http://docs.bluenile.com,1,legitimate,held_out_domains_and_verified_sites
+http://bpmlt.com/login,1,legitimate,held_out_domains_and_verified_sites
+https://www.comeitaliani.it,1,legitimate,held_out_domains_and_verified_sites
+https://cloud.pcworld.com/watch?v=dQw4w9WgXcQ,1,legitimate,held_out_domains_and_verified_sites
+https://panoramio.com/course/introduction-to-python/lesson/1/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://docs.google.com/document/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgVE2upms/edit,1,legitimate,held_out_domains_and_verified_sites
+http://www.tadviser.ru/terms-of-service/details-and-overview?id=abc123&token=xyz789,1,legitimate,held_out_domains_and_verified_sites
+https://ipko.pl/dashboard/analytics,1,legitimate,held_out_domains_and_verified_sites
+http://runtastic.com/news/2024/01/15/headline-slug/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://ppstatic.pl/translate?sl=en&tl=es&text=hello/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://nosok-top.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.wcbe.org,1,legitimate,held_out_domains_and_verified_sites
+https://visma.com,1,legitimate,held_out_domains_and_verified_sites
+http://www.group.nec/wiki/Topic/Subtopic,1,legitimate,held_out_domains_and_verified_sites
+http://parisfashionshops.com,1,legitimate,held_out_domains_and_verified_sites
+http://ottawacitizen.com/verify-email,1,legitimate,held_out_domains_and_verified_sites
+https://news.oxylabs.io,1,legitimate,held_out_domains_and_verified_sites
+https://support.cashraven.io/releases/tag/v2.1.0/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://quantcount.com,1,legitimate,held_out_domains_and_verified_sites
+http://depor.com/password-reset/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.kaitseliit.ee,1,legitimate,held_out_domains_and_verified_sites
+http://bitgravity.com/chat/room-name/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.enoshop.co.uk,1,legitimate,held_out_domains_and_verified_sites
+http://www.raindrop.page/c/2a5dff72ac1dda96908137478bd536cf/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://rappler.com/en/support/article/12345,1,legitimate,held_out_domains_and_verified_sites
+http://deavita.com/course/introduction-to-python/lesson/1/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+http://hosting.de,1,legitimate,held_out_domains_and_verified_sites
+https://whirlpool.net.au,1,legitimate,held_out_domains_and_verified_sites
+http://shop.cdn77.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.nationalchildrensdayuk.com,1,legitimate,held_out_domains_and_verified_sites
+http://wplay.co/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-and-validate,1,legitimate,held_out_domains_and_verified_sites
+http://myob.com/translate?sl=en&tl=es&text=hello,1,legitimate,held_out_domains_and_verified_sites
+http://www.tusk-casino.org,1,legitimate,held_out_domains_and_verified_sites
+http://helpnetsecurity.com/account/security/details-and-overview,1,legitimate,held_out_domains_and_verified_sites
+https://www.tuev-verband.de,1,legitimate,held_out_domains_and_verified_sites
+http://baur.de/subscription/manage,1,legitimate,held_out_domains_and_verified_sites
+http://deloitte.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.sewcraftycrochet.com,1,legitimate,held_out_domains_and_verified_sites
+https://www.mauricet.be,1,legitimate,held_out_domains_and_verified_sites
+https://yandex.com.ge,1,legitimate,held_out_domains_and_verified_sites

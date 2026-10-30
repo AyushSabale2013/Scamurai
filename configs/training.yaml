@@ -1,0 +1,31 @@
+# Scamurai training configuration
+seed: 42
+fpr_budget: 0.01          # Target: max 1% FPR on validation
+target_t_low_recall: 0.98 # Target: 98% recall at t_low
+
+split:
+  method: "domain_grouped_temporal"
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+selection_protocol:
+  primary_metric: "recall_at_fpr_1pct"
+  tie_breakers:
+    - "pr_auc"
+    - "latency_ms"
+    - "model_size_bytes"
+
+thresholds:
+  t_high_rule: "max_val_fpr_1pct"   # highest recall such that FPR <= 0.01
+  t_low_rule: "target_val_recall_98pct" # recall >= 0.98
+
+models:
+  - name: "logistic_regression"
+    enabled: true
+  - name: "random_forest"
+    enabled: true
+  - name: "xgboost"
+    enabled: true
+  - name: "stacked_ensemble"
+    enabled: true

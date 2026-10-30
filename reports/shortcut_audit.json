@@ -1,0 +1,27 @@
+{
+  "shape_features": [
+    "is_https",
+    "has_www",
+    "has_path",
+    "has_query",
+    "has_fragment",
+    "path_segments",
+    "url_length_bucket"
+  ],
+  "train_rows": 146982,
+  "test_rows": 28371,
+  "train_shape_auc": 0.7263,
+  "test_shape_auc": 0.705,
+  "max_allowed_auc": 0.75,
+  "gate_passed": true,
+  "coefficients": {
+    "is_https": -0.3956,
+    "has_www": -0.3103,
+    "has_path": -0.1148,
+    "has_query": -1.7701,
+    "has_fragment": 0.0,
+    "path_segments": -0.6287,
+    "url_length_bucket": 1.0084
+  },
+  "intercept": -0.2
+}

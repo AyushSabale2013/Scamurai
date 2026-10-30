@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-30T07:52:53.423012Z",
+  "sources": [
+    {
+      "name": "OpenPhish",
+      "type": "phishing",
+      "url": "https://openphish.com/feed.txt",
+      "license": "Free community feed"
+    },
+    {
+      "name": "Phishing.Database",
+      "type": "phishing",
+      "url": "https://github.com/mitchellkrogza/Phishing.Database",
+      "license": "MIT"
+    },
+    {
+      "name": "PhiUSIIL",
+      "type": "both",
+      "url": "https://archive.ics.uci.edu/dataset/967",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "Tranco",
+      "type": "legitimate",
+      "url": "https://tranco-list.eu",
+      "license": "Free (academic use)"
+    },
+    {
+      "name": "Common Crawl CDX",
+      "type": "legitimate",
+      "url": "https://index.commoncrawl.org",
+      "license": "CC0 / Terms of Use"
+    },
+    {
+      "name": "Hand-verified URLs",
+      "type": "legitimate",
+      "url": "N/A",
+      "license": "N/A"
+    }
+  ],
+  "total_rows": 204927,
+  "label_counts": {
+    "phishing": 119087,
+    "legitimate": 85840
+  },
+  "splits": {
+    "train": {
+      "total": 146982,
+      "phishing": 86864,
+      "legitimate": 60118
+    },
+    "val": {
+      "total": 29574,
+      "phishing": 16742,
+      "legitimate": 12832
+    },
+    "test": {
+      "total": 28371,
+      "phishing": 15481,
+      "legitimate": 12890
+    }
+  }
+}
